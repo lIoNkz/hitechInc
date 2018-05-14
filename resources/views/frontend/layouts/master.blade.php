@@ -17,13 +17,15 @@
 
 
 	<title>Создание и разработка сайтов в HITECH Inc – Шымкент</title>
-<!-- 	<link rel="shortcut icon" href="https://megagroup.ru/favicon.ico" type="image/x-icon"> -->
+
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
 
   	<link rel="stylesheet" href="/css/slick.min.css">
   	<link rel="stylesheet" href="/css/all.min.css">
   	<link rel="stylesheet" href="/css/style.css">
   	<link rel="stylesheet" href="/css/partials.css">
+  	<link rel="stylesheet" href="/css/aboutPage.css">
 	<link rel="stylesheet" href="/css/app.css">
 
 </head>
