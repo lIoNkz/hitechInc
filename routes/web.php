@@ -11,10 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.index');
-});
-
-Route::get('/about', function () {
-    return view('frontend.about');
-});
+Route::get('/', 'FrontendController@index');
+Route::get('/about', 'FrontendController@about');
+Route::get('/contacts', 'FrontendController@contacts');
+Route::get('/order', 'FrontendController@order');

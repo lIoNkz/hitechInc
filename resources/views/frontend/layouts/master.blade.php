@@ -25,13 +25,12 @@
   	<link rel="stylesheet" href="/css/all.min.css">
   	<link rel="stylesheet" href="/css/style.css">
   	<link rel="stylesheet" href="/css/partials.css">
-  	<link rel="stylesheet" href="/css/aboutPage.css">
+	{!! $cssFile !!}
 	<link rel="stylesheet" href="/css/app.css">
 
 </head>
 <body class="cd-notouch">
 	
-		@include('frontend.partials._svgBlock')
 	<header>
 		@include('frontend.partials._header')
 	</header>
@@ -44,6 +43,8 @@
 
 
 	<script  src="/js/jquery-3.3.1.min.js"></script>
+	<script  src="/js/jquery.tooltip.js"></script>
+	<script  src="/js/selectbox.js"></script>
 	<script  src="/js/slick.min.js"></script>
 	<script  src="/js/app.js"></script>
 </body>

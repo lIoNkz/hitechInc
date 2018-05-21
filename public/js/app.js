@@ -22,3 +22,13 @@ $('.js-show-location').click(function() {
 	$('.mp-popup--location').fadeToggle();
 });
 
+$('.js-services').click(function() {
+	$('.js-services-popup').fadeToggle();
+});
+
+$('.js-services-close').click(function() {
+	$('.js-services-popup').fadeOut();
+});
+
+
+$('.lp-cslider').slick();

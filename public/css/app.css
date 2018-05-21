@@ -1,19 +1,15 @@
-.mp-popup__close {
-	background-size: 50%;
+/*============ HEADER =============*/
+
+.hitech-logo {
+	width: 100px;
 }
 
-.mp-popup--login {
-	right: 5%;
-}
-
-.js-show-location {
-	cursor: pointer;
-}
-
+.footer__logo img, 
 .hitech-logo img {
-	width: 120px;
+	width: 100%;
 }
 
-.footerLogo {
+.footer__logo {
 	width: 150px;
 }
+
