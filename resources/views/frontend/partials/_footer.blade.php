@@ -117,19 +117,17 @@
           </p>
           <div class="footer__socials">
             <a href="#://vk.com/megagroup_ru?roistat_visit=8881314" rel="nofollow" target="_blank" class="img footer__social">
-              <img src="./img/ic-vk.svg" alt="">
+              <img src="/img/ic-vk.svg" alt="">
             </a>
             <a href="#://www.youtube.com/megagrouptv?roistat_visit=8881314" rel="nofollow" target="_blank" class="img footer__social">
-              <img src="./img/ic-youtube.svg" alt="">
+              <img src="/img/ic-youtube.svg" alt="">
             </a>
             <a href="#://www.instagram.com/megagroup_ru/?roistat_visit=8881314" rel="nofollow" target="_blank" class="img footer__social">
-              <img src="./img/ic-insta.svg" alt="">
+              <img src="/img/ic-insta.svg" alt="">
             </a>
             <a href="#://www.facebook.com/megarussia?roistat_visit=8881314" rel="nofollow" target="_blank" class="img footer__social">
-              <img src="./img/ic-fb.svg" alt="">
+              <img src="/img/ic-fb.svg" alt="">
             </a>
-            <a href="#://twitter.com/megagroup?roistat_visit=8881314" rel="nofollow" target="_blank" class="img footer__social">
-              <img src="./img/ic-twitter.svg" alt="">
             </a>
           </div>
           <div class="footer__callback">

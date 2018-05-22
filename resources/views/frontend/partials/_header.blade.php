@@ -34,7 +34,7 @@
     </button>
 
     <div class="popup popup--location" data-popup="location">
-      <div class="popup__close js-close-popup"></div>
+      <div class="services__close js-close-popup"></div>
       <p class="popup__title">Наши телефоны:</p>
       <ul class="location-list">
         <li class="location-list__item">  
@@ -55,7 +55,7 @@
 </div>
 
 <div class="popup popup--login" data-popup="login">
-  <div class="popup__close js-close-popup"></div>
+  <div class="services__close js-close-popup"></div>
   <p class="popup__title">Кабинет пользователя</p>
   <form action="https://cabinet.qaz-tech.kz/user/login" method="post" class="form" enctype="multipart/form-data">
     <input type="hidden" name="_form" value="login_form">

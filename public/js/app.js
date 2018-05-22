@@ -14,7 +14,7 @@ $('.js-show-login').click(function() {
 	$('.popup--login').fadeToggle();
 });
 
-$('.popup__close').click(function() {
+$('.js-close-popup').click(function() {
 	$('.popup--login').fadeOut();
 	$('.js-main-search').fadeOut();
 	$('.popup--location').fadeOut();

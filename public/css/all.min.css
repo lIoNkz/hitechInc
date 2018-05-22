@@ -1078,3 +1078,12 @@ template {
     background-color: #fff4eb;
     color: #333;
 }
+
+/*=========== header ==========*/ 
+
+.js-services-close,
+.js-close-popup {
+    background: url(../img/oah-cancel.svg) no-repeat center;
+    background-size: 50%;
+    cursor: pointer;
+}
