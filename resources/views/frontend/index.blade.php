@@ -134,43 +134,17 @@
         <div class="features-slider">
           <p class="features-slider__title">Наши преимущества</p>
           <div class="features-slider__inner js-features-slider">
+            @foreach($advantages as $advantage)
             <div class="features-slider__item">
               <div class="img features-slider__pic">
-                <img src="/img/pic-feature-1.png" alt="">
+            
+                <img src="/img/{{ $advantage->path }}" alt="">
+         
               </div>
-              <p class="features-slider__text">Мы разрабатываем, поддерживаем и развиваем сайты по вкусным ценам</p>
+              <p class="features-slider__text">{{ $advantage->text }}</p>
             </div>
-                        <div class="features-slider__item">
-              <div class="img features-slider__pic">
-                <img src="/img/pic-feature-2.png" alt="">
-              </div>
-              <p class="features-slider__text">Мы предлагаем сотни готовых решений для самых различных сфер бизнеса</p>
-            </div>
-                        <div class="features-slider__item">
-              <div class="img features-slider__pic">
-                <img src="/img/pic-feature-3.png" alt="">
-              </div>
-              <p class="features-slider__text">Мы заботимся о наших клиентах и бесплатно консультируем по телефону и е-мейл 7 дней в неделю</p>
-            </div>
-                        <div class="features-slider__item">
-              <div class="img features-slider__pic">
-                <img src="/img/pic-feature-4.png" alt="">
-              </div>
-              <p class="features-slider__text">Мы работаем по договору, предоставляем все необходимые бухгалтерские документы</p>
-            </div>
-                        <div class="features-slider__item">
-              <div class="img features-slider__pic">
-                <img src="/img/pic-feature-5.png" alt="">
-              </div>
-              <p class="features-slider__text">Мы обеспечиваем надежность, безопасность и высокую скорость работы сайтов</p>
-            </div>
-                        <div class="features-slider__item">
-              <div class="img features-slider__pic">
-                <img src="/img/pic-feature-6.png" alt="">
-              </div>
-              <p class="features-slider__text">Мы гарантируем возврат денег в течение 30 дней, если у Вас поменяются планы</p>
-            </div>
-                      </div>
+            @endforeach
+          </div>
         </div>
       </div>
       

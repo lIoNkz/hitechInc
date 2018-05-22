@@ -23,3 +23,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::resource('photos', 'PhotoController');
+
+Route::resource('advantages', 'AdvantageController');

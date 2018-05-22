@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\Photo;
+use App\Models\Advantage;
 
 use Illuminate\Http\Request;
 
@@ -13,7 +15,13 @@ class FrontendController extends Controller
         /*========= Add page's  javascript =========*/
         $script = '<script  src="/js/slick.min.js"></script>';
 
-    	return view('frontend.index')->with(['cssFile'=> $cssFile, 'script' => $script]);
+        /*========= Queries =========*/
+        $advantages = Advantage::with('photos')->get();
+
+    
+
+        
+    	return view('frontend.index', compact('advantages'))->with(['cssFile'=> $cssFile, 'script' => $script]);
     }
 
     public function about() {

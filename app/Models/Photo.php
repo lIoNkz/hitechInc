@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-
+use Illuminate\Database\Eloquent\Relations\Relation;
 /**
  * Class Photo
  * @package App\Models
@@ -15,6 +15,9 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  * @property integer photoable_id
  * @property string photoable_type
  */
+
+
+
 class Photo extends Model
 {
     use SoftDeletes;
@@ -56,5 +59,9 @@ class Photo extends Model
         'photoable_type' => 'required'
     ];
 
+    public function photoable()
+    {
+        return $this->morphTo();
+    }
     
 }
