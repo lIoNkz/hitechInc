@@ -46,4 +46,14 @@ class FrontendController extends Controller
                     
         return view('frontend.order')->with(['cssFile'=> $cssFile, 'script' => $script]);
     }
+
+    public function portfolio() {
+        /*========= Add page's own style =========*/
+        $cssFile = '<link rel="stylesheet" href="/css/portfolioPage.css">';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+                    
+        return view('frontend.portfolio')->with(['cssFile'=> $cssFile, 'script' => $script]);
+    }
 }

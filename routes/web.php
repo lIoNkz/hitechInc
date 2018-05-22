@@ -15,3 +15,4 @@ Route::get('/', 'FrontendController@index');
 Route::get('/about', 'FrontendController@about');
 Route::get('/contacts', 'FrontendController@contacts');
 Route::get('/order', 'FrontendController@order');
+Route::get('/portfolio', 'FrontendController@portfolio');

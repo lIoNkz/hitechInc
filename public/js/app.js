@@ -1,6 +1,13 @@
 $(document).ready(function() {
 	$(".js-header-slider").slick();	
-
+	$('.js-features-slider').slick({
+	  dots: true,
+	  arrows: false
+	});
+	$('.js-feedback-slider').slick({
+	  dots: true,
+	  arrows: false
+	});
 });
 
 $('.js-show-login').click(function() {
@@ -29,4 +36,6 @@ $('.js-services').click(function() {
 $('.js-services-close').click(function() {
 	$('.js-services-popup').fadeOut();
 });
+
+
 

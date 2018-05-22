@@ -133,44 +133,44 @@
       <div class="info__layout info__features">
         <div class="features-slider">
           <p class="features-slider__title">Наши преимущества</p>
-          <div class="features-slider__inner js-features-slider slick-initialized slick-slider slick-dotted">
-          	            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 3372px;"><div class="features-slider__item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10" style="width: 562px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;">
+          <div class="features-slider__inner js-features-slider">
+            <div class="features-slider__item">
               <div class="img features-slider__pic">
                 <img src="/img/pic-feature-1.png" alt="">
               </div>
               <p class="features-slider__text">Мы разрабатываем, поддерживаем и развиваем сайты по вкусным ценам</p>
-            </div><div class="features-slider__item slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide11" aria-describedby="slick-slide-control11" style="width: 562px; position: relative; left: -562px; top: 0px; z-index: 998; opacity: 0;">
+            </div>
+                        <div class="features-slider__item">
               <div class="img features-slider__pic">
                 <img src="/img/pic-feature-2.png" alt="">
               </div>
               <p class="features-slider__text">Мы предлагаем сотни готовых решений для самых различных сфер бизнеса</p>
-            </div><div class="features-slider__item slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide12" aria-describedby="slick-slide-control12" style="width: 562px; position: relative; left: -1124px; top: 0px; z-index: 998; opacity: 0;">
+            </div>
+                        <div class="features-slider__item">
               <div class="img features-slider__pic">
                 <img src="/img/pic-feature-3.png" alt="">
               </div>
               <p class="features-slider__text">Мы заботимся о наших клиентах и бесплатно консультируем по телефону и е-мейл 7 дней в неделю</p>
-            </div><div class="features-slider__item slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide13" aria-describedby="slick-slide-control13" style="width: 562px; position: relative; left: -1686px; top: 0px; z-index: 998; opacity: 0;">
+            </div>
+                        <div class="features-slider__item">
               <div class="img features-slider__pic">
                 <img src="/img/pic-feature-4.png" alt="">
               </div>
               <p class="features-slider__text">Мы работаем по договору, предоставляем все необходимые бухгалтерские документы</p>
-            </div><div class="features-slider__item slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide14" aria-describedby="slick-slide-control14" style="width: 562px; position: relative; left: -2248px; top: 0px; z-index: 998; opacity: 0;">
+            </div>
+                        <div class="features-slider__item">
               <div class="img features-slider__pic">
                 <img src="/img/pic-feature-5.png" alt="">
               </div>
               <p class="features-slider__text">Мы обеспечиваем надежность, безопасность и высокую скорость работы сайтов</p>
-            </div><div class="features-slider__item slick-slide" data-slick-index="5" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide15" aria-describedby="slick-slide-control15" style="width: 562px; position: relative; left: -2810px; top: 0px; z-index: 998; opacity: 0;">
+            </div>
+                        <div class="features-slider__item">
               <div class="img features-slider__pic">
                 <img src="/img/pic-feature-6.png" alt="">
               </div>
               <p class="features-slider__text">Мы гарантируем возврат денег в течение 30 дней, если у Вас поменяются планы</p>
-            </div></div></div>
-                        
-                        
-                        
-                        
-                        
-                      <ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 6" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control11" aria-controls="slick-slide11" aria-label="2 of 6" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control12" aria-controls="slick-slide12" aria-label="3 of 6" tabindex="-1">3</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control13" aria-controls="slick-slide13" aria-label="4 of 6" tabindex="-1">4</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control14" aria-controls="slick-slide14" aria-label="5 of 6" tabindex="-1">5</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control15" aria-controls="slick-slide15" aria-label="6 of 6" tabindex="-1">6</button></li></ul></div>
+            </div>
+                      </div>
         </div>
       </div>
       
@@ -178,89 +178,57 @@
         <div class="feedback-slider">
           <p class="feedback-slider__title">Отзывы сайтовладельцев</p>
           <p class="feedback-slider__all-link">
-            <a href="https://qaz-tech.kz/reviews" target="_blank">Все отзывы</a>
+            <a href="/reviews" target="_blank" onclick="ga('send', 'event', 'home_mega', 'vse_otzyvy', 'clik_button');">Все отзывы</a>
           </p>
           
-          <div class="feedback-slider__inner js-feedback-slider slick-initialized slick-slider slick-dotted">
-          	            <div class="slick-list draggable" style="height: 374px;"><div class="slick-track" style="opacity: 1; width: 6182px; transform: translate3d(-562px, 0px, 0px);"><div class="feedback-slider__item slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1" style="width: 562px;">
+          <div class="feedback-slider__inner js-feedback-slider">
+                        <div class="feedback-slider__item">
               <div class="feedback-slider__text">
-              	Не первый сайт уже заказываю - как всегда все быстро, надежно и доступно для человека, хоть немного дружащего с компьютером. Для меня администрирование сайта - как ведение странички ВКонтакте - просто и удобно!
-              </div>
-              <p class="feedback-slider__sign">Компания "Индиго" г. Абакан</p>
-            </div><div class="feedback-slider__item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide20" aria-describedby="slick-slide-control20" style="width: 562px;">
-              <div class="feedback-slider__text">
-              	Спасибо за Ваше понимание и внимание!<br>
-Спасибо за то, что Вы есть!<br>
+                Спасибо за Ваше понимание и внимание!<br />
+Спасибо за то, что Вы есть!<br />
 Вы ЛУЧШИЕ! Успехов и процветания Всем Вам!:-)
               </div>
               <p class="feedback-slider__sign">Наталья, avenue-gifts.ru</p>
-            </div><div class="feedback-slider__item slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide21" aria-describedby="slick-slide-control21" style="width: 562px;">
+            </div>
+                        <div class="feedback-slider__item">
               <div class="feedback-slider__text">
-              	Здравствуйте, уважаемые наши!Мы с вами уже более 3-х лет и хотим сказать вам большое спасибо за ваш труд и вклад в улучшения жизни целого мира.В процессе работы с вами, мы изменяли наш сайт, дорабатывали его и получали положительный результат.
+                Здравствуйте, уважаемые наши!Мы с вами уже более 3-х лет и хотим сказать вам большое спасибо за ваш труд и вклад в улучшения жизни целого мира.В процессе работы с вами, мы изменяли наш сайт, дорабатывали его и получали положительный результат.
               </div>
-              <p class="feedback-slider__sign">Данилов Антон, &nbsp;uralcam.com&nbsp;</p>
-            </div><div class="feedback-slider__item slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide22" aria-describedby="slick-slide-control22" style="width: 562px;">
+              <p class="feedback-slider__sign">Данилов Антон,  uralcam.com </p>
+            </div>
+                        <div class="feedback-slider__item">
               <div class="feedback-slider__text">
-              	<p>По делу: сотрудничаю с Мегагрупп почти год. Заказывал сайт. Заплатил чуть больше чем планировал, но получил то, что хотел. Все сотрудники Мегагрупп, с кем я общался - молодцы. Работают достаточно четко и профессионально. Косяки в работе были, но достаточно быстро исправлялись. Следующий сайт скорее всего закажу у них же.</p>
+                <p>По делу: сотрудничаю с Мегагрупп почти год. Заказывал сайт. Заплатил чуть больше чем планировал, но получил то, что хотел. Все сотрудники Мегагрупп, с кем я общался - молодцы. Работают достаточно четко и профессионально. Косяки в работе были, но достаточно быстро исправлялись. Следующий сайт скорее всего закажу у них же.</p>
 
 <p>Рекомендую Мегагрупп в первую очередь новичкам в электронной коммерции.</p>
               </div>
               <p class="feedback-slider__sign">Дмитрий, kenga.by</p>
-            </div><div class="feedback-slider__item slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide23" aria-describedby="slick-slide-control23" style="width: 562px;">
+            </div>
+                        <div class="feedback-slider__item">
               <div class="feedback-slider__text">
-              	<p>Хочу выразить искреннюю благодарность сотрудникам компании "Мегагрупп". Работать с компанией начал с 2012 года. Тогда было нереально даже подумать, что с учетом моих нулевых базовых компьютерных знаний, я сейчас буду работать над своим третьим сайтом. И все это не из-за моей особой одаренности, а благодаря профессионализму команды "Мегагрупп", сотрудники которой, с большим терпением и доброжелательностью, поэтапно подсказывали и помогали по всем возникающим вопросам в создании сайта. Большое всем спасибо! "Мегагрупп" это настоящий СЕРВИС!</p>
+                <p>Хочу выразить искреннюю благодарность сотрудникам компании &quot;Мегагрупп&quot;. Работать с компанией начал с 2012 года. Тогда было нереально даже подумать, что с учетом моих нулевых базовых компьютерных знаний, я сейчас буду работать над своим третьим сайтом. И все это не из-за моей особой одаренности, а благодаря профессионализму команды &quot;Мегагрупп&quot;, сотрудники которой, с большим терпением и доброжелательностью, поэтапно подсказывали и помогали по всем возникающим вопросам в создании сайта. Большое всем спасибо! &quot;Мегагрупп&quot; это настоящий СЕРВИС!</p>
               </div>
               <p class="feedback-slider__sign">Игорь Гончаров, г. Смоленск</p>
-            </div><div class="feedback-slider__item slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide24" aria-describedby="slick-slide-control24" style="width: 562px;">
+            </div>
+                        <div class="feedback-slider__item">
               <div class="feedback-slider__text">
-              	Не первый сайт уже заказываю - как всегда все быстро, надежно и доступно для человека, хоть немного дружащего с компьютером. Для меня администрирование сайта - как ведение странички ВКонтакте - просто и удобно!
+                Не первый сайт уже заказываю - как всегда все быстро, надежно и доступно для человека, хоть немного дружащего с компьютером. Для меня администрирование сайта - как ведение странички ВКонтакте - просто и удобно!
               </div>
-              <p class="feedback-slider__sign">Компания "Индиго" г. Абакан</p>
-            </div><div class="feedback-slider__item slick-slide slick-cloned" data-slick-index="5" aria-hidden="true" tabindex="-1" style="width: 562px;">
-              <div class="feedback-slider__text">
-              	Спасибо за Ваше понимание и внимание!<br>
-Спасибо за то, что Вы есть!<br>
-Вы ЛУЧШИЕ! Успехов и процветания Всем Вам!:-)
-              </div>
-              <p class="feedback-slider__sign">Наталья, avenue-gifts.ru</p>
-            </div><div class="feedback-slider__item slick-slide slick-cloned" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 562px;">
-              <div class="feedback-slider__text">
-              	Здравствуйте, уважаемые наши!Мы с вами уже более 3-х лет и хотим сказать вам большое спасибо за ваш труд и вклад в улучшения жизни целого мира.В процессе работы с вами, мы изменяли наш сайт, дорабатывали его и получали положительный результат.
-              </div>
-              <p class="feedback-slider__sign">Данилов Антон, &nbsp;uralcam.com&nbsp;</p>
-            </div><div class="feedback-slider__item slick-slide slick-cloned" data-slick-index="7" aria-hidden="true" tabindex="-1" style="width: 562px;">
-              <div class="feedback-slider__text">
-              	<p>По делу: сотрудничаю с Мегагрупп почти год. Заказывал сайт. Заплатил чуть больше чем планировал, но получил то, что хотел. Все сотрудники Мегагрупп, с кем я общался - молодцы. Работают достаточно четко и профессионально. Косяки в работе были, но достаточно быстро исправлялись. Следующий сайт скорее всего закажу у них же.</p>
-
-<p>Рекомендую Мегагрупп в первую очередь новичкам в электронной коммерции.</p>
-              </div>
-              <p class="feedback-slider__sign">Дмитрий, kenga.by</p>
-            </div><div class="feedback-slider__item slick-slide slick-cloned" data-slick-index="8" aria-hidden="true" tabindex="-1" style="width: 562px;">
-              <div class="feedback-slider__text">
-              	<p>Хочу выразить искреннюю благодарность сотрудникам компании "Мегагрупп". Работать с компанией начал с 2012 года. Тогда было нереально даже подумать, что с учетом моих нулевых базовых компьютерных знаний, я сейчас буду работать над своим третьим сайтом. И все это не из-за моей особой одаренности, а благодаря профессионализму команды "Мегагрупп", сотрудники которой, с большим терпением и доброжелательностью, поэтапно подсказывали и помогали по всем возникающим вопросам в создании сайта. Большое всем спасибо! "Мегагрупп" это настоящий СЕРВИС!</p>
-              </div>
-              <p class="feedback-slider__sign">Игорь Гончаров, г. Смоленск</p>
-            </div><div class="feedback-slider__item slick-slide slick-cloned" data-slick-index="9" aria-hidden="true" tabindex="-1" style="width: 562px;">
-              <div class="feedback-slider__text">
-              	Не первый сайт уже заказываю - как всегда все быстро, надежно и доступно для человека, хоть немного дружащего с компьютером. Для меня администрирование сайта - как ведение странички ВКонтакте - просто и удобно!
-              </div>
-              <p class="feedback-slider__sign">Компания "Индиго" г. Абакан</p>
-            </div></div></div>
-                        
-                        
-                        
-                        
-                      <ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control20" aria-controls="slick-slide20" aria-label="1 of 5" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control21" aria-controls="slick-slide21" aria-label="2 of 5" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control22" aria-controls="slick-slide22" aria-label="3 of 5" tabindex="-1">3</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control23" aria-controls="slick-slide23" aria-label="4 of 5" tabindex="-1">4</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control24" aria-controls="slick-slide24" aria-label="5 of 5" tabindex="-1">5</button></li></ul></div>
+              <p class="feedback-slider__sign">Компания &quot;Индиго&quot; г. Абакан</p>
+            </div>
+                      </div>
           <div class="feedback-slider__btns">
-            <a href="https://qaz-tech.kz/feedgood" class="feedback-slider__btn cd-btn _secondary">
+            <a href="/feedgood" class="feedback-slider__btn cd-btn _secondary" onclick="ga('send', 'event', 'home_mega', 'like', 'clik_button');" >
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-                <path fill="#212121" d="M20.001 13.25a.75.75 0 1 1 0 1.5H17.5a.75.75 0 0 0 0 1.5h1.501a.75.75 0 1 1 0 1.5H16.5a.75.75 0 0 0 0 1.5h1a.75.75 0 0 1 0 1.5h-5.305c-.354 0-.704-.084-1.02-.245l-1.665-.847a3.753 3.753 0 0 0-1.701-.408H6.5a.75.75 0 0 0 0 1.5h1.309c.355 0 .704.084 1.02.245l1.666.847a3.75 3.75 0 0 0 1.7.408H17.5a2.25 2.25 0 0 0 2.093-3.078 2.252 2.252 0 0 0 1.428-3.166 2.248 2.248 0 0 0 1-3 2.25 2.25 0 0 0-1.02-4.256h-5.986l1.076-3.541c.107-.353.162-.721.162-1.09v-.588c0-.984-.798-1.783-1.783-1.783h-.218a2.598 2.598 0 0 0-2.413 1.634l-.535 1.34L9.059 8.75H6.847a1.75 1.75 0 0 0-1.726 1.462L4.1 16.341a.75.75 0 0 0 1.479.247l1.022-6.129a.25.25 0 0 1 .246-.209H9.5a.752.752 0 0 0 .656-.386l2.5-4.5.576-1.425c.167-.417.57-.691 1.02-.691h.218c.156 0 .283.127.283.283v.588c0 .221-.033.442-.097.654l-1.371 4.509a.75.75 0 0 0 .718.968h6.998a.75.75 0 1 1 0 1.5H18.5a.75.75 0 0 0 0 1.5h1.501z"></path>
+                <path fill="#212121"
+                      d="M20.001 13.25a.75.75 0 1 1 0 1.5H17.5a.75.75 0 0 0 0 1.5h1.501a.75.75 0 1 1 0 1.5H16.5a.75.75 0 0 0 0 1.5h1a.75.75 0 0 1 0 1.5h-5.305c-.354 0-.704-.084-1.02-.245l-1.665-.847a3.753 3.753 0 0 0-1.701-.408H6.5a.75.75 0 0 0 0 1.5h1.309c.355 0 .704.084 1.02.245l1.666.847a3.75 3.75 0 0 0 1.7.408H17.5a2.25 2.25 0 0 0 2.093-3.078 2.252 2.252 0 0 0 1.428-3.166 2.248 2.248 0 0 0 1-3 2.25 2.25 0 0 0-1.02-4.256h-5.986l1.076-3.541c.107-.353.162-.721.162-1.09v-.588c0-.984-.798-1.783-1.783-1.783h-.218a2.598 2.598 0 0 0-2.413 1.634l-.535 1.34L9.059 8.75H6.847a1.75 1.75 0 0 0-1.726 1.462L4.1 16.341a.75.75 0 0 0 1.479.247l1.022-6.129a.25.25 0 0 1 .246-.209H9.5a.752.752 0 0 0 .656-.386l2.5-4.5.576-1.425c.167-.417.57-.691 1.02-.691h.218c.156 0 .283.127.283.283v.588c0 .221-.033.442-.097.654l-1.371 4.509a.75.75 0 0 0 .718.968h6.998a.75.75 0 1 1 0 1.5H18.5a.75.75 0 0 0 0 1.5h1.501z"/>
               </svg>
               <span>Похвалить</span>
             </a>
-            <a href="https://qaz-tech.kz/feedbad" class="feedback-slider__btn cd-btn _secondary">
+            <a href="/feedbad" class="feedback-slider__btn cd-btn _secondary" onclick="ga('send', 'event', 'home_mega', 'dislike', 'clik_button');" >
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-                <path fill="#212121" d="M6.999 12.75a.75.75 0 1 1 0-1.5H9.5a.75.75 0 0 0 0-1.5H7.999a.75.75 0 1 1 0-1.5H10.5a.75.75 0 0 0 0-1.5h-1a.75.75 0 0 1 0-1.5h5.305c.354 0 .704.084 1.02.245l1.665.847c.527.268 1.11.408 1.701.408H20.5a.75.75 0 0 0 0-1.5h-1.309c-.355 0-.704-.084-1.02-.245l-1.666-.847a3.75 3.75 0 0 0-1.7-.408H9.5a2.25 2.25 0 0 0-2.093 3.078 2.252 2.252 0 0 0-1.428 3.166 2.248 2.248 0 0 0-1 3 2.25 2.25 0 0 0 1.02 4.256h5.986l-1.076 3.541a3.762 3.762 0 0 0-.162 1.09v.588c0 .984.798 1.783 1.783 1.783h.218a2.598 2.598 0 0 0 2.413-1.634l.535-1.34 2.245-4.028h2.212a1.75 1.75 0 0 0 1.726-1.462L22.9 9.659a.75.75 0 0 0-1.479-.247l-1.022 6.129a.25.25 0 0 1-.246.209H17.5a.752.752 0 0 0-.656.386l-2.5 4.5-.576 1.425c-.167.417-.57.691-1.02.691h-.218a.283.283 0 0 1-.283-.283v-.588c0-.221.033-.442.097-.654l1.371-4.509a.75.75 0 0 0-.718-.968H5.999a.75.75 0 1 1 0-1.5H8.5a.75.75 0 0 0 0-1.5H6.999z"></path>
+                <path fill="#212121"
+                      d="M6.999 12.75a.75.75 0 1 1 0-1.5H9.5a.75.75 0 0 0 0-1.5H7.999a.75.75 0 1 1 0-1.5H10.5a.75.75 0 0 0 0-1.5h-1a.75.75 0 0 1 0-1.5h5.305c.354 0 .704.084 1.02.245l1.665.847c.527.268 1.11.408 1.701.408H20.5a.75.75 0 0 0 0-1.5h-1.309c-.355 0-.704-.084-1.02-.245l-1.666-.847a3.75 3.75 0 0 0-1.7-.408H9.5a2.25 2.25 0 0 0-2.093 3.078 2.252 2.252 0 0 0-1.428 3.166 2.248 2.248 0 0 0-1 3 2.25 2.25 0 0 0 1.02 4.256h5.986l-1.076 3.541a3.762 3.762 0 0 0-.162 1.09v.588c0 .984.798 1.783 1.783 1.783h.218a2.598 2.598 0 0 0 2.413-1.634l.535-1.34 2.245-4.028h2.212a1.75 1.75 0 0 0 1.726-1.462L22.9 9.659a.75.75 0 0 0-1.479-.247l-1.022 6.129a.25.25 0 0 1-.246.209H17.5a.752.752 0 0 0-.656.386l-2.5 4.5-.576 1.425c-.167.417-.57.691-1.02.691h-.218a.283.283 0 0 1-.283-.283v-.588c0-.221.033-.442.097-.654l1.371-4.509a.75.75 0 0 0-.718-.968H5.999a.75.75 0 1 1 0-1.5H8.5a.75.75 0 0 0 0-1.5H6.999z"/>
               </svg>
               <span>Пожаловаться</span>
             </a>
