@@ -1087,3 +1087,7 @@ template {
     background-size: 50%;
     cursor: pointer;
 }
+
+.js-services-popup {
+    z-index: 9999999;
+}
