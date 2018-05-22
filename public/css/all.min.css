@@ -225,7 +225,7 @@ template {
     padding: 8px 24px;
     border: none;
     border-radius: 24px;
-    background-color: #161e43;
+    background-color: #0aa440;
     -webkit-transition: background-color .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
     transition: background-color .2s ease-in-out, -webkit-box-shadow .2s ease-in-out;
     transition: box-shadow .2s ease-in-out, background-color .2s ease-in-out;
@@ -247,7 +247,7 @@ template {
     background-color: #51c568;
 }
 .cd-btn:active {
-    background-color: #2a4058;
+    background-color: #10c14e;
     -webkit-box-shadow: none;
     box-shadow: none;
 }

@@ -1204,25 +1204,8 @@ body {
     position: relative;
     z-index: 1;
 }
-.features-slider__item:before {
-    content: counter(features);
-    counter-increment: features;
-    color: #efeeec;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 700;
-    position: absolute;
-    left: 45%;
-    top: 0;
-    font-size: 240px;
-    line-height: 300px;
-}
-@media all and (min-width:600px) {
-    .features-slider__item: before {
-    top: 22px;
-    line-height: 320px;
-    font-size: 300px;
-}
-}.features-slider__pic img {
+
+.features-slider__pic img {
     max-width: 100%;
     margin: 0 auto;
     width: 288px;
@@ -2147,4 +2130,10 @@ body {
     .text-block__btn {
     margin-top: 64px;
 }
+}
+
+/*============ FOOTER =============*/
+
+footer {
+    padding-top: 40px;
 }

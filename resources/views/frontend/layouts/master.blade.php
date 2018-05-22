@@ -23,7 +23,6 @@
 
   	<link rel="stylesheet" href="/css/slick.min.css">
   	<link rel="stylesheet" href="/css/all.min.css">
-  	<link rel="stylesheet" href="/css/style.css">
   	<link rel="stylesheet" href="/css/partials.css">
 	{!! $cssFile !!}
 	<link rel="stylesheet" href="/css/app.css">
@@ -37,15 +36,13 @@
 	<main>
 		@yield('content')
 	</main>
-	<footer class="mp-footer">
+	<footer class="footer">
 		@include('frontend.partials._footer')
 	</footer>
 
 
 	<script  src="/js/jquery-3.3.1.min.js"></script>
-	<script  src="/js/jquery.tooltip.js"></script>
-	<script  src="/js/selectbox.js"></script>
-	<script  src="/js/slick.min.js"></script>
+	{!! $script !!}
 	<script  src="/js/app.js"></script>
 </body>
 </html>

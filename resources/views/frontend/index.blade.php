@@ -29,7 +29,7 @@
   <div class="wrapp cost__wrapp">
     <h2 class="title cost__title">Тарифы на разработку</h2>
     <div class="cost__list">
-    	      <a href="https://qaz-tech.kz/pages_site" class="tariff" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_vyberite_tip_sayta&#39;, sayt_vizitka_podrobneye, &#39;clik_button&#39;);">
+    	      <a href="https://qaz-tech.kz/pages_site" class="tariff">
         <p class="tariff__title">Сайт-Визитка</p>
         <div class="tariff__inner">
           <div class="tariff__layout img tariff__icon">
@@ -47,7 +47,7 @@
           </div>
         </div>
       </a>
-            <a href="https://qaz-tech.kz/landing-page" class="tariff" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_vyberite_tip_sayta&#39;, landing_page_podrobneye, &#39;clik_button&#39;);">
+            <a href="https://qaz-tech.kz/landing-page" class="tariff">
         <p class="tariff__title">Лендинг пейдж</p>
         <div class="tariff__inner">
           <div class="tariff__layout img tariff__icon">
@@ -65,7 +65,7 @@
           </div>
         </div>
       </a>
-            <a href="https://qaz-tech.kz/base_site" class="tariff" data-label="Акция" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_vyberite_tip_sayta&#39;, site_business_podrobneye, &#39;clik_button&#39;);">
+            <a href="https://qaz-tech.kz/base_site" class="tariff" data-label="Акция">
         <p class="tariff__title">Сайт-Бизнес</p>
         <div class="tariff__inner">
           <div class="tariff__layout img tariff__icon">
@@ -83,7 +83,7 @@
           </div>
         </div>
       </a>
-            <a href="https://qaz-tech.kz/base_shop" class="tariff" data-label="Акция" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_vyberite_tip_sayta&#39;, internet_shop_podrobneye, &#39;clik_button&#39;);">
+            <a href="https://qaz-tech.kz/base_shop" class="tariff" data-label="Акция">
         <p class="tariff__title">Интернет-магазин</p>
         <div class="tariff__inner">
           <div class="tariff__layout img tariff__icon">
@@ -104,7 +104,7 @@
             
     </div>
     <div class="cost__special">
-      <a href="https://qaz-tech.kz/site-key" target="_blank" class="cost__special-layout" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_2screen&#39;, &#39;lending_marketing&#39;, &#39;clik_button&#39;);">
+      <a href="https://qaz-tech.kz/site-key" target="_blank" class="cost__special-layout">
         <span class="img cost__special-pic">
           <img src="/img/main-arrow.png" alt="">
         </span>
@@ -113,7 +113,7 @@
           <span class="cost__special-text">от 25 950 ₽ <span class="cost__specials-link">подробнее</span></span>
         </span>
       </a>
-      <a href="https://qaz-tech.kz/brb" class="cost__special-layout" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_2screen&#39;, &#39;rapid_business_development&#39;, &#39;clik_button&#39;);">
+      <a href="https://qaz-tech.kz/brb" class="cost__special-layout">
         <span class="img cost__special-pic">
           <img src="/img/main-caviar.png" alt="">
         </span>
@@ -178,7 +178,7 @@
         <div class="feedback-slider">
           <p class="feedback-slider__title">Отзывы сайтовладельцев</p>
           <p class="feedback-slider__all-link">
-            <a href="https://qaz-tech.kz/reviews" target="_blank" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega&#39;, &#39;vse_otzyvy&#39;, &#39;clik_button&#39;);">Все отзывы</a>
+            <a href="https://qaz-tech.kz/reviews" target="_blank">Все отзывы</a>
           </p>
           
           <div class="feedback-slider__inner js-feedback-slider slick-initialized slick-slider slick-dotted">
@@ -252,13 +252,13 @@
                         
                       <ul class="slick-dots" style="" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control20" aria-controls="slick-slide20" aria-label="1 of 5" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control21" aria-controls="slick-slide21" aria-label="2 of 5" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control22" aria-controls="slick-slide22" aria-label="3 of 5" tabindex="-1">3</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control23" aria-controls="slick-slide23" aria-label="4 of 5" tabindex="-1">4</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control24" aria-controls="slick-slide24" aria-label="5 of 5" tabindex="-1">5</button></li></ul></div>
           <div class="feedback-slider__btns">
-            <a href="https://qaz-tech.kz/feedgood" class="feedback-slider__btn cd-btn _secondary" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega&#39;, &#39;like&#39;, &#39;clik_button&#39;);">
+            <a href="https://qaz-tech.kz/feedgood" class="feedback-slider__btn cd-btn _secondary">
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
                 <path fill="#212121" d="M20.001 13.25a.75.75 0 1 1 0 1.5H17.5a.75.75 0 0 0 0 1.5h1.501a.75.75 0 1 1 0 1.5H16.5a.75.75 0 0 0 0 1.5h1a.75.75 0 0 1 0 1.5h-5.305c-.354 0-.704-.084-1.02-.245l-1.665-.847a3.753 3.753 0 0 0-1.701-.408H6.5a.75.75 0 0 0 0 1.5h1.309c.355 0 .704.084 1.02.245l1.666.847a3.75 3.75 0 0 0 1.7.408H17.5a2.25 2.25 0 0 0 2.093-3.078 2.252 2.252 0 0 0 1.428-3.166 2.248 2.248 0 0 0 1-3 2.25 2.25 0 0 0-1.02-4.256h-5.986l1.076-3.541c.107-.353.162-.721.162-1.09v-.588c0-.984-.798-1.783-1.783-1.783h-.218a2.598 2.598 0 0 0-2.413 1.634l-.535 1.34L9.059 8.75H6.847a1.75 1.75 0 0 0-1.726 1.462L4.1 16.341a.75.75 0 0 0 1.479.247l1.022-6.129a.25.25 0 0 1 .246-.209H9.5a.752.752 0 0 0 .656-.386l2.5-4.5.576-1.425c.167-.417.57-.691 1.02-.691h.218c.156 0 .283.127.283.283v.588c0 .221-.033.442-.097.654l-1.371 4.509a.75.75 0 0 0 .718.968h6.998a.75.75 0 1 1 0 1.5H18.5a.75.75 0 0 0 0 1.5h1.501z"></path>
               </svg>
               <span>Похвалить</span>
             </a>
-            <a href="https://qaz-tech.kz/feedbad" class="feedback-slider__btn cd-btn _secondary" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega&#39;, &#39;dislike&#39;, &#39;clik_button&#39;);">
+            <a href="https://qaz-tech.kz/feedbad" class="feedback-slider__btn cd-btn _secondary">
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
                 <path fill="#212121" d="M6.999 12.75a.75.75 0 1 1 0-1.5H9.5a.75.75 0 0 0 0-1.5H7.999a.75.75 0 1 1 0-1.5H10.5a.75.75 0 0 0 0-1.5h-1a.75.75 0 0 1 0-1.5h5.305c.354 0 .704.084 1.02.245l1.665.847c.527.268 1.11.408 1.701.408H20.5a.75.75 0 0 0 0-1.5h-1.309c-.355 0-.704-.084-1.02-.245l-1.666-.847a3.75 3.75 0 0 0-1.7-.408H9.5a2.25 2.25 0 0 0-2.093 3.078 2.252 2.252 0 0 0-1.428 3.166 2.248 2.248 0 0 0-1 3 2.25 2.25 0 0 0 1.02 4.256h5.986l-1.076 3.541a3.762 3.762 0 0 0-.162 1.09v.588c0 .984.798 1.783 1.783 1.783h.218a2.598 2.598 0 0 0 2.413-1.634l.535-1.34 2.245-4.028h2.212a1.75 1.75 0 0 0 1.726-1.462L22.9 9.659a.75.75 0 0 0-1.479-.247l-1.022 6.129a.25.25 0 0 1-.246.209H17.5a.752.752 0 0 0-.656.386l-2.5 4.5-.576 1.425c-.167.417-.57.691-1.02.691h-.218a.283.283 0 0 1-.283-.283v-.588c0-.221.033-.442.097-.654l1.371-4.509a.75.75 0 0 0-.718-.968H5.999a.75.75 0 1 1 0-1.5H8.5a.75.75 0 0 0 0-1.5H6.999z"></path>
               </svg>
@@ -297,43 +297,43 @@
           <div class="clients__nav">
             <p class="clients__nav-title">Для клиентов</p>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/portfolio" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;portfolio&#39;, &#39;clik_button&#39;);">Портфолио</a>
+            	<a href="https://qaz-tech.kz/portfolio" target="_blank" class="clients__nav-link">Портфолио</a>
         	</div>
         	<div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/catalog/addon" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;tuning_for_site&#39;, &#39;clik_button&#39;);">Тюнинг для сайта</a>
+            	<a href="https://qaz-tech.kz/catalog/addon" target="_blank" class="clients__nav-link">Тюнинг для сайта</a>
         	</div>
                     	<div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/marketing-infografika" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;marketing_infographic&#39;, &#39;clik_button&#39;);">Маркетинг. Инфографика</a>
+            	<a href="https://qaz-tech.kz/marketing-infografika" target="_blank" class="clients__nav-link">Маркетинг. Инфографика</a>
         	</div>
         	<div class="clients__link-wr">
             	<a href="https://qaz-tech.kz/4k-marketing" target="_blank" class="clients__nav-link">4 шага к успеху вашего бизнеса</a>
         	</div>
         	<div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/dlya_klientov" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;for clients&#39;, &#39;clik_button&#39;);">Все материалы</a>
+            	<a href="https://qaz-tech.kz/dlya_klientov" target="_blank" class="clients__nav-link">Все материалы</a>
         	</div>
           </div>
           <div class="clients__nav">
             <p class="clients__nav-title">Реклама и СЕО</p>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/bp" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;fast_site_promotion&#39;, &#39;clik_button&#39;);">Быстрое продвижение сайта</a>
+            	<a href="https://qaz-tech.kz/bp" target="_blank" class="clients__nav-link">Быстрое продвижение сайта</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/rekmala" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;contextual_advertising&#39;, &#39;clik_button&#39;);">Контекстная реклама</a>
+            	<a href="https://qaz-tech.kz/rekmala" target="_blank" class="clients__nav-link">Контекстная реклама</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="http://seo.qaz-tech.kz/?roistat_visit=8881314" rel="nofollow" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;search_promotion&#39;, &#39;clik_button&#39;);">Поисковое продвижение</a>
+            	<a href="http://seo.qaz-tech.kz/?roistat_visit=8881314" rel="nofollow" target="_blank" class="clients__nav-link">Поисковое продвижение</a>
         	</div>
           </div>
           <div class="clients__nav">
             <p class="clients__nav-title">Логотип и фирменый стиль</p>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/logotext" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;logo_development&#39;, &#39;clik_button&#39;);">Разработка логотипа</a>
+            	<a href="https://qaz-tech.kz/logotext" target="_blank" class="clients__nav-link">Разработка логотипа</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/styletext" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;development_corporate_style&#39;, &#39;clik_button&#39;);">Разработка фирменного стиля</a>
+            	<a href="https://qaz-tech.kz/styletext" target="_blank" class="clients__nav-link">Разработка фирменного стиля</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/logos" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;portfolio of logos&#39;, &#39;clik_button&#39;);">Портфолио логотипов</a>
+            	<a href="https://qaz-tech.kz/logos" target="_blank" class="clients__nav-link">Портфолио логотипов</a>
         	</div>
           </div>
         </div>
@@ -341,31 +341,31 @@
           <div class="clients__nav">
             <p class="clients__nav-title">Инструкции и обучение</p>
             <div class="clients__link-wr">
-            	<a href="https://cabinet.qaz-tech.kz/user/login?roistat_visit=8881314" rel="nofollow" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;login to your account&#39;, &#39;clik_button&#39;);">Вход в личный кабинет</a>
+            	<a href="https://cabinet.qaz-tech.kz/user/login?roistat_visit=8881314" rel="nofollow" target="_blank" class="clients__nav-link">Вход в личный кабинет</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="http://help.qaz-tech.kz/?roistat_visit=8881314" rel="nofollow" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;work of a control system of a site&#39;, &#39;clik_button&#39;);">Работа системы управления сайтом</a>
+            	<a href="http://help.qaz-tech.kz/?roistat_visit=8881314" rel="nofollow" target="_blank" class="clients__nav-link">Работа системы управления сайтом</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/mailsetup" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;setting up email&#39;, &#39;clik_button&#39;);">Настройка электронной почты</a>
+            	<a href="https://qaz-tech.kz/mailsetup" target="_blank" class="clients__nav-link">Настройка электронной почты</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/redomain" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;transfer of rights to domains&#39;, &#39;clik_button&#39;);">Передача прав на домены</a>
+            	<a href="https://qaz-tech.kz/redomain" target="_blank" class="clients__nav-link">Передача прав на домены</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="http://help.qaz-tech.kz/nastroyki-indeksacii-zerkala,-xml-?roistat_visit=8881314" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;faq on optimization and promotion&#39;, &#39;clik_button&#39;);">FAQ по оптимизации и продвижению</a>
+            	<a href="http://help.qaz-tech.kz/nastroyki-indeksacii-zerkala,-xml-?roistat_visit=8881314" target="_blank" class="clients__nav-link">FAQ по оптимизации и продвижению</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/tv" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;customer support programs&#39;, &#39;clik_button&#39;);">Программы для поддержки клиентов</a>
+            	<a href="https://qaz-tech.kz/tv" target="_blank" class="clients__nav-link">Программы для поддержки клиентов</a>
         	</div>
           </div>
           <div class="clients__nav">
             <p class="clients__nav-title">Сотрудничество</p>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/ap" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;affiliate program&#39;, &#39;clik_button&#39;);">Партнерская программа</a>
+            	<a href="https://qaz-tech.kz/ap" target="_blank" class="clients__nav-link">Партнерская программа</a>
         	</div>
             <div class="clients__link-wr">
-            	<a href="https://qaz-tech.kz/blagotvoritelnost" target="_blank" class="clients__nav-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;site for free&#39;, &#39;clik_button&#39;);">Сайт бесплатно</a>
+            	<a href="https://qaz-tech.kz/blagotvoritelnost" target="_blank" class="clients__nav-link">Сайт бесплатно</a>
         	</div>
           </div>
         </div>
@@ -374,30 +374,30 @@
         <div class="news">
           <div class="news__wrapp">
             <p class="news__title">Новости</p>
-            <a href="https://qaz-tech.kz/news" class="news__all-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;all the news&#39;, &#39;clik_button&#39;);">Все новости</a>
+            <a href="https://qaz-tech.kz/news" class="news__all-link">Все новости</a>
           </div>
                     <div class="news__item">
             <p class="news__item-timestamp">18.04.18</p>
-            <a href="https://qaz-tech.kz/news?view=4042661" class="news__item-title" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;news # 0&#39;, &#39;clik_button&#39;);">10 нововведений CMS.S3: обновленный импорт 1С, настройки качества иллюстраций и многое другое</a>
+            <a href="https://qaz-tech.kz/news?view=4042661" class="news__item-title">10 нововведений CMS.S3: обновленный импорт 1С, настройки качества иллюстраций и многое другое</a>
           </div>
                     <div class="news__item">
             <p class="news__item-timestamp">16.02.18</p>
-            <a href="https://qaz-tech.kz/news?view=1345461" class="news__item-title" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;news # 1&#39;, &#39;clik_button&#39;);">Лендинг в подарок</a>
+            <a href="https://qaz-tech.kz/news?view=1345461" class="news__item-title">Лендинг в подарок</a>
           </div>
                   </div>
         <div class="news">
           <div class="news__wrapp">
             <p class="news__title">Обучающая рассылка</p>
-            <a href="https://qaz-tech.kz/mailing" class="news__all-link" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;all releas&#39;, &#39;clik_button&#39;);">Все выпуски</a>
+            <a href="https://qaz-tech.kz/mailing" class="news__all-link">Все выпуски</a>
           </div>
           
                     <div class="news__item">
-            <a href="https://qaz-tech.kz/mailing?mode=view&amp;post_id=6985861" target="_blank" class="news__item-title" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_for_clients&#39;, &#39;obuchayushchaya_rassylka0&#39;, &#39;clik_button&#39;);">
+            <a href="https://qaz-tech.kz/mailing?mode=view&amp;post_id=6985861" target="_blank" class="news__item-title">
             	Выпуск №180. SEO-тактики, которые уже не работают в 2018-м году
           	</a>
           </div>
                   </div>
-        <form class="subscribe" action="https://cp.maliver.ru/email/subscribe" method="post" target="_blank" onsubmit="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_header&#39;, &#39;obuchayushchaya_rassylka&#39;, &#39;form_submit&#39;); yaCounter344978.reachGoal(&#39;home_mega_form_submit_header_obuchayushchaya_rassylka&#39;);">
+        <form class="subscribe" action="https://cp.maliver.ru/email/subscribe" method="post" target="_blank">
           <p class="subscribe__title">Подписаться бесплатно</p>
           <div class="cd-input subscribe__input js-subscribe">
             <input type="hidden" name="_form" value="subscribe">
@@ -452,7 +452,7 @@
       ответят на любые вопросы о старте бизнеса в Сети!</p>
     <p>Неважно, сколько у Вас денег и в какой сфере Вы работаете — у Мегагрупп.ру есть решения на любой бюджет!</p>
     <div class="_center">
-      <a href="https://qaz-tech.kz/zakazsite" target="_blank" class="cd-btn cd-btn--L text-block__btn" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;home_mega_header&#39;, &#39;zakazat_sayt&#39;, &#39;clik_button&#39;);">Заказать сайт</a>
+      <a href="https://qaz-tech.kz/zakazsite" target="_blank" class="cd-btn cd-btn--L text-block__btn">Заказать сайт</a>
     </div>
   </div>
 </div>

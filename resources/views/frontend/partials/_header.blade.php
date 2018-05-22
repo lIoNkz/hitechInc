@@ -1,4 +1,4 @@
-<div class="main-menu  _noBg" style="z-index: 555555;">
+<div class="main-menu">
   <div class="wrapp main-menu__wrapp">
     <a href="/" alt="qaz-tech.kz" class="img main-menu__logo hitech-logo">
       <img src="/img/hitech-logo-white.png" alt="">
@@ -180,16 +180,7 @@
     </div>
   </div>
 </div>
-<div class="header">
-  <div class="header__slide" style="background: url('https://images.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg?cs=srgb&dl=plant-flower-bloom-36764.jpg&fm=jpg') 0 17% / cover no-repeat rgb(238, 82, 66); width: 1349px; position: relative; left: 0px; top: 0px;opacity: 1;">
-    <div class="wrapp header__wrapp">
-      <div class="header__text-wr">
-        <p class="header__title" style="color: ">Сайты под ключ</p>
-        <p class="header__text">Продающий сайт «под ключ» — сделаем все за вас!</p>
-      </div>
-    </div>
-  </div> 
-</div>
+
 
 <div class="submenu">
   <div class="wrapp submenu__wrapp">
@@ -257,7 +248,7 @@
 				</li>
 				</ul>
       </button>
-      <a href="https://qaz-tech.kz/zakazsite" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;mega_header_panel_menyu&#39;, &#39;zakazat_sayt&#39;, &#39;clik_button&#39;);" class="cd-btn m-submenu__btn">Заказать cайт</a>
+      <a href="https://qaz-tech.kz/zakazsite" class="cd-btn m-submenu__btn">Заказать cайт</a>
     </div>
   </div>
 </nav>
