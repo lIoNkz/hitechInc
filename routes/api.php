@@ -21,3 +21,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('photos', 'PhotoAPIController');
 
 Route::resource('advantages', 'AdvantageAPIController');
+
+Route::resource('reviews', 'ReviewAPIController');

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 use App\Models\Photo;
 use App\Models\Advantage;
+use App\Models\Review;
 
 use Illuminate\Http\Request;
 
@@ -17,11 +18,11 @@ class FrontendController extends Controller
 
         /*========= Queries =========*/
         $advantages = Advantage::with('photos')->get();
-
+        $reviews = Review::all();
     
 
         
-    	return view('frontend.index', compact('advantages'))->with(['cssFile'=> $cssFile, 'script' => $script]);
+    	return view('frontend.index', compact('advantages','reviews'))->with(['cssFile'=> $cssFile, 'script' => $script]);
     }
 
     public function about() {
