@@ -228,7 +228,12 @@
     box-shadow: none;
 }
 .main-menu__btn._no-text {
+    padding: 10px;
+}
+@media all and (max-width:576px) {
+    .main-menu__btn._no-text {
     padding: 7px;
+}
 }
 .main-menu__btn svg {
     fill: #fff;

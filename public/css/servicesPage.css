@@ -758,3 +758,10 @@ body {
     box-shadow: 0 2px 8px rgba(23, 176, 63, .32);
     border: 2px solid #4dbc6f;
 }
+
+@media (max-width: 576px) {
+.wrapp {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+}
