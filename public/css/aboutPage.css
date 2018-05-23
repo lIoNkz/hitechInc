@@ -349,34 +349,34 @@ body {
     letter-spacing: -3px;
     margin: 0;
 }
-.big-features__item--since .big-features__text {
+.textblock1 {
     top: 112px;
     right: 25px;
 }
-.big-features__item--since .big-features__years-name {
+.textblock1 .big-features__years-name {
     margin: 0;
     font-size: 90px;
     font-weight: 700;
     line-height: 60px;
 }
-.big-features__item--office .big-features__text {
+.textblock2 {
     top: 112px;
     right: 24px;
     text-align: right;
 }
-.big-features__item--office .big-features__offices-name {
+.textblock2 .big-features__offices-name {
     margin: 0 8px 0 0;
     font-size: 70px;
     font-weight: 700;
     line-height: 54px;
     letter-spacing: -2px;
 }
-.big-features__item--staff .big-features__text {
+.textblock3 {
     top: 61px;
     right: 25px;
     text-align: right;
 }
-.big-features__item--staff .big-features__staff-text {
+.textblock3 .big-features__staff-text {
     margin: 0;
     font-size: 45px;
     font-weight: 700;
@@ -973,4 +973,9 @@ body {
 
 .footer {
     background-color: #fff;
+}
+
+
+.lp-cslider__card {
+    margin: 0 auto;
 }

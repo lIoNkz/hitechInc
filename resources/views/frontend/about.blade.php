@@ -19,43 +19,14 @@
       </div>
     </div>
     <ul class="big-features">
-      <li class="big-features__item big-features__item--office">
-        <div class="big-features__inner">
-          <div class="img big-features__pic"><img src="/img/pic-bfeature1.png" alt=""></div>
-          <div class="big-features__text">
-            <p class="big-features__digits">3</p>
-            <p class="big-features__years-name">года</p>
-          </div>
-        </div>
+      @foreach($text6 as $text)
+      <li class="big-features__item">
+          {!! $text->text !!}
         <p class="big-features__note">
-          Занимаемся разработкой сайтов с 2015 года
+          {{ $text->title }}
         </p>
       </li>
-      <li class="big-features__item big-features__item--office">
-        <div class="big-features__inner">
-          <div class="img big-features__pic"><img src="/img/pic-bfeature2.png" alt=""></div>
-          <div class="big-features__text">
-            <p class="big-features__digits">1</p>
-            <p class="big-features__offices-name">офис</p>
-          </div>
-        </div>
-        <p class="big-features__note">
-          Наш офис находится в Шымкенте
-        </p>
-      </li>
-      <li class="big-features__item big-features__item--staff">
-        <div class="big-features__inner">
-          <div class="img big-features__pic"><img src="/img/pic-bfeature3.png" alt=""></div>
-          <div class="big-features__text">
-            <p class="big-features__staff-text">более</p>
-            <p class="big-features__digits">20</p>
-            <p class="big-features__staff-text">сотрудников</p>
-          </div>
-        </div>
-        <p class="big-features__note">
-          Высокая квалификация персонала
-        </p>
-      </li>
+      @endforeach
     </ul>
   </div>
 </section>
@@ -168,16 +139,12 @@
 </section>
 <section class="request">
   <div class="wrapp request__wrapp">
-    <h2 class="h2 request__title">Закажите продающий сайт от web-студии HITECH</h2>
+    @foreach($text7 as $text)
+    <h2 class="h2 request__title">{!! $text->title !!}</h2>
     <div class="request__text">
-      <p>
-        Выражение «У кого сегодня нет сайта — завтра не будет бизнеса» становится все более актуальным.
-      </p>
-      <p>
-        Развейте свои сомнения, пришлите нам материалы для наполнения своего портала, а также пожелания по оформлению
-        веб дизайна, и Вы увидите свою фирму глазами потенциальных покупателей в Интернет!
-      </p>
+      {!! $text->text !!}
     </div>
+    @endforeach
     <form class="request__form js-form" data-form_id="107761241">
       <div class="request__form-inner">
         <label class="request__input cd-input cd-input--required js-required">
@@ -203,12 +170,20 @@
 <section class="lp-feedback">
   <div class="wrapp lp-feedback__wrapp" role="toolbar">
     <div class="lp-feedback__title">Отзывы</div>
-    <ul class="lp-cslider js-feedback-slider changedr slick-dotted">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <ul class="slick-dots" style="" role="tablist"><li class="slick-active" aria-hidden="false" role="presentation" aria-selected="true" aria-controls="navigation00" id="changed00"><button type="button" data-role="none" role="button" tabindex="0">1</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation01" id="changed01"><button type="button" data-role="none" role="button" tabindex="0">2</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation02" id="changed02"><button type="button" data-role="none" role="button" tabindex="0">3</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation03" id="changed03"><button type="button" data-role="none" role="button" tabindex="0">4</button></li></ul></ul>
+    <ul class="lp-cslider js-feedback-slider">
+      @foreach($reviews as $review)
+      <li class="lp-cslider__slide">
+        <div class="lp-cslider__card">
+          <p class="lp-cslider__title">{!! $review->name !!}</p>
+          <p class="lp-cslider__link-wr">
+            <a href="#" class="lp-cslider__link">{!! $review->site !!}</a>
+          </p>
+          <div class="lp-cslider__content">
+                {!! $review->text !!}
+          </div>
+        </div>
+      </li>
+      @endforeach
   </div>
 </section>
 

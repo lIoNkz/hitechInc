@@ -1,16 +1,16 @@
 @extends('frontend.layouts.master')
 @section('content')
 
-<section class="mp-main">
-    <div class="mp-wrapp mp-main__wrapp">
-        <h1 class="mp-main__title">Заказать сайт</h1>
-        <p class="mp-main__text">Заполните заявку и персональный менеджер свяжется с вами для уточнения деталей
+<section class="main">
+    <div class="wrapp main__wrapp">
+        <h1 class="main__title">Заказать сайт</h1>
+        <p class="main__text">Заполните заявку и персональный менеджер свяжется с вами для уточнения деталей
             заказа</p>
     </div>
 </section>
-<div class="mp-request">
-    <div class="mp-wrapp mp-request__wrapp">
-        <form class="mp-form js-form2" data-form_id="47484021">
+<div class="request">
+    <div class="wrapp request__wrapp">
+        <form class="form js-form2" data-form_id="47484021">
             <input name="des_type" type="hidden" value="">
             <input name="des_sale" type="hidden" value="">
             <input name="d[1]" type="hidden" value="Karaganda">
@@ -18,8 +18,8 @@
             <input name="d[12]" type="hidden" value="">
             <input name="d[13]" type="hidden" value="">
             <input name="d[15]" type="hidden" value="0">
-            <div class="mp-form__outer">
-                <div class="mp-form__inner">
+            <div class="form__outer">
+                <div class="form__inner">
                     <label class="cd-input cd-input--required js-required">
                         <input type="text" class="cd-input__input" name="name" placeholder="например, Иван Петрович Сидоров">
                         <span class="cd-input__text">
@@ -65,18 +65,18 @@
              </span>
            </span>
                     </label>
-                    <div class="mp-form__control">
-                        <button class="mp-form__slide js-form-slide"></button>
-                        <a href="https://megagroup.ru/zakazsite#" class="mp-form__link js-form-slide">Комментарий к заказу</a>
+                    <div class="form__control">
+                        <button class="form__slide js-form-slide"></button>
+                        <a href="https://megagroup.ru/zakazsite#" class="form__link js-form-slide">Комментарий к заказу</a>
                     </div>
-                    <label class="cd-textarea mp-form__comment js-slide">
+                    <label class="cd-textarea form__comment js-slide">
                         <textarea class="cd-textarea__area" name="d[16]" placeholder="Комментарий к заказу"></textarea>
                         <span class="cd-textarea__text">
                 <span class="cd-textarea__error">Ошибка ввода</span>
             </span>
                     </label>
                 </div>
-                <div class="mp-img mp-form__pic">
+                <div class="img form__pic">
                     <img class="js-hint" src="https://megagroup.ru/d/738331/t/v15295/images/static/pages/zakazsite/img/pic-badge.png" alt="">
                     <div style="display: none;" class="hint">
                         <p><strong>Гарантия возврата денег за созданный сайт в течение 30 дней с момента оплаты. Если
@@ -89,9 +89,9 @@
                     </div>
                 </div>
             </div>
-            <div class="mp-form__send">
-                <button class="cd-btn mp-form__send-btn js-form">Отправить заявку</button>
-                <label class="cd-checkbox cd-checkbox--required mp-form__checkbox">
+            <div class="form__send">
+                <button class="cd-btn form__send-btn js-form">Отправить заявку</button>
+                <label class="cd-checkbox cd-checkbox--required form__checkbox">
                     <input type="checkbox" checked="" class="cd-hidden" name="d[15]" required="">
                     <span class="cd-checkbox__pseudo-wr">
             <span class="cd-checkbox__pseudo">
@@ -103,12 +103,12 @@
               </svg>
             </span>
           </span>
-                    <span class="cd-checkbox__text mp-form__privacy">
+                    <span class="cd-checkbox__text form__privacy">
             Я согласен(а) с <a target="_blank" href="https://megagroup.ru/privacy">политикой обработки персональных данных</a>
           </span>
                 </label>
             </div>
-                        <div class="mp-form__note">
+                        <div class="form__note">
                 <p>Не откладывайте на завтра то, что можно сделать сейчас!</p>
                 <p><strong>Потерянное время стоит дороже!</strong></p>
             </div>

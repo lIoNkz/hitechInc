@@ -30,7 +30,8 @@ class TextblockController extends AppBaseController
     public function index(Request $request)
     {
         $this->textblockRepository->pushCriteria(new RequestCriteria($request));
-        $textblocks = $this->textblockRepository->all();
+        $unsorted = $this->textblockRepository->all();
+        $textblocks = $unsorted->sortByDesc('id');
 
         return view('textblocks.index')
             ->with('textblocks', $textblocks);

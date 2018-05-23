@@ -152,7 +152,7 @@
         <div class="feedback-slider">
           <p class="feedback-slider__title">Отзывы сайтовладельцев</p>
           <p class="feedback-slider__all-link">
-            <a href="/reviews" target="_blank" onclick="ga('send', 'event', 'home_mega', 'vse_otzyvy', 'clik_button');">Все отзывы</a>
+            <a href="/testimonials" target="_blank">Все отзывы</a>
           </p>
           
           <div class="feedback-slider__inner js-feedback-slider">

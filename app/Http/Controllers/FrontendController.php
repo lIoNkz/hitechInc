@@ -7,6 +7,7 @@ use App\Models\Review;
 use App\Models\Textblock;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class FrontendController extends Controller
 {
@@ -19,7 +20,7 @@ class FrontendController extends Controller
 
         /*========= Queries =========*/
         $advantages = Advantage::with('photos')->get();
-        $reviews = Review::all();
+        $reviews = Review::take(10)->get();
         // foreach ($advantages as $key => $advantage) {
         //     dd($advantage->photos->first()->path);
         // }
@@ -43,9 +44,13 @@ class FrontendController extends Controller
         $script = '<script  src="/js/slick.min.js"></script>';
 
         /*========= Queries =========*/
-        $text5 = Textblock::where('theme_id','5')->get();
+        $reviews = Review::all();
 
-        return view('frontend.about', compact('text5'))->with([
+        $text5 = Textblock::where('theme_id','5')->get();
+        $text6 = Textblock::where('theme_id','6')->get();
+        $text7 = Textblock::where('theme_id','7')->get();
+
+        return view('frontend.about', compact('text5','text6','text7','reviews'))->with([
             'cssFile'=> $cssFile, 
             'script' => $script
         ]);
@@ -58,7 +63,10 @@ class FrontendController extends Controller
         /*========= Add page's  javascript =========*/
         $script = '';
 
-        return view('frontend.contacts')->with([
+        /*========= Queries =========*/
+        $text8 = Textblock::where('theme_id','8')->get();
+
+        return view('frontend.contacts',compact('text8'))->with([
             'cssFile'=> $cssFile,
             'script' => $script
         ]);
@@ -84,8 +92,46 @@ class FrontendController extends Controller
 
         /*========= Add page's  javascript =========*/
         $script = '';
-                    
-        return view('frontend.portfolio')->with([
+        
+        /*========= Queries =========*/
+        $portfolio = DB::table('photos')->where('photoable_type','App\Models\Portfolio')->paginate(5);   
+
+
+        return view('frontend.portfolio',compact('portfolio'))->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function review() {
+        /*========= Add page's own style =========*/
+        $cssFile = '<link rel="stylesheet" href="/css/reviewPage.css">';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        /*========= Queries =========*/
+        $reviews = DB::table('reviews')->paginate(2);
+
+        return view('frontend.review', compact('reviews'))->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function services() {
+        /*========= Add page's own style =========*/
+        $cssFile = '<link rel="stylesheet" href="/css/servicesPage.css">';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        /*========= Queries =========*/
+        $text9 = Textblock::where('theme_id','9')->get();
+        $text10 = Textblock::where('theme_id','10')->get();
+        $text11 = Textblock::where('theme_id','11')->get();
+
+        return view('frontend.services', compact('text9','text10','text11'))->with([
             'cssFile'=> $cssFile, 
             'script' => $script
         ]);

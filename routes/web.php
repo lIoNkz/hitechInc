@@ -16,6 +16,8 @@ Route::get('/about', 'FrontendController@about');
 Route::get('/contacts', 'FrontendController@contacts');
 Route::get('/order', 'FrontendController@order');
 Route::get('/portfolio', 'FrontendController@portfolio');
+Route::get('/testimonials', 'FrontendController@review');
+Route::get('/services', 'FrontendController@services');
 
 
 Auth::routes();

@@ -74,3 +74,44 @@
 	width: 100%;
 	height: 40px;
 }
+
+
+/*========== Pagination ===============*/
+
+.pagination {
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.pagination .page-item {
+    min-width: 25px;
+    height: 25px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 12.5px;
+    padding: 0 5px;
+}
+
+.pagination .page-link {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page-item.disabled {
+    display: none;
+}
+
+.page-item.active {
+    color: blue;
+    min-width: 23px;
+    height: 23px;
+    line-height: 24px;
+    border: 2px solid #0aa440;
+}
