@@ -27,3 +27,5 @@ Route::resource('photos', 'PhotoController');
 Route::resource('advantages', 'AdvantageController');
 
 Route::resource('reviews', 'ReviewController');
+
+Route::resource('textblocks', 'TextblockController');

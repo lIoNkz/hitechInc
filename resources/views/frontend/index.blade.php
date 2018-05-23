@@ -7,15 +7,15 @@
 
 <div class="main">
   <div class="wrapp main__wrapp">
-    <h1 style="text-align: center;">Создание сайтов</h1>
-    <div class="main__subtitle">для малого и среднего бизнеса</div>
+    @foreach($text1 as $text)
+    {!! $text->title !!}
     <div class="main__inner">
       <div class="main__text">
         <p>
-          Главное направление компании HITECH — создание сайтов разной сложности: отпродающих
-          лендингов до корпоративных сайтов с индивидуальным дизайном.
+          {!! $text->text !!}
         </p>
       </div>
+    @endforeach
       <div class="counter">
         <p class="counter__text">За 3 года мы сделали</p>
         <p class="counter__inner js-sites-counter"><ins>1</ins><ins>2</ins><ins>2</ins><ins>8</ins></p>
@@ -137,9 +137,9 @@
             @foreach($advantages as $advantage)
             <div class="features-slider__item">
               <div class="img features-slider__pic">
-            
-                <img src="/img/{{ $advantage->path }}" alt="">
-         
+                @if (!$advantage->photos->isEmpty())
+                <img src="/img/{{ $advantage->photos->first()->path }}" alt="">
+                @endif
               </div>
               <p class="features-slider__text">{{ $advantage->text }}</p>
             </div>
@@ -173,9 +173,9 @@
   <div class="wrapp line__wrapp">
     <div class="line__text">
       <p>
-        <strong>Главное преимущество нашего предложения</strong>: разработка сайта "под ключ". Отрисовка и верстка
-        дизайна, подключение системы управления и домена, размещение на хостинге, наполнение страниц — все хлопоты
-        HITECH возьмет на себя.
+        @foreach($text2 as $text)
+        {!! $text->text!!}
+        @endforeach
       </p>
     </div>
     <div class="img"><img width="395" src="/img/gold-keys.png" alt=""></div>
@@ -184,11 +184,10 @@
 
 <div class="clients">
   <div class="wrapp clients__wrapp">
-    <p class="title clients__title">Для клиентов</p>
-    <p class="clients__text">Мы предлагаем SEO-продвижение, контекстную рекламу, сервисы повышения продаж и
-      техническую поддержку по системе управления.</p>
-    <p class="clients__text">Маркетинговые решения от компании Мегагрупп.ру позволяют запустить бизнес в Интернете с
-      минимальными вложениями времени и денег.</p>
+    @foreach($text3 as $text)
+    {!! $text->title !!}
+    {!! $text->text!!}
+    @endforeach
     <div class="clients__inner">
       <div class="clients__layout clients__layout--big">
         <div class="clients__left">
@@ -337,18 +336,10 @@
 
 <div class="text-block">
   <div class="wrapp text-block__wrapp">
-    <h3 class="text-block__title title">
-      Помогаем создать продающий сайт для Вашего бизнеса
-    </h3>
-    <p>Предприниматели часто задаются вопросом: “Стоит ли создать сайт?”. У многих нет денег или уверенности, что это
-      принесёт клиентов и продажи. Развитие бизнеса с помощью онлайн-представительства — эффективный и надежный способ
-      для привлечения потенциальных клиентов.</p>
-    <p>Поверьте нашему опыту (более 20 лет!), Вы обязательно найдете целевую аудиторию, желающую купить Ваши товары и
-      услуги.</p>
-    <p>Благодаря нам Вы сможете заказать и получить недорогой сайт быстро. Приходите в наш офис в Москве,
-      Санкт-Петербурге, Барнауле или позвоните по телефону 8 800 555-6342 (бесплатно по всей России!), наши менеджеры
-      ответят на любые вопросы о старте бизнеса в Сети!</p>
-    <p>Неважно, сколько у Вас денег и в какой сфере Вы работаете — у Мегагрупп.ру есть решения на любой бюджет!</p>
+    @foreach($text4 as $text)
+    {!! $text->title !!}
+    {!! $text->text !!}
+    @endforeach
     <div class="_center">
       <a href="https://qaz-tech.kz/zakazsite" target="_blank" class="cd-btn cd-btn--L text-block__btn">Заказать сайт</a>
     </div>

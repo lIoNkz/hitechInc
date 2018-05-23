@@ -10,3 +10,7 @@
     <a href="{!! route('reviews.index') !!}"><i class="fa fa-edit"></i><span>Reviews</span></a>
 </li>
 
+<li class="{{ Request::is('textblocks*') ? 'active' : '' }}">
+    <a href="{!! route('textblocks.index') !!}"><i class="fa fa-edit"></i><span>Textblocks</span></a>
+</li>
+

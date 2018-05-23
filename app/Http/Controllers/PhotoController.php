@@ -55,7 +55,11 @@ class PhotoController extends AppBaseController
      */
     public function store(CreatePhotoRequest $request)
     {
-        $input = $request->all();
+    	$photoable_type = "App\Models\\".$request->photoable_type;
+    	array_pull($request,'photoable_type');
+    	array_add($request, 'photoable_type', $photoable_type);
+
+        $input = $request->all(); 
 
         $photo = $this->photoRepository->create($input);
 

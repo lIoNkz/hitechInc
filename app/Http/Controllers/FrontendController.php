@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Models\Photo;
 use App\Models\Advantage;
 use App\Models\Review;
+use App\Models\Textblock;
 
 use Illuminate\Http\Request;
 
@@ -19,10 +20,19 @@ class FrontendController extends Controller
         /*========= Queries =========*/
         $advantages = Advantage::with('photos')->get();
         $reviews = Review::all();
-    
+        // foreach ($advantages as $key => $advantage) {
+        //     dd($advantage->photos->first()->path);
+        // }
 
-        
-    	return view('frontend.index', compact('advantages','reviews'))->with(['cssFile'=> $cssFile, 'script' => $script]);
+        $text1 = Textblock::where('theme_id','1')->get();
+        $text2 = Textblock::where('theme_id','2')->get();
+        $text3 = Textblock::where('theme_id','3')->get();
+        $text4 = Textblock::where('theme_id','4')->get();
+
+    	return view('frontend.index', compact('advantages','reviews','text1','text2','text3','text4'))->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
     }
 
     public function about() {
@@ -32,7 +42,13 @@ class FrontendController extends Controller
         /*========= Add page's  javascript =========*/
         $script = '<script  src="/js/slick.min.js"></script>';
 
-        return view('frontend.about')->with(['cssFile'=> $cssFile, 'script' => $script]);
+        /*========= Queries =========*/
+        $text5 = Textblock::where('theme_id','5')->get();
+
+        return view('frontend.about', compact('text5'))->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
     }
 
     public function contacts() {
@@ -42,7 +58,10 @@ class FrontendController extends Controller
         /*========= Add page's  javascript =========*/
         $script = '';
 
-        return view('frontend.contacts')->with(['cssFile'=> $cssFile, 'script' => $script]);
+        return view('frontend.contacts')->with([
+            'cssFile'=> $cssFile,
+            'script' => $script
+        ]);
     }
 
     public function order() {
@@ -53,7 +72,10 @@ class FrontendController extends Controller
         $script = ' <script  src="/js/jquery.tooltip.js"></script>
                     <script  src="/js/selectbox.js"></script>';
                     
-        return view('frontend.order')->with(['cssFile'=> $cssFile, 'script' => $script]);
+        return view('frontend.order')->with([
+            'cssFile'=> $cssFile,
+            'script' => $script
+        ]);
     }
 
     public function portfolio() {
@@ -63,6 +85,9 @@ class FrontendController extends Controller
         /*========= Add page's  javascript =========*/
         $script = '';
                     
-        return view('frontend.portfolio')->with(['cssFile'=> $cssFile, 'script' => $script]);
+        return view('frontend.portfolio')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
     }
 }
