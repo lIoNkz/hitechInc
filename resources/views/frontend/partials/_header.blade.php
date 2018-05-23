@@ -31,6 +31,10 @@
     </button>
     <a class="main-menu__phone js-show-location">+7 (702) 175-55-97</a>
     <button class="cd-btn cd-btn--S _no-text main-menu__btn main-menu__btn--burger js-menu-open">
+      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+        <path
+          d="M4.5 7.25h17a.75.75 0 0 0 0-1.5h-17a.75.75 0 0 0 0 1.5zM21.5 19.75h-17a.75.75 0 0 0 0 1.5h17a.75.75 0 0 0 0-1.5zM4.5 14.25h13a.75.75 0 0 0 0-1.5h-13a.75.75 0 0 0 0 1.5z"/>
+      </svg>
     </button>
 
     <div class="popup popup--location" data-popup="location">
@@ -79,32 +83,32 @@
   <div class="m-menu__wrap">
     <button class="m-aside-close js-aside-close"></button>
     <nav class="m-nav">
-      <a href="https://qaz-tech.kz/compani" class="m-nav__link">О компании</a>
-      <a href="https://qaz-tech.kz/price" class="m-nav__link">Цены</a>
-      <a href="https://qaz-tech.kz/mail" class="m-nav__link">Напишите нам</a>
-      <a href="https://qaz-tech.kz/contacts" class="m-nav__link">Контакты</a>
-      <a href="https://qaz-tech.kz/zakazsite" target="_blank" class="m-nav__link">Заказать сайт</a>
+      <a href="/about" class="m-nav__link">О компании</a>
+      <a href="/services" class="m-nav__link">Услуги</a>
+      <a href="/testimonials" class="m-nav__link">Отзывы</a>
+      <a href="/portfolio" class="m-nav__link">Портфолио</a>
+      <a href="/contacts"  class="m-nav__link">Контакты</a>
     </nav>
-    <a href="https://qaz-tech.kz/#" class="m-menu__btn cd-btn _secondary _iconed js-show-login">
+    <a href="#" class="m-menu__btn cd-btn _secondary _iconed js-show-login">
       <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
         <path fill="#1ebc4e" d="M12.94 13.75c2.753 0 4.81-2.972 4.81-6.86 0-2.06-1.71-2.64-4.81-2.64-3.09 0-4.69.556-4.69 2.64 0 4.074 1.902 6.86 4.69 6.86zm0-8c2.284 0 3.31.348 3.31 1.14 0 3.152-1.528 5.36-3.31 5.36-1.811 0-3.19-2.02-3.19-5.36 0-.825.906-1.14 3.19-1.14zm8.432 13.129l.018.158a5.656 5.656 0 0 0-1.03-3.054 6.172 6.172 0 0 0-2.573-2.145.75.75 0 0 0-.63 1.362 4.674 4.674 0 0 1 1.96 1.625 4.615 4.615 0 0 1 .676 1.56 3.38 3.38 0 0 1 .097.66l.018.159a.836.836 0 0 1-.902 1.046H6.994a.84.84 0 0 1-.88-1.07l.014-.14a3.268 3.268 0 0 1 .12-.723 4.8 4.8 0 0 1 .858-1.733 5.614 5.614 0 0 1 1.799-1.494.75.75 0 1 0-.714-1.32 7.11 7.11 0 0 0-2.271 1.895 5.709 5.709 0 0 0-1.292 3.37l.014-.14a2.335 2.335 0 0 0 2.352 2.855h12.012a2.33 2.33 0 0 0 2.366-2.871z"></path>
       </svg>
       <span>Войти в кабинет</span>
     </a>
     <div class="m-filials">
-      <h3 class="m-filials__title">Наши филиалы:</h3>
+      <h3 class="m-filials__title">Наши телефоны:</h3>
       <ul class="m-filials__list">
         <li class="m-filials__item">
-          <p class="m-filials__name">Москва</p>
-          <a href="tel:84997053010" class="phone m-filials__link" >+7 (499) 705-30-10</a>
+          <p class="m-filials__name">Нурсултан</p>
+          <a href="tel:84997053010" class="phone m-filials__link" >+7 (702) 175-55-97</a>
         </li>
         <li class="m-filials__item">
-          <p class="m-filials__name">Санкт-Петербург</p>
-          <a href="tel:88126007733" class="phone m-filials__link" >+7 (812) 600-77-33</a>
+          <p class="m-filials__name">Аян</p>
+          <a href="tel:88126007733" class="phone m-filials__link" >+7 (775) 324-66-99</a>
         </li>
         <li class="m-filials__item">
-          <p class="m-filials__name">Россия (бесплатный)</p>
-          <a href="tel:88005556342" class="m-filials__link" >8 800 555-63-42</a>
+          <p class="m-filials__name">Санжар</p>
+          <a href="tel:88005556342" class="m-filials__link" >+7 (778) 111-53-23</a>
         </li>
       </ul>
     </div>

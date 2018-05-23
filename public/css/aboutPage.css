@@ -759,19 +759,19 @@ body {
     height: auto;
     margin: 0 0 32px 0;
 }
-.big-features__item--office, .big-features__item--since, .big-features__item--staff {
+.textblock1, .texblock2, .textblock3 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 230px;
     flex: 0 0 230px;
 }
-.big-features__item--office .big-features__inner:before, .big-features__item--since .big-features__inner:before, .big-features__item--staff .big-features__inner:before {
+.big-features__item .big-features__inner:before {
     width: 219px;
     height: 219px;
     top: -10px;
     left: -14px;
     border-width: 2px;
 }
-.big-features__item--office .big-features__inner:after, .big-features__item--since .big-features__inner:after, .big-features__item--staff .big-features__inner:after {
+.big-features__item .big-features__inner:after {
     width: 203px;
     height: 203px;
     top: 13px;
@@ -789,30 +789,30 @@ body {
     line-height: 100px;
     letter-spacing: -2px;
 }
-.big-features__item--since .big-features__text {
+.textblock1 .big-features__text {
     top: 74px;
     right: 17px;
 }
-.big-features__item--since .big-features__years-name {
+.textblock1 .big-features__years-name {
     font-size: 60px;
     font-weight: 700;
     line-height: 30px;
 }
-.big-features__item--office .big-features__text {
+.textblock2 .big-features__text {
     top: 74px;
     right: 18px;
 }
-.big-features__item--office .big-features__offices-name {
+.textblock2 .big-features__offices-name {
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: -.2px;
 }
-.big-features__item--staff .big-features__text {
+.textblock3 .big-features__text {
     top: 30px;
     right: 18px;
 }
-.big-features__item--staff .big-features__staff-text {
+.textblock3 .big-features__staff-text {
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;

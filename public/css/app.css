@@ -31,4 +31,12 @@
     width: 100%;
 }
 
+@media (max-width: 576px) {
+	
+.mapClass {
+	padding: 0px;
+}
+
+
+}
 

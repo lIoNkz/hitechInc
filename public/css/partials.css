@@ -228,7 +228,7 @@
     box-shadow: none;
 }
 .main-menu__btn._no-text {
-    padding: 10px;
+    padding: 7px;
 }
 .main-menu__btn svg {
     fill: #fff;
@@ -1702,35 +1702,13 @@
     width: 32px;
     height: 32px;
 }
-@font-face {
-    font-family: "Fira Sans";
-    font-weight: 300;
-    font-style: normal;
-    src: url(/g/fonts/fira_sans/fira_sans-l.eot);
-    src: url(/g/fonts/fira_sans/fira_sans-l.eot?#iefix) format("embedded-opentype"), url(/g/fonts/fira_sans/fira_sans-l.woff) format("woff"), url(/g/fonts/fira_sans/fira_sans-l.ttf) format("truetype"), url(/g/fonts/fira_sans/fira_sans-l.woff2), url("/g/fonts/fira_sans/fira_sans-l.svg#Fira Sans") format("svg");
-}
-@font-face {
-    font-family: "Fira Sans";
-    font-weight: 400;
-    font-style: normal;
-    src: url(/g/fonts/fira_sans/fira_sans-r.eot);
-    src: url(/g/fonts/fira_sans/fira_sans-r.eot?#iefix) format("embedded-opentype"), url(/g/fonts/fira_sans/fira_sans-r.woff) format("woff"), url(/g/fonts/fira_sans/fira_sans-r.ttf) format("truetype"), url(/g/fonts/fira_sans/fira_sans-r.woff2), url("/g/fonts/fira_sans/fira_sans-r.svg#Fira Sans") format("svg");
-}
-@font-face {
-    font-family: "Fira Sans";
-    font-weight: 500;
-    font-style: normal;
-    src: url(/g/fonts/fira_sans/fira_sans-m.eot);
-    src: url(/g/fonts/fira_sans/fira_sans-m.eot?#iefix) format("embedded-opentype"), url(/g/fonts/fira_sans/fira_sans-m.woff) format("woff"), url(/g/fonts/fira_sans/fira_sans-m.ttf) format("truetype"), url(/g/fonts/fira_sans/fira_sans-m.woff2), url("/g/fonts/fira_sans/fira_sans-m.svg#Fira Sans") format("svg");
-}
-@font-face {
-    font-family: "Fira Sans";
-    font-weight: 700;
-    font-style: normal;
-    src: url(/g/fonts/fira_sans/fira_sans-b.eot);
-    src: url(/g/fonts/fira_sans/fira_sans-b.eot?#iefix) format("embedded-opentype"), url(/g/fonts/fira_sans/fira_sans-b.woff) format("woff"), url(/g/fonts/fira_sans/fira_sans-b.ttf) format("truetype"), url(/g/fonts/fira_sans/fira_sans-b.woff2), url("/g/fonts/fira_sans/fira_sans-b.svg#Fira Sans") format("svg");
-}
+
 body, html {
     font-family: 'Fira Sans', sans-serif;
     color: #333;
+}
+
+/*======================================*/
+.js-m-aside {
+    z-index: 99999999;
 }

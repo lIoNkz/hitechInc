@@ -14,3 +14,7 @@
     <a href="{!! route('textblocks.index') !!}"><i class="fa fa-edit"></i><span>Textblocks</span></a>
 </li>
 
+<li class="{{ Request::is('siteprices*') ? 'active' : '' }}">
+    <a href="{!! route('siteprices.index') !!}"><i class="fa fa-edit"></i><span>Siteprices</span></a>
+</li>
+

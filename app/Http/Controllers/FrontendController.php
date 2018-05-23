@@ -5,6 +5,7 @@ use App\Models\Photo;
 use App\Models\Advantage;
 use App\Models\Review;
 use App\Models\Textblock;
+use App\Models\Siteprice;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -94,7 +95,7 @@ class FrontendController extends Controller
         $script = '';
         
         /*========= Queries =========*/
-        $portfolio = DB::table('photos')->where('photoable_type','App\Models\Portfolio')->paginate(5);   
+        $portfolio = DB::table('photos')->where('photoable_type','App\Models\Portfolio')->paginate(6);   
 
 
         return view('frontend.portfolio',compact('portfolio'))->with([
@@ -130,8 +131,9 @@ class FrontendController extends Controller
         $text9 = Textblock::where('theme_id','9')->get();
         $text10 = Textblock::where('theme_id','10')->get();
         $text11 = Textblock::where('theme_id','11')->get();
+        $siteprices = Siteprice::all();
 
-        return view('frontend.services', compact('text9','text10','text11'))->with([
+        return view('frontend.services', compact('text9','text10','text11','siteprices'))->with([
             'cssFile'=> $cssFile, 
             'script' => $script
         ]);

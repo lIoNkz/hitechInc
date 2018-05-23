@@ -3,17 +3,6 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="csrf-token" content="{{ csrf_token() }}" />
-	<meta name="description" content="">
-	<meta name="theme-color" content="#0c9737">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="keywords" content="создание сайтов, разработка сайтов, цена сайта, Шымкент, Казахстан, Астана, Алматы, заказ сайта, заказать сайт, сайт визитка, бизнес сайт, веб студия, hitech">
-  	<meta property="og:type" content="website">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="Веб-студия Hitech Inc">
-    <meta property="og:locale" content="ru_RU">
-    <meta property="og:url" content="https://qaz-tech.kz/">
-    <meta property="og:site_name" content="Hitech Inc">
 
 
 	<title>Создание и разработка сайтов в HITECH Inc – Шымкент</title>

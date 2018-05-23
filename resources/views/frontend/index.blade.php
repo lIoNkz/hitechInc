@@ -341,7 +341,7 @@
     {!! $text->text !!}
     @endforeach
     <div class="_center">
-      <a href="https://qaz-tech.kz/zakazsite" target="_blank" class="cd-btn cd-btn--L text-block__btn">Заказать сайт</a>
+      <a href="/order" target="_blank" class="cd-btn cd-btn--L text-block__btn">Заказать сайт</a>
     </div>
   </div>
 </div>

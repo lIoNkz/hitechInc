@@ -25,3 +25,5 @@ Route::resource('advantages', 'AdvantageAPIController');
 Route::resource('reviews', 'ReviewAPIController');
 
 Route::resource('textblocks', 'TextblockAPIController');
+
+Route::resource('siteprices', 'SitepriceAPIController');

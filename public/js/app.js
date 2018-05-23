@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	$(".js-header-slider").slick();	
 	$('.js-features-slider').slick({
 	  dots: true,
 	  arrows: false
@@ -37,5 +36,16 @@ $('.js-services-close').click(function() {
 	$('.js-services-popup').fadeOut();
 });
 
+/*================= Mobile Menu =================*/ 
+
+$('.js-menu-open').click(function() {
+	$('.js-m-aside').addClass('_opened');
+});
+$('.js-aside-close').click(function() {
+	$('.js-m-aside').removeClass('_opened');
+});
 
 
+$('.js-submenu').click(function() {
+	$('.js-submenu-list').slideToggle();
+});
