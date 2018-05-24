@@ -25,11 +25,13 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::resource('photos', 'PhotoController');
-
 Route::resource('advantages', 'AdvantageController');
-
 Route::resource('reviews', 'ReviewController');
-
 Route::resource('textblocks', 'TextblockController');
-
 Route::resource('siteprices', 'SitepriceController');
+
+//Delete image from advantage
+Route::delete('/destroy-advantage-photo-from-here//{id}', 'PhotoController@destroy_advantage')->name('destroy_advantage');
+// Image upload
+
+Route::post('/upload-images-to-the-server', 'PhotoController@upload')->name('upload');

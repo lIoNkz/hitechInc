@@ -1,4 +1,6 @@
-<!-- Id Field -->
+<div class="row"></div>
+<div class="col-md-7">
+ <!-- Id Field -->   
 <div class="form-group">
     {!! Form::label('id', 'Id:') !!}
     <p>{!! $photo->id !!}</p>
@@ -6,8 +8,8 @@
 
 <!-- Path Field -->
 <div class="form-group">
-    {!! Form::label('path', 'Path:') !!}
-    <p>{!! $photo->path !!}</p>
+    {!! Form::label('path', 'Filename:') !!}
+    <p></p>
 </div>
 
 <!-- Size Field -->
@@ -40,3 +42,9 @@
     <p>{!! $photo->updated_at !!}</p>
 </div>
 
+
+</div>
+<div class="col-md-5">
+    <img src="/img/{!! $photo->path !!}" alt="" style="width: 100%">
+</div>
+</div>

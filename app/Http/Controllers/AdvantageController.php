@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
+use App\Models\Photo;
 
 class AdvantageController extends AppBaseController
 {
@@ -80,8 +81,9 @@ class AdvantageController extends AppBaseController
 
             return redirect(route('advantages.index'));
         }
+        $photos = Photo::where(['photoable_type'=>'App\Models\Advantage','photoable_id'=>$id])->get();
 
-        return view('advantages.show')->with('advantage', $advantage);
+        return view('advantages.show',compact('photos'))->with('advantage', $advantage);
     }
 
     /**

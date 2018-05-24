@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 use Flash;
 use Prettus\Repository\Criteria\RequestCriteria;
 use Response;
+use App\Models\Photo;
 
 class PhotoController extends AppBaseController
 {
@@ -30,7 +31,8 @@ class PhotoController extends AppBaseController
     public function index(Request $request)
     {
         $this->photoRepository->pushCriteria(new RequestCriteria($request));
-        $photos = $this->photoRepository->all();
+        $unsorted = $this->photoRepository->all();
+        $photos = $unsorted->sortByDesc('id');
 
         return view('photos.index')
             ->with('photos', $photos);
@@ -143,17 +145,72 @@ class PhotoController extends AppBaseController
     public function destroy($id)
     {
         $photo = $this->photoRepository->findWithoutFail($id);
-
+        
         if (empty($photo)) {
             Flash::error('Photo not found');
 
             return redirect(route('photos.index'));
         }
 
+        $file = Photo::where('id', $id)->first();
+        unlink(public_path('img\\').$file->path);
         $this->photoRepository->delete($id);
 
         Flash::success('Photo deleted successfully.');
 
         return redirect(route('photos.index'));
     }
+
+    public function destroy_advantage($id,Request $request)
+    {
+        $photo = $this->photoRepository->findWithoutFail($id);
+        
+        if (empty($photo)) {
+            Flash::error('Photo not found');
+
+            return redirect(route('photos.index'));
+        }
+
+        $file = Photo::where('id', $id)->first();
+        unlink(public_path('img\\').$file->path);
+        $this->photoRepository->delete($id);
+
+        Flash::success('Photo deleted successfully.');
+
+        return redirect('/advantages/'.$request->advantage);
+    }
+
+    public function upload(Request $request)
+    {
+        $photoable_type = "App\Models\\".$request->photoable_type;
+        array_pull($request,'photoable_type');
+        array_add($request, 'photoable_type', $photoable_type);
+
+        $input = $request->all(); 
+
+        for($i = 0; $i < count($input['photos']); $i++) {
+            
+            $input['photoable_id'] = '99999';
+            $input['size'] = 'test';
+
+
+            $image = $request->file('photos')[$i];
+            $input2['imagename'] = time().$i.'.'.$image->getClientOriginalExtension();
+            $destinationPath = public_path('/img');
+            $image->move($destinationPath, $input2['imagename']);
+            $input['path'] =  $input2['imagename'];
+
+
+            $photo = $this->photoRepository->create($input);
+        }
+
+
+
+
+        Flash::success('Images saved successfully.');
+        return redirect(route('photos.index'));
+    }
+
+
+
 }
