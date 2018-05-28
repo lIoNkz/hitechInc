@@ -153,7 +153,7 @@ class PhotoController extends AppBaseController
         }
 
         $file = Photo::where('id', $id)->first();
-        unlink(public_path('img\\').$file->path);
+        unlink(public_path('img/').$file->path);
         $this->photoRepository->delete($id);
 
         Flash::success('Photo deleted successfully.');
@@ -172,7 +172,7 @@ class PhotoController extends AppBaseController
         }
 
         $file = Photo::where('id', $id)->first();
-        unlink(public_path('img\\').$file->path);
+        unlink(public_path('img/').$file->path);
         $this->photoRepository->delete($id);
 
         Flash::success('Photo deleted successfully.');
