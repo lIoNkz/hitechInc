@@ -19,13 +19,13 @@
 <!-- Info Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('info', 'Info:') !!}
-    {!! Form::textarea('info', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('info', null, ['class' => 'form-control', 'id' => 'mytextarea_siteprices1']) !!}
 </div>
 
 <!-- Image Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('image', 'Image:') !!}
-    {!! Form::textarea('image', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('image', null, ['class' => 'form-control', 'id' => 'mytextarea_siteprice2']) !!}
 </div>
 
 <!-- Submit Field -->

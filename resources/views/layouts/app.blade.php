@@ -5,6 +5,7 @@
     <title>InfyOm Generator</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script src="//cdn.ckeditor.com/4.9.2/standard/ckeditor.js"></script>
     <!-- Bootstrap 3.3.7 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -100,7 +101,7 @@
 
         <!-- Main Footer -->
         <footer class="main-footer" style="max-height: 100px;text-align: center">
-            <strong>Copyright © 2016 <a href="#">Company</a>.</strong> All rights reserved.
+            <strong>Copyright © 2018 <a href="#">HITECH Company</a>.</strong> All rights reserved.
         </footer>
 
     </div>
@@ -160,7 +161,25 @@
 
     <script src="/js/admin/icheck.min.js"></script>
     <script src="/js/admin/select2.min.js"></script>
-
+            <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace( 'mytextarea_textblocks', {
+                enterMode : CKEDITOR.ENTER_BR
+                });
+                CKEDITOR.replace( 'mytextarea_siteprices1', {
+                enterMode : CKEDITOR.ENTER_BR
+                });
+                CKEDITOR.replace( 'mytextarea_siteprice2', {
+                enterMode : CKEDITOR.ENTER_BR
+                });
+                CKEDITOR.replace( 'mytextarea_reviews', {
+                enterMode : CKEDITOR.ENTER_BR
+                });
+                CKEDITOR.replace( 'mytextarea_advantages', {
+                enterMode : CKEDITOR.ENTER_BR
+                });
+            </script>
 
     @yield('scripts')
 </body>
