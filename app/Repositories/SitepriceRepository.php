@@ -24,7 +24,8 @@ class SitepriceRepository extends BaseRepository
         'price',
         'old_price',
         'info',
-        'image'
+        'image',
+        'link'
     ];
 
     /**

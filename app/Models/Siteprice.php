@@ -31,7 +31,8 @@ class Siteprice extends Model
         'price',
         'old_price',
         'info',
-        'image'
+        'image',
+        'link'
     ];
 
     /**
@@ -44,7 +45,8 @@ class Siteprice extends Model
         'price' => 'string',
         'old_price' => 'string',
         'info' => 'string',
-        'image' => 'string'
+        'image' => 'string',
+        'link' => 'string'
     ];
 
     /**
@@ -55,7 +57,8 @@ class Siteprice extends Model
     public static $rules = [
         'title' => 'required',
         'price' => 'required',
-        'image' => 'required'
+        'image' => 'required',
+        'link' => 'required'
     ];
 
     

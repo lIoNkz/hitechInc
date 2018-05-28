@@ -13,8 +13,8 @@
     <ul class="switch__cards">
       @foreach($siteprices as $site)
             <li class="switch__card-item ">      
-              <a href="/pages_site" class="switch__card-wrapp">
-                <p class="switch__card-title">{!! $site->title !!}</p>
+              <a href="/razrabotka-saitov{!! $site->link !!}" class="switch__card-wrapp">
+                <h2 class="switch__card-title">{!! $site->title !!}</h2>
                   <div class="img switch__card-icon">{!! $site->image !!}</div>
                   <p class="switch__card-price">{!! $site->price !!}</p> 
                   <p class="switch__card-old-price">{!! $site->old_price !!}</p>           

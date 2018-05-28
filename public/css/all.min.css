@@ -1109,3 +1109,11 @@ template {
 }
 
 }
+
+.tariff__icon svg {
+    fill: cornflowerblue !important;
+}
+
+.center-h1 {
+    text-align: center;
+}

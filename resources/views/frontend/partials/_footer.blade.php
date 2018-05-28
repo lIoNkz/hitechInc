@@ -16,7 +16,7 @@
     <div class="footer__nav">
       <div class="footer__column">
         <div class="footer__group">
-          <p class="footer__group-title">Компания</p>
+          <h3 class="footer__group-title">Компания</h3>
           <p class="footer__group-link-wr">
             <a href="/about" class="footer__group-link">О qaz-tech.kz</a>
           </p>
@@ -31,67 +31,79 @@
           </p>
         </div>
         <div class="footer__group">
-          <p class="footer__group-title">Дизайн</p>
+          <h3 class="footer__group-title">Дизайн</h3>
           <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/catalog/solution" class="footer__group-link">Выбрать дизайн сайта</a>
+            <a href="/individual-design" class="footer__group-link">Индивидуальный дизайн сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/logotext" class="footer__group-link">Разработка логотипа</a>
+            <a href="/razrabotka-logotipa" class="footer__group-link">Разработка логотипа</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/portfolio" class="footer__group-link">Портфолио</a>
+            <a href="/portfolio" class="footer__group-link">Портфолио</a>
           </p>
         </div>
       </div>
       <div class="footer__column">
         <div class="footer__group">
-          <p class="footer__group-title">Тарифы и цены</p>
+          <h3 class="footer__group-title">Тарифы и цены</h3>
           <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/pages_site" class="footer__group-link">Сайт-Визитка</a>
-          </p>
-          <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/landing-page" class="footer__group-link">Лендинг пейдж</a>
+            <a href="/razrabotka-saitov/site-vizitka" class="footer__group-link">Сайт-Визитка</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/base_site" class="footer__group-link">Сайт-Бизнес</a>
-          </p>
-          <p class="footer__group-link-wr _inner">
-            <a href="#://qaz-tech.kz/base_site/personal" class="footer__group-link">Индивидуальный дизайн</a>
+            <a href="/razrabotka-saitov/landing-page" class="footer__group-link">Лендинг пейдж</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/base_shop" class="footer__group-link">Интернет-магазин</a>
+            <a href="/razrabotka-saitov/business-site" class="footer__group-link">Корпоративный сайт</a>
           </p>
-          <p class="footer__group-link-wr _inner">
-            <a href="#://qaz-tech.kz/base_shop/personal" class="footer__group-link">Индивидуальный дизайн</a>
+          <p class="footer__group-link-wr">
+            <a href="/razrabotka-saitov/internet-magazin" class="footer__group-link">Интернет-магазин</a>
+          </p>
+        </div>
+        <div class="footer__group">
+          <h3 class="footer__group-title">Услуги</h3>
+          <p class="footer__group-link-wr">
+            <a href="/razrabotka-saitov" class="footer__group-link">Разработка сайтов</a>
+          </p>
+          <p class="footer__group-link-wr">
+            <a href="/razrabotka-po" class="footer__group-link">Разработка ПО</a>
+          </p>
+          <p class="footer__group-link-wr">
+            <a href="/razrabotka-mobilnyh-prilozhenii" class="footer__group-link">Разработка мобильных приложений</a>
+          </p>
+          <p class="footer__group-link-wr">
+            <a href="/tech-support" class="footer__group-link">Техническая поддержка</a>
+          </p>
+          <p class="footer__group-link-wr">
+            <a href="/seo" class="footer__group-link">SEO продвижение</a>
           </p>
         </div>
       </div>
       <div class="footer__column">
         <div class="footer__group">
-          <p class="footer__group-title">SEO и продвижение</p>
+          <h3 class="footer__group-title">SEO и продвижение</h3>
           <p class="footer__group-link-wr">
-            <a href="/seo/google-adwords" target="_blank" rel="nofollow" class="footer__group-link">Google Adwords</a>
+            <a href="/seo/google-adwords"   class="footer__group-link">Google Adwords</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/yandex-direct" target="_blank" rel="nofollow" class="footer__group-link">Yandex Direct</a>
+            <a href="/seo/yandex-direct"  class="footer__group-link">Yandex Direct</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/optimizacia-saita" target="_blank" rel="nofollow" class="footer__group-link">Оптимизация сайта</a>
+            <a href="/seo/optimizacia-saita"   class="footer__group-link">Оптимизация сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/prodvizhenie-saita" target="_blank" rel="nofollow" class="footer__group-link">Продвижение сайта</a>
+            <a href="/seo/prodvizhenie-saita"   class="footer__group-link">Продвижение сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/contextnoe-prodvizhenie" target="_blank" rel="nofollow" class="footer__group-link">Контекстное продвижение</a>
+            <a href="/seo/contextnoe-prodvizhenie"  class="footer__group-link">Контекстное продвижение</a>
           </p>
         </div>
         <div class="footer__group">
-          <p class="footer__group-title">Продвижение в соц. сетях</p>
+          <h3 class="footer__group-title">Продвижение в соц. сетях</h3>
           <p class="footer__group-link-wr">
-            <a href="/seo/youtube" target="_blank" rel="nofollow" class="footer__group-link">Youtube продвижение</a>
+            <a href="/seo/youtube"   class="footer__group-link">Youtube продвижение</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/instagram" target="_blank" rel="nofollow" class="footer__group-link">Instagram продвижение</a>
+            <a href="/seo/instagram"   class="footer__group-link">Instagram продвижение</a>
           </p>
           <div class="cities">
             <p  class="footer-city">
@@ -108,30 +120,30 @@
       </div>
       <div class="footer__column">
         <div class="footer__group">
-          <p class="footer__group-title">Поддержка</p>
+          <h3 class="footer__group-title">Поддержка</h3>
           <p class="footer__group-link-wr">
-            <a href="http://help.qaz-tech.kz/?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Руководство пользователя</a>
+            <a href="#" target="_blank"  class="footer__group-link">Руководство пользователя</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/mailing" class="footer__group-link">Обучающая рассылка</a>
+            <a href="#" class="footer__group-link">Обучающая рассылка</a>
           </p>
           <div class="footer__socials">
-            <a href="#://vk.com/megagroup_ru?roistat_visit=8881314" rel="nofollow" target="_blank" class="img footer__social">
+            <a href="#"  target="_blank" class="img footer__social">
               <img src="/img/ic-vk.svg" alt="">
             </a>
-            <a href="#://www.youtube.com/megagrouptv?roistat_visit=8881314" rel="nofollow" target="_blank" class="img footer__social">
+            <a href="#"  target="_blank" class="img footer__social">
               <img src="/img/ic-youtube.svg" alt="">
             </a>
-            <a href="#://www.instagram.com/megagroup_ru/?roistat_visit=8881314" rel="nofollow" target="_blank" class="img footer__social">
+            <a href="#"  target="_blank" class="img footer__social">
               <img src="/img/ic-insta.svg" alt="">
             </a>
-            <a href="#://www.facebook.com/megarussia?roistat_visit=8881314" rel="nofollow" target="_blank" class="img footer__social">
+            <a href="#4"  target="_blank" class="img footer__social">
               <img src="/img/ic-fb.svg" alt="">
             </a>
             </a>
           </div>
           <div class="footer__callback">
-            <p class="footer__callback-title">Бесплатный звонок</p>
+            <p class="footer__callback-title">Позвоните по номеру</p>
                         	<a href="tel:88005556342" class="footer__callback-phone" >+7 (702) 175-55-97</a>
                       </div>
           <form class="footer__search js-search" action="#://qaz-tech.kz/search">

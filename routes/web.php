@@ -28,12 +28,36 @@ Route::get('/razrabotka-mobilnyh-prilozhenii', 'FrontendController@devMobileApps
 Route::get('/seo', 'FrontendController@seo');
 Route::get('/tech-support', 'FrontendController@techSupport');
 
+// ROUTES TO SEPARATE PAGE OF SITETYPES
+Route::prefix('razrabotka-saitov')->group(function () {
+	Route::get('/landing-page', 'FrontendController@lp');
+	Route::get('/business-site', 'FrontendController@corpsite');
+	Route::get('/site-vizitka', 'FrontendController@siteVizitka');
+	Route::get('/internet-magazin', 'FrontendController@onlineshop');
+});
+
+Route::prefix('seo')->group(function () {
+	Route::get('/google-adwords', 'FrontendController@adwords');
+	Route::get('/yandex-direct', 'FrontendController@yandex');
+	Route::get('/optimizacia-saita', 'FrontendController@optimization');
+	Route::get('/prodvizhenie-saita', 'FrontendController@prodvizhenie');
+	Route::get('/contextnoe-prodvizhenie', 'FrontendController@context');
+	Route::get('/youtube', 'FrontendController@youtube');
+	Route::get('/instagram', 'FrontendController@instagram');
+});
+
 // ROUTES ON FOOTER LINKS IN HEADER
 
 Route::get('/shymkent', 'FrontendController@shymkent');
 Route::get('/almaty', 'FrontendController@almaty');
 Route::get('/astana', 'FrontendController@astana');
 
+// OTHER ROUTES
+
+Route::get('/mission', 'FrontendController@mission');
+Route::get('/team', 'FrontendController@team');
+Route::get('/razrabotka-logotipa', 'FrontendController@logoDev');
+Route::get('/individual-design', 'FrontendController@individualDes');
 
 // ROUTES OF ADMIN PANEL
 Auth::routes();

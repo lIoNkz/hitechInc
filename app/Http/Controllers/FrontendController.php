@@ -22,6 +22,7 @@ class FrontendController extends Controller
         /*========= Queries =========*/
         $advantages = Advantage::with('photos')->get();
         $reviews = Review::take(10)->get();
+        $siteprices = Siteprice::all();
         // foreach ($advantages as $key => $advantage) {
         //     dd($advantage->photos->first()->path);
         // }
@@ -31,7 +32,7 @@ class FrontendController extends Controller
         $text3 = Textblock::where('theme_id','3')->get();
         $text4 = Textblock::where('theme_id','4')->get();
 
-    	return view('frontend.index', compact('advantages','reviews','text1','text2','text3','text4'))->with([
+    	return view('frontend.index', compact('advantages','reviews','siteprices','text1','text2','text3','text4'))->with([
             'cssFile'=> $cssFile, 
             'script' => $script
         ]);
@@ -241,5 +242,200 @@ class FrontendController extends Controller
             'cssFile'=> $cssFile, 
             'script' => $script
         ]);
+    }
+
+    public function onlineShop() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.onlineshop')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function siteVizitka() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.vizitka')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
     }   
+
+    public function corpsite() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.corpsite')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }   
+
+    public function lp() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.lp')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function context() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.context')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
+
+    public function prodvizhenie() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.prodvizhenie')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
+
+    public function optimization() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.optimization')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
+
+    public function yandex() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.yandex')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
+
+    public function adwords() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.adwords')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function youtube() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.youtube')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
+
+    public function instagram() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.instagram')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
+
+    public function mission() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.mission')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
+
+    public function team() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.team')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
+
+    public function logoDev() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.logoDev')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
+
+    public function individualDes() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.individualDes')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    } 
 }
