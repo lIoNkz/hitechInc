@@ -11,6 +11,7 @@
 |
 */
 
+// ROUTES ON TOP MENU LINKS IN HEADER
 Route::get('/', 'FrontendController@index');
 Route::get('/about', 'FrontendController@about');
 Route::get('/contacts', 'FrontendController@contacts');
@@ -19,7 +20,16 @@ Route::get('/portfolio', 'FrontendController@portfolio');
 Route::get('/testimonials', 'FrontendController@review');
 Route::get('/services', 'FrontendController@services');
 
+// ROUTES ON SUBMENU LINKS IN HEADER 
 
+Route::get('/dev-sites', 'FrontendController@devSites');
+Route::get('/dev-po', 'FrontendController@devPO');
+Route::get('/dev-mobile-apps', 'FrontendController@devMobileApps');
+Route::get('/seo', 'FrontendController@seo');
+Route::get('/tech-support', 'FrontendController@techSupport');
+
+
+// ROUTES OF ADMIN PANEL
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');

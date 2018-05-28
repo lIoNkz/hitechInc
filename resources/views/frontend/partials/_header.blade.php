@@ -191,15 +191,15 @@
     <div class="submenu__inner">
       <nav class="submenu__nav">
         <div class="submenu__item">
-          	<a href="/lp" class="submenu__link">Landing Page</a>
+          	<a href="/dev-sites" class="submenu__link">Разработка сайтов</a>
       	</div>
       	
       	<div class="submenu__item">
-          	<a href="/business" class="submenu__link">Корпоративный сайт</a>
+          	<a href="/dev-po" class="submenu__link">Разработка ПО</a>
       	</div>
       	
       	<div class="submenu__item">
-          	<a href="/store"" class="submenu__link">Интернет-магазин</a>
+          	<a href="/dev-mobile-apps"" class="submenu__link">Разработка моб. приложений</a>
       	</div>
       	
       	<div class="submenu__item">
@@ -207,12 +207,11 @@
       	</div>
       	
       	<div class="submenu__item">
-          	<a href="/support" class="submenu__link">Тех.поддержка</a>
+          	<a href="/tech-support" class="submenu__link">Тех.поддержка</a>
       	</div>
     	</nav>
       
-      <!--   -->
-      
+
       <a href="/order" class="cd-btn submenu__request-btn">Заказать сайт</a>
       </div>
   </div>

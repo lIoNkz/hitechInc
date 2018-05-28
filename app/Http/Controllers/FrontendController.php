@@ -138,4 +138,69 @@ class FrontendController extends Controller
             'script' => $script
         ]);
     }
+
+    public function seo() {
+        /*========= Add page's own style =========*/
+        $cssFile = '<link rel="stylesheet" href="/css/submenu.css">';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.seo')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function techSupport() {
+        /*========= Add page's own style =========*/
+        $cssFile = '<link rel="stylesheet" href="/css/submenu.css">';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.techSupport')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function devMobileApps() {
+        /*========= Add page's own style =========*/
+        $cssFile = '<link rel="stylesheet" href="/css/submenu.css">';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.devMobileApps')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function devPO() {
+        /*========= Add page's own style =========*/
+        $cssFile = '<link rel="stylesheet" href="/css/submenu.css">';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.devPO')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function devSites() {
+        /*========= Add page's own style =========*/
+        $cssFile = '<link rel="stylesheet" href="/css/submenu.css">';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.devSites')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
 }
