@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
     <section class="content-header">
         <h1 class="pull-left">Advantages</h1>
         <h1 class="pull-right">

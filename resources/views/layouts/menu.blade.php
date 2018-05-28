@@ -18,3 +18,7 @@
     <a href="{!! route('siteprices.index') !!}"><i class="fa fa-edit"></i><span>Типы сайтов</span></a>
 </li>
 
+<li class="{{ Request::is('metatags*') ? 'active' : '' }}">
+    <a href="{!! route('metatags.index') !!}"><i class="fa fa-edit"></i><span>Метатэги и Title</span></a>
+</li>
+

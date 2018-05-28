@@ -5,10 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<title>Создание и разработка сайтов в HITECH Inc – Шымкент</title>
+	@yield('meta')
 
+	
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-
+	
 
   	<link rel="stylesheet" href="/css/slick.min.css">
   	<link rel="stylesheet" href="/css/all.min.css">

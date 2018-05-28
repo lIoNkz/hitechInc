@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Metatag;
+
 
 class HomeController extends Controller
 {
@@ -24,5 +26,13 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+
+    public function search()
+    {
+        $url = request()->url;
+        $metatags = Metatag::where('url',$url)->get();
+        return view('metatags.index')
+            ->with('metatags', $metatags);
     }
 }
