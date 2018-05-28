@@ -64,45 +64,34 @@
           <p class="footer__group-link-wr _inner">
             <a href="#://qaz-tech.kz/base_shop/personal" class="footer__group-link">Индивидуальный дизайн</a>
           </p>
-                  </div>
-        <div class="footer__group">
-          <p class="footer__group-link-wr">
-            <a href="http://help.qaz-tech.kz/obzor-vozmozhnostey-cms-s3?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Возможности CMS</a>
-          </p>
-          <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/base_shop/features" class="footer__group-link">Возможности магазина</a>
-          </p>
         </div>
       </div>
       <div class="footer__column">
         <div class="footer__group">
-          <p class="footer__group-title">Наши сервисы</p>
+          <p class="footer__group-title">SEO и продвижение</p>
           <p class="footer__group-link-wr">
-            <a href="#://onicon.ru/?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Онлайн-консультант</a>
+            <a href="/seo/google-adwords" target="_blank" rel="nofollow" class="footer__group-link">Google Adwords</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="#://maliver.ru/?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Емайл-рассылки</a>
+            <a href="/seo/yandex-direct" target="_blank" rel="nofollow" class="footer__group-link">Yandex Direct</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="#://rekmala.ru/?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Контекстная реклама</a>
+            <a href="/seo/optimizacia-saita" target="_blank" rel="nofollow" class="footer__group-link">Оптимизация сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="http://xn----8sbg1acauhcdqcjfjcgj.xn--p1ai/?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Конструктор сайтов</a>
+            <a href="/seo/prodvizhenie-saita" target="_blank" rel="nofollow" class="footer__group-link">Продвижение сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="#://megacrm.ru/?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Управление клиентами</a>
+            <a href="/seo/contextnoe-prodvizhenie" target="_blank" rel="nofollow" class="footer__group-link">Контекстное продвижение</a>
           </p>
         </div>
         <div class="footer__group">
-          <p class="footer__group-title">SEO и продвижение</p>
+          <p class="footer__group-title">Продвижение в соц. сетях</p>
           <p class="footer__group-link-wr">
-            <a href="http://seo.qaz-tech.kz/optimizaciya-sayta?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Оптимизация сайта</a>
+            <a href="/seo/youtube" target="_blank" rel="nofollow" class="footer__group-link">Youtube продвижение</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="http://seo.qaz-tech.kz/prodvizhenie-sayta?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Продвижение сайта</a>
-          </p>
-          <p class="footer__group-link-wr">
-            <a href="http://context.qaz-tech.kz/?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Контекстное продвижение</a>
+            <a href="/seo/instagram" target="_blank" rel="nofollow" class="footer__group-link">Instagram продвижение</a>
           </p>
           <div class="cities">
             <p  class="footer-city">
