@@ -1083,3 +1083,29 @@ template {
     background-size: 50%;
     cursor: pointer;
 }
+
+.cities {
+    width: 230%;
+}
+.footer-city {
+    width: 32%;
+    display: inline-block;
+}
+.footer-city a {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #313131;
+    text-decoration: none;
+}
+
+.footer-city a:hover {
+    color: #0169d9;
+}
+
+@media (max-width: 992px) {
+.footer-city {
+    display: block;
+}
+
+}

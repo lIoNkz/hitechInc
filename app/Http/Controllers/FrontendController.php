@@ -203,4 +203,43 @@ class FrontendController extends Controller
             'script' => $script
         ]);
     }
+
+    public function shymkent() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.shymkent')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }
+
+    public function almaty() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.almaty')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }   
+
+    public function astana() {
+        /*========= Add page's own style =========*/
+        $cssFile = '';
+
+        /*========= Add page's  javascript =========*/
+        $script = '';
+
+        return view('frontend.astana')->with([
+            'cssFile'=> $cssFile, 
+            'script' => $script
+        ]);
+    }   
 }

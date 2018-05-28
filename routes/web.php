@@ -22,11 +22,17 @@ Route::get('/services', 'FrontendController@services');
 
 // ROUTES ON SUBMENU LINKS IN HEADER 
 
-Route::get('/dev-sites', 'FrontendController@devSites');
-Route::get('/dev-po', 'FrontendController@devPO');
-Route::get('/dev-mobile-apps', 'FrontendController@devMobileApps');
+Route::get('/razrabotka-saitov', 'FrontendController@devSites');
+Route::get('/razrabotka-po', 'FrontendController@devPO');
+Route::get('/razrabotka-mobilnyh-prilozhenii', 'FrontendController@devMobileApps');
 Route::get('/seo', 'FrontendController@seo');
 Route::get('/tech-support', 'FrontendController@techSupport');
+
+// ROUTES ON FOOTER LINKS IN HEADER
+
+Route::get('/shymkent', 'FrontendController@shymkent');
+Route::get('/almaty', 'FrontendController@almaty');
+Route::get('/astana', 'FrontendController@astana');
 
 
 // ROUTES OF ADMIN PANEL

@@ -191,15 +191,15 @@
     <div class="submenu__inner">
       <nav class="submenu__nav">
         <div class="submenu__item">
-          	<a href="/dev-sites" class="submenu__link">Разработка сайтов</a>
+          	<a href="/razrabotka-saitov" class="submenu__link">Разработка сайтов</a>
       	</div>
       	
       	<div class="submenu__item">
-          	<a href="/dev-po" class="submenu__link">Разработка ПО</a>
+          	<a href="/razrabotka-po" class="submenu__link">Разработка ПО</a>
       	</div>
       	
       	<div class="submenu__item">
-          	<a href="/dev-mobile-apps"" class="submenu__link">Разработка моб. приложений</a>
+          	<a href="/razrabotka-mobilnyh-prilozhenii" class="submenu__link">Разработка моб. приложений</a>
       	</div>
       	
       	<div class="submenu__item">

@@ -104,6 +104,17 @@
           <p class="footer__group-link-wr">
             <a href="http://context.qaz-tech.kz/?roistat_visit=8881314" target="_blank" rel="nofollow" class="footer__group-link">Контекстное продвижение</a>
           </p>
+          <div class="cities">
+            <p  class="footer-city">
+              <a href="/shymkent">Шымкент</a>
+            </p>
+            <p  class="footer-city">
+              <a href="/almaty">Алматы</a>
+            </p>
+            <p  class="footer-city">
+              <a href="/astana">Астана</a>
+            </p>
+          </div>
         </div>
       </div>
       <div class="footer__column">
@@ -140,15 +151,6 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill-rule="evenodd" stroke-miterlimit="1.414" clip-rule="evenodd" stroke-linejoin="round"><path fill-rule="nonzero" d="M12.5 20.25a8.75 8.75 0 1 1 8.21-5.717.75.75 0 0 1-1.407-.52 7.25 7.25 0 1 0-1.68 2.617.75.75 0 0 1 1.06 0l3.346 3.34a2.163 2.163 0 1 1-3.059 3.06l-1.5-1.5a.749.749 0 1 1 1.06-1.06l1.5 1.5a.663.663 0 1 0 .939-.938l-2.838-2.834A8.716 8.716 0 0 1 12.5 20.25z"></path></svg>
             </button>
           </form>
-          <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/msk" class="footer__group-link">Шымкент</a>
-          </p>
-          <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/spb" class="footer__group-link">Алматы</a>
-          </p>
-          <p class="footer__group-link-wr">
-            <a href="#://qaz-tech.kz/barnaul" class="footer__group-link">Астана</a>
-          </p>
         </div>
       </div>
     </div>
