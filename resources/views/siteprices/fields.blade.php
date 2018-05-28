@@ -25,7 +25,7 @@
 <!-- Image Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('image', 'Image:') !!}
-    {!! Form::textarea('image', null, ['class' => 'form-control', 'id' => 'mytextarea_siteprice2']) !!}
+    {!! Form::textarea('image', null, ['class' => 'form-control', 'id' => 'mytextarea_siteprices2']) !!}
 </div>
 
 <!-- Submit Field -->
@@ -33,3 +33,9 @@
     {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
     <a href="{!! route('siteprices.index') !!}" class="btn btn-default">Cancel</a>
 </div>
+
+<script>
+                    CKEDITOR.replace( 'mytextarea_siteprices1', {
+                enterMode : CKEDITOR.ENTER_BR
+                });
+</script>

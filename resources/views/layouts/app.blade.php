@@ -161,25 +161,6 @@
 
     <script src="/js/admin/icheck.min.js"></script>
     <script src="/js/admin/select2.min.js"></script>
-            <script>
-                // Replace the <textarea id="editor1"> with a CKEditor
-                // instance, using default configuration.
-                CKEDITOR.replace( 'mytextarea_textblocks', {
-                enterMode : CKEDITOR.ENTER_BR
-                });
-                CKEDITOR.replace( 'mytextarea_siteprices1', {
-                enterMode : CKEDITOR.ENTER_BR
-                });
-                CKEDITOR.replace( 'mytextarea_siteprice2', {
-                enterMode : CKEDITOR.ENTER_BR
-                });
-                CKEDITOR.replace( 'mytextarea_reviews', {
-                enterMode : CKEDITOR.ENTER_BR
-                });
-                CKEDITOR.replace( 'mytextarea_advantages', {
-                enterMode : CKEDITOR.ENTER_BR
-                });
-            </script>
 
     @yield('scripts')
 </body>

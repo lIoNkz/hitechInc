@@ -9,3 +9,9 @@
     {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
     <a href="{!! route('advantages.index') !!}" class="btn btn-default">Cancel</a>
 </div>
+<script>
+	CKEDITOR.replace( 'mytextarea_advantages', {
+                enterMode : CKEDITOR.ENTER_BR
+                });
+</script>
+                

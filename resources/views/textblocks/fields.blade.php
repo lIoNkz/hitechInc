@@ -21,3 +21,10 @@
     {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
     <a href="{!! route('textblocks.index') !!}" class="btn btn-default">Cancel</a>
 </div>
+
+<script>
+	                CKEDITOR.replace( 'mytextarea_textblocks', {
+                enterMode : CKEDITOR.ENTER_BR
+                });
+</script>
+
