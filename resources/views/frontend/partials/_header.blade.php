@@ -250,7 +250,7 @@
 					</a>
 				</li>
 				</ul>
-      </button>
+      </button> 
       <a href="https://qaz-tech.kz/zakazsite" class="cd-btn m-submenu__btn">Заказать cайт</a>
     </div>
   </div>
