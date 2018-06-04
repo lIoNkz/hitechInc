@@ -1,14 +1,3 @@
-$(document).ready(function() {
-	$('.js-features-slider').slick({
-	  dots: true,
-	  arrows: false
-	});
-	$('.js-feedback-slider').slick({
-	  dots: true,
-	  arrows: false
-	});
-});
-
 $('.js-show-login').click(function() {
 	$('.popup--login').fadeToggle();
 });
