@@ -225,3 +225,9 @@
     </div>
   </div>
 </nav>
+
+<div class="breadcrumbs wrapp submenu__wrapp">
+    <a href="/">Главная @if($breads->url != "/") <span>></span> @endif</a>  
+    {!! $breads->text !!}
+</div>
+

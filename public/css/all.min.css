@@ -1173,3 +1173,24 @@ and (min-width: 1200px) {
     }
 
 }
+
+
+.breadcrumbs {
+    height: 40px;
+}
+
+.breadcrumbs a {
+    display: block;
+    float: left;
+    line-height: 40px;
+    height: 20px;
+    padding-right: 5px;
+    color: #0fd755;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.breadcrumbs a:hover {
+    color: #1988ff;
+}

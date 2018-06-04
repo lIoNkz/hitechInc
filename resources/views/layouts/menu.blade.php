@@ -22,3 +22,7 @@
     <a href="{!! route('metatags.index') !!}"><i class="fa fa-edit"></i><span>Метатэги и Title</span></a>
 </li>
 
+<li class="{{ Request::is('breadcrumbs*') ? 'active' : '' }}">
+    <a href="{!! route('breadcrumbs.index') !!}"><i class="fa fa-edit"></i><span>Хлебные крошки</span></a>
+</li>
+

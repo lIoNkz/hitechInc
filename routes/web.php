@@ -81,3 +81,6 @@ Route::delete('/destroy-advantage-photo-from-here//{id}', 'PhotoController@destr
 
 Route::post('/upload-images-to-the-server', 'PhotoController@upload')->name('upload');
 
+
+
+Route::resource('breadcrumbs', 'BreadcrumbController');
