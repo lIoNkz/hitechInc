@@ -2137,3 +2137,66 @@ body {
 footer {
     padding-top: 40px;
 }
+
+
+/*** services block */ 
+
+.services-wrapp {
+    width: 100%;
+    min-height: 600px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-wrapp a {
+    display: block;
+    flex: 0 0 30%;
+    height: 300px;
+    background-color: #0eba4a;
+    margin-bottom: 2%;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.services-wrapp a:hover {
+    background-color: #ffa900;
+}
+
+
+.services-wrapp div {
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.services-wrapp div img {
+    padding-top: 5%;
+    max-width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+.services-wrapp div h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.services-wrapp div p {
+    text-align: center;
+    margin: 5px 0;    
+}
