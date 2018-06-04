@@ -19,10 +19,6 @@
 	      <a href="/testimonials" class="main-menu__link">Отзывы</a>
 	      <a href="/contacts" class="main-menu__link">Контакты</a>
 	    </nav>
-      <button class="main-menu__btn cd-btn cd-btn--S js-login-base js-show-login">
-        <img src="/img/icons/user.png" alt="" style="width: 26px;"> 
-        <span>Войти</span>
-      </button>
     </div>
 
     
@@ -58,26 +54,6 @@
   </div>
 </div>
 
-<div class="popup popup--login" data-popup="login">
-  <div class="services__close js-close-popup"></div>
-  <p class="popup__title">Кабинет пользователя</p>
-  <form action="https://cabinet.qaz-tech.kz/user/login" method="post" class="form" enctype="multipart/form-data">
-    <input type="hidden" name="_form" value="login_form">
-    <label class="form__field form__field--required">
-      <span class="form__field-title">E-mail</span>
-      <input type="text" class="form__input" name="email">
-    </label>
-    <label class="form__field form__field--required">
-      <span class="form__field-title">Пароль</span>
-      <a href="#" rel="nofollow" target="_blank" class="form__link">
-        Забыли пароль?
-      </a>
-      <input type="password" class="form__input" name="password">
-    </label>
-    <button class="cd-btn cd-btn--S form__btn">Вход</button>
-    <a href="https://cabinet.qaz-tech.kz/user/registration?roistat_visit=8881314" rel="nofollow" target="_blank" class=" form__btn cd-btn cd-btn--S _secondary ">Регистрация</a>
-  </form>
-</div>
 
 <aside class="m-menu js-m-aside js-aside-close">
   <div class="m-menu__wrap">
@@ -89,12 +65,6 @@
       <a href="/portfolio" class="m-nav__link">Портфолио</a>
       <a href="/contacts"  class="m-nav__link">Контакты</a>
     </nav>
-    <a href="#" class="m-menu__btn cd-btn _secondary _iconed js-show-login">
-      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
-        <path fill="#1ebc4e" d="M12.94 13.75c2.753 0 4.81-2.972 4.81-6.86 0-2.06-1.71-2.64-4.81-2.64-3.09 0-4.69.556-4.69 2.64 0 4.074 1.902 6.86 4.69 6.86zm0-8c2.284 0 3.31.348 3.31 1.14 0 3.152-1.528 5.36-3.31 5.36-1.811 0-3.19-2.02-3.19-5.36 0-.825.906-1.14 3.19-1.14zm8.432 13.129l.018.158a5.656 5.656 0 0 0-1.03-3.054 6.172 6.172 0 0 0-2.573-2.145.75.75 0 0 0-.63 1.362 4.674 4.674 0 0 1 1.96 1.625 4.615 4.615 0 0 1 .676 1.56 3.38 3.38 0 0 1 .097.66l.018.159a.836.836 0 0 1-.902 1.046H6.994a.84.84 0 0 1-.88-1.07l.014-.14a3.268 3.268 0 0 1 .12-.723 4.8 4.8 0 0 1 .858-1.733 5.614 5.614 0 0 1 1.799-1.494.75.75 0 1 0-.714-1.32 7.11 7.11 0 0 0-2.271 1.895 5.709 5.709 0 0 0-1.292 3.37l.014-.14a2.335 2.335 0 0 0 2.352 2.855h12.012a2.33 2.33 0 0 0 2.366-2.871z"></path>
-      </svg>
-      <span>Войти в кабинет</span>
-    </a>
     <div class="m-filials">
       <h3 class="m-filials__title">Наши телефоны:</h3>
       <ul class="m-filials__list">
