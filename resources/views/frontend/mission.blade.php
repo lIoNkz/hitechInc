@@ -1,4 +1,8 @@
 @extends('frontend.layouts.master')
+@section('styles')
+
+
+@endsection
 @section('meta')
 
 
@@ -12,6 +16,11 @@
 
 
 
+
+
+@endsection
+
+@section('scripts')
 
 
 @endsection

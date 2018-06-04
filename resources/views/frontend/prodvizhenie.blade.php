@@ -1,9 +1,16 @@
 @extends('frontend.layouts.master')
+
+
 @section('meta')
 
 
       <title>{{ $metadata->title }}</title>
       {!! $metadata->meta !!}
+
+@endsection
+
+@section('styles')
+
 
 @endsection
 @section('content')
@@ -12,6 +19,11 @@
 
 
 
+
+
+@endsection
+
+@section('scripts')
 
 
 @endsection

@@ -6,6 +6,10 @@
       {!! $metadata->meta !!}
 
 @endsection
+@section('styles')
+<link rel="stylesheet" href="/css/portfolioPage.css">
+
+@endsection
 @section('content')
 
 
@@ -39,6 +43,11 @@
 
 
 
+
+
+@endsection
+
+@section('scripts')
 
 
 @endsection

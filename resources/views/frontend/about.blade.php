@@ -6,6 +6,10 @@
       {!! $metadata->meta !!}
 
 @endsection
+@section('styles')
+
+  <link rel="stylesheet" href="/css/aboutPage.css">
+@endsection
 @section('content')
 
 
@@ -195,5 +199,10 @@
 </section>
 
 
+
+@endsection
+
+@section('scripts')
+<script  src="/js/slick.min.js"></script>
 
 @endsection

@@ -6,12 +6,21 @@
       {!! $metadata->meta !!}
 
 @endsection
+@section('styles')
+
+
+@endsection
 @section('content')
 
 <h1 class="center-h1">Мы в АСТАНЕ</h1>
 
 
 
+
+
+@endsection
+
+@section('scripts')
 
 
 @endsection

@@ -6,7 +6,6 @@
 
 
 	@yield('meta')
-
 	
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 	
@@ -14,9 +13,8 @@
   	<link rel="stylesheet" href="/css/slick.min.css">
   	<link rel="stylesheet" href="/css/all.min.css">
   	<link rel="stylesheet" href="/css/partials.css">
-	{!! $cssFile !!}
 	<link rel="stylesheet" href="/css/app.css">
-
+	@yield('styles')
 </head>
 <body class="cd-notouch">
 	
@@ -32,7 +30,7 @@
 
 
 	<script  src="/js/jquery-3.3.1.min.js"></script>
-	{!! $script !!}
+	@yield('scripts')
 	<script  src="/js/app.js"></script>
 </body>
 </html>

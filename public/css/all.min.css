@@ -1117,3 +1117,59 @@ template {
 .center-h1 {
     text-align: center;
 }
+
+
+._center {
+    text-align: center;
+}
+main .container {
+    margin: 0 auto;
+}
+
+@media only screen 
+and (max-width: 575px) {
+
+    main .container {
+        width: 100%;
+    }
+
+}
+
+@media only screen 
+and (min-width: 575px)
+and (max-width: 767px) {
+
+    main .container {
+        width: 560px;
+    }
+
+}
+
+@media only screen 
+and (min-width: 768px)
+and (max-width: 991px) {
+
+    main .container {
+        width: 740px;
+    }
+
+}
+
+@media only screen 
+and (min-width: 992px)
+and (max-width: 1199px) {
+
+    main .container {
+        width: 960px;
+    }
+
+}
+
+@media only screen 
+and (min-width: 1200px) {
+
+    main .container {
+        width: 1140px;
+    }
+
+}

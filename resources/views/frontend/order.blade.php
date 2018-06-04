@@ -6,6 +6,10 @@
       {!! $metadata->meta !!}
 
 @endsection
+@section('styles')
+<link rel="stylesheet" href="/css/orderPage.css">
+
+@endsection
 @section('content')
 
 <section class="main">
@@ -123,4 +127,10 @@
     </div>
 </div>
 
+@endsection
+
+@section('scripts')
+
+<script  src="/js/jquery.tooltip.js"></script>
+<script  src="/js/selectbox.js"></script>
 @endsection

@@ -34,6 +34,7 @@ Route::prefix('razrabotka-saitov')->group(function () {
 	Route::get('/business-site', 'FrontendController@corpsite');
 	Route::get('/site-vizitka', 'FrontendController@siteVizitka');
 	Route::get('/internet-magazin', 'FrontendController@onlineshop');
+	Route::get('/site-catalog', 'FrontendController@siteCatalog');
 });
 
 Route::prefix('seo')->group(function () {

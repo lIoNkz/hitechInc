@@ -6,6 +6,11 @@
       {!! $metadata->meta !!}
 
 @endsection
+@section('styles')
+<link rel="stylesheet" href="/css/reviewPage.css">
+
+@endsection
+
 @section('content')
 
 
@@ -36,5 +41,10 @@
         </div>
       {{ $reviews->links() }}
 </section>
+
+@endsection
+
+@section('scripts')
+
 
 @endsection

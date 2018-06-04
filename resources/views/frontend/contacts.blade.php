@@ -6,6 +6,10 @@
       {!! $metadata->meta !!}
 
 @endsection
+@section('styles')
+  <link rel="stylesheet" href="/css/contactsPage.css">
+
+@endsection
 @section('content')
 
 
@@ -81,5 +85,10 @@
     </ul>
   </div>
 </section>
+
+@endsection
+
+@section('scripts')
+
 
 @endsection

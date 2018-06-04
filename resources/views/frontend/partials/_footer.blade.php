@@ -58,6 +58,9 @@
           <p class="footer__group-link-wr">
             <a href="/razrabotka-saitov/internet-magazin" class="footer__group-link">Интернет-магазин</a>
           </p>
+          <p class="footer__group-link-wr">
+            <a href="/razrabotka-saitov/site-catalog" class="footer__group-link">Сайт каталог</a>
+          </p>
         </div>
         <div class="footer__group">
           <h3 class="footer__group-title">Услуги</h3>
@@ -94,7 +97,7 @@
             <a href="/seo/prodvizhenie-saita"   class="footer__group-link">Продвижение сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/contextnoe-prodvizhenie"  class="footer__group-link">Контекстное продвижение</a>
+            <a href="/seo/contextnoe-prodvizhenie"  class="footer__group-link">Контекстная реклама</a>
           </p>
         </div>
         <div class="footer__group">
