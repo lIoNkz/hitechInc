@@ -62,7 +62,7 @@
         <p>Оптимизация сайта</p>
       </div>
     </a> 
-    <a href="#socialss">
+    <a href="/reklama-v-socsetyah">
       <div>
         <img src="/img/icons/service-4.png" alt="">
         <h3>Реклама в соцсетях</h3>

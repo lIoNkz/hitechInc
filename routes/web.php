@@ -59,6 +59,7 @@ Route::get('/mission', 'FrontendController@mission');
 Route::get('/team', 'FrontendController@team');
 Route::get('/razrabotka-logotipa', 'FrontendController@logoDev');
 Route::get('/individual-design', 'FrontendController@individualDes');
+Route::get('/reklama-v-socsetyah', 'FrontendController@socialAdv');
 
 // ROUTES OF ADMIN PANEL
 Auth::routes();

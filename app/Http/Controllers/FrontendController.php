@@ -268,5 +268,12 @@ class FrontendController extends Controller
         $metadata = Metatag::where('url','/razrabotka-logotipa')->first(); // TODO I should change url
         $breads = Breadcrumb::where('url','/site-catalog')->first();         
         return view('frontend.siteCatalog', compact('metadata','breads'));
+    }
+
+    public function socialAdv() {
+        // Queries
+        $metadata = Metatag::where('url','/reklama-v-socsetyah')->first(); // TODO I should change url
+        $breads = Breadcrumb::where('url','/reklama-v-socsetyah')->first();         
+        return view('frontend.socialAdv', compact('metadata','breads'));
     } 
 }
