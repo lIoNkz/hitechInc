@@ -21,6 +21,14 @@
 		background-size: 100%;
 		
 	}
+	.center-h1 {
+		padding-top: 80px;
+		margin-top: 0;
+		padding-bottom: 40px;
+	}
+	main {
+		margin-top: -40px;
+	}
 </style>
 @endsection
 @section('content')
