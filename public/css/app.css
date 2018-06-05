@@ -83,6 +83,15 @@
 	}
 }
 
+
+@media (min-width: 1380px) {
+	.mm-banner {
+		width: 1320px;
+		box-sizing: border-box;
+		padding: 0 16px;
+	}
+}
+
 .mm-banner * {
 	color: #fff;
 }
@@ -92,4 +101,8 @@
 	margin-bottom: 10px;
 	margin-top: 30px;
 	font-family: "Fira Sans";
+}
+
+main {
+	margin-top: -40px;
 }
