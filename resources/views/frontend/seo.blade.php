@@ -14,6 +14,14 @@
 	background: url(../img/banner-seo.jpg);
 }
 </style>
+<style>
+	main {
+		background-image: url(/img/seo.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		
+	}
+</style>
 @endsection
 @section('content')
 
