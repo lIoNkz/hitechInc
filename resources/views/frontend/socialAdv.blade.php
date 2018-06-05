@@ -7,7 +7,11 @@
 
 @endsection
 @section('styles')
-
+<style>
+.main-menu {
+	background: url(../img/banner-social.jpg);
+}
+</style>
 
 @endsection
 @section('content')

@@ -40,3 +40,56 @@
 
 }
 
+
+.main-menu__wrapp {
+	max-height: 80px;
+}
+
+.main-menu {
+	height: 200px;
+	background: url(../img/banner-1.jpg);
+	background-size: 100% !important;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+}
+
+.mm-banner {
+	margin: 0 auto;
+	height: 120px;
+	width: 99%;
+}
+
+@media (min-width: 576px) {
+	.mm-banner {
+		width: 540px;
+	}
+}
+
+@media (min-width: 768px) {
+	.mm-banner {
+		width: 740px;
+	}
+}
+
+@media (min-width: 992px) {
+	.mm-banner {
+		width: 960px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.mm-banner {
+		width: 1140px;
+	}
+}
+
+.mm-banner * {
+	color: #fff;
+}
+
+.mm-banner h2 {
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-top: 30px;
+	font-family: "Fira Sans";
+}

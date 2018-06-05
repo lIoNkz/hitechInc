@@ -172,30 +172,7 @@ template {
 [hidden] {
     display: none;
 }
-@font-face {
-    font-weight: 300;
-    font-style: normal;
-    font-family: "Fira Sans";
-    src: url(../fonts/fira_sans-l.woff) format("woff");
-}
-@font-face {
-    font-weight: 400;
-    font-style: normal;
-    font-family: "Fira Sans";
-    src: url(../fonts/fira_sans-r.woff) format("woff");
-}
-@font-face {
-    font-weight: 500;
-    font-style: normal;
-    font-family: "Fira Sans";
-    src: url(../fonts/fira_sans-m.woff) format("woff");
-}
-@font-face {
-    font-weight: 700;
-    font-style: normal;
-    font-family: "Fira Sans";
-    src: url(../fonts/fira_sans-b.woff) format("woff");
-}
+
 .cd-hidden {
     display: none;
 }

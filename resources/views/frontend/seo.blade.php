@@ -9,6 +9,11 @@
 @section('styles')
 
 <link rel="stylesheet" href="/css/submenu.css">
+<style>
+.main-menu {
+	background: url(../img/banner-seo.jpg);
+}
+</style>
 @endsection
 @section('content')
 

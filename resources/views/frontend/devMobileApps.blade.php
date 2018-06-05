@@ -9,6 +9,14 @@
 @section('styles')
 <link rel="stylesheet" href="/css/submenu.css">
 
+<style>
+	main {
+		background-image: url(/img/devmob.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		
+	}
+</style>
 @endsection
 
 @section('content')
