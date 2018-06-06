@@ -4,7 +4,6 @@
 .main-menu {
     position: relative;
     z-index: 3;
-    background-color: #0aa440;
 }
 @media all and (min-width:600px) {
     .main-menu._noBg {

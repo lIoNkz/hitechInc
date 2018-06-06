@@ -22,7 +22,12 @@
 	}
 </style>
 @endsection
+@section('banner')
+<!-- 
+    <h2>Разработка Android и IOs приложений </h2>
+    <p>Создание приложений и разработка в том числе</p> -->
 
+@endsection
 @section('content')
 
 <div class="container">

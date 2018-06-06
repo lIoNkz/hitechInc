@@ -1,4 +1,5 @@
 <div class="main-menu">
+  <div class="wrappy">
   <div class="wrapp main-menu__wrapp">
     <a href="/" alt="qaz-tech.kz" class="img main-menu__logo hitech-logo">
       <img src="/img/hitech-logo-white.png" alt="">
@@ -20,7 +21,7 @@
 	      <a href="/contacts" class="main-menu__link">Контакты</a>
 	    </nav>
     </div>
-
+    
     
     <button class="main-menu__btn cd-btn cd-btn--S js-show-search _no-text">
       <img src="/img/icons/search.png" alt="" style="width: 20px;">
@@ -52,12 +53,15 @@
       </ul>
     </div>
   </div>
-  <div class="mm-banner">
-    <h2>Создание сайтов</h2>
-    <p>Создание сайтов и разработка в том числе</p>
   </div>
+  <div class="mm-banner">
+    @yield('banner')
+  </div>
+</div> <!-- main-menu end -->
+<div class="fixed-wrapp">
+  <div class="fixed-wall"></div>
 </div>
-
+<div class="fixed-space"></div>
 
 <aside class="m-menu js-m-aside js-aside-close">
   <div class="m-menu__wrap">

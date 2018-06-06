@@ -7,8 +7,26 @@
 
 @endsection
 @section('styles')
-
 <link rel="stylesheet" href="/css/submenu.css">
+
+<style>
+	main {
+		background-image: url(/img/devweb.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+	.center-h1 {
+		padding-top: 80px;
+		margin-top: 0;
+		padding-bottom: 40px;
+	}
+</style>
+@endsection
+@section('banner')
+
+<!--     <h2>Создание сайтов</h2>
+<p>Создание сайтов и разработка в том числе</p>
+ -->
 @endsection
 @section('content')
 

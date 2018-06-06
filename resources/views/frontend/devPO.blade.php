@@ -6,6 +6,12 @@
       {!! $metadata->meta !!}
 
 @endsection
+@section('banner')
+<!-- 
+    <h2>Разработка ПО для малого и среднего бизнеса</h2>
+    <p>На любом настольном ПК</p>
+ -->
+@endsection
 @section('styles')
 <link rel="stylesheet" href="/css/submenu.css">
 <style>
