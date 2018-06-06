@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="266.073mm" height="30.722mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 26607 3072"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#ED3237;stroke-width:20}
+    .str0 {stroke:#ED3237;stroke-width:7.62}
+    .fil1 {fill:none}
+    .fil0 {fill:#ED3237}
+   ]]>
+    svg .fil1,
+   svg .fil0 {
+    animation: transform 3s infinite;
+   }
+   @keyframes transform {
+      from {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(0.9);
+      }      
+      to {
+        transform: scale(1);
+      }
+   }
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_3004835728784">
+   <circle class="fil0 str0" cx="87" cy="2076" r="87"/>
+   <line class="fil1 str1" x1="85" y1="2057" x2="1055" y2= "58" />
+   <circle class="fil0 str0" cx="1055" cy="58" r="58"/>
+   <circle class="fil0 str0" cx="2645" cy="2167" r="101"/>
+   <line class="fil1 str1" x1="2645" y1="2167" x2="3763" y2= "922" />
+   <line class="fil1 str1" x1="2645" y1="2167" x2="1055" y2= "58" />
+   <circle class="fil0 str0" cx="3763" cy="922" r="58"/>
+   <circle class="fil0 str0" cx="5254" cy="2216" r="58"/>
+   <circle class="fil0 str0" cx="6625" cy="206" r="101"/>
+   <circle class="fil0 str0" cx="8079" cy="1742" r="94"/>
+   <circle class="fil0 str0" cx="9891" cy="646" r="71"/>
+   <circle class="fil0 str0" cx="11018" cy="2538" r="58"/>
+   <circle class="fil0 str0" cx="12957" cy="362" r="87"/>
+   <circle class="fil0 str0" cx="13714" cy="1817" r="58"/>
+   <circle class="fil0 str0" cx="15866" cy="469" r="94"/>
+   <circle class="fil0 str0" cx="17846" cy="2978" r="94"/>
+   <line class="fil1 str1" x1="5254" y1="2216" x2="6625" y2= "206" />
+   <line class="fil1 str1" x1="8079" y1="1742" x2="9891" y2= "646" />
+   <line class="fil1 str1" x1="11018" y1="2538" x2="12957" y2= "362" />
+   <line class="fil1 str1" x1="13714" y1="1817" x2="15866" y2= "469" />
+   <line class="fil1 str1" x1="5254" y1="2216" x2="3763" y2= "922" />
+   <line class="fil1 str1" x1="8079" y1="1742" x2="6625" y2= "206" />
+   <line class="fil1 str1" x1="11018" y1="2538" x2="9891" y2= "646" />
+   <line class="fil1 str1" x1="13714" y1="1817" x2="12957" y2= "362" />
+   <line class="fil1 str1" x1="17846" y1="2978" x2="15866" y2= "469" />
+   <circle class="fil0 str0" cx="18521" cy="584" r="87"/>
+   <line class="fil1 str1" x1="18519" y1="603" x2="19490" y2= "2602" />
+   <circle class="fil0 str0" cx="19489" cy="2602" r="58"/>
+   <circle class="fil0 str0" cx="21079" cy="493" r="101"/>
+   <line class="fil1 str1" x1="21079" y1="493" x2="22197" y2= "1739" />
+   <line class="fil1 str1" x1="21079" y1="493" x2="19490" y2= "2602" />
+   <circle class="fil0 str0" cx="22197" cy="1739" r="58"/>
+   <circle class="fil0 str0" cx="23688" cy="445" r="58"/>
+   <circle class="fil0 str0" cx="25059" cy="2455" r="101"/>
+   <circle class="fil0 str0" cx="26513" cy="918" r="94"/>
+   <line class="fil1 str1" x1="23688" y1="445" x2="25059" y2= "2455" />
+   <line class="fil1 str1" x1="23688" y1="445" x2="22197" y2= "1739" />
+   <line class="fil1 str1" x1="26513" y1="918" x2="25059" y2= "2455" />
+   <line class="fil1 str1" x1="18521" y1="584" x2="17846" y2= "2978" />
+  </g>
+ </g>
+</svg>

@@ -1,4 +1,13 @@
 <div class="main-menu">
+  <div class="animation_svg">
+
+  <embed src="/img/svg/line1.svg" class="svg_banner">
+  <embed src="/img/svg/line2.svg" class="svg_banner">
+  <embed src="/img/svg/line3.svg" class="svg_banner">
+  <embed src="/img/svg/line4.svg" class="svg_banner">
+
+
+  </div>
   <div class="wrappy">
   <div class="wrapp main-menu__wrapp">
     <a href="/" alt="qaz-tech.kz" class="img main-menu__logo hitech-logo">
