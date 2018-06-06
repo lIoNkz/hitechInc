@@ -14,14 +14,14 @@ viewBox="0 0 26607 3072"
    ]]>
        svg .fil1,
    svg .fil0 {
-    animation: transform 5s infinite;
+    animation: transform 9s infinite;
    }
    @keyframes transform {
       from {
         transform: scale(0.8);
       }
       50% {
-        transform: scale(1);
+        transform: scale(2);
       }      
       to {
         transform: scale(0.8);

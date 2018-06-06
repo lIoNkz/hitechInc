@@ -1,10 +1,10 @@
 <div class="main-menu">
   <div class="animation_svg">
 
-  <embed src="/img/svg/line1.svg" class="svg_banner">
-  <embed src="/img/svg/line2.svg" class="svg_banner">
-  <embed src="/img/svg/line3.svg" class="svg_banner">
-  <embed src="/img/svg/line4.svg" class="svg_banner">
+  <embed src="/img/svg/line1.svg" class="svg_banner svg11">
+  <embed src="/img/svg/line2.svg" class="svg_banner svg12">
+  <embed src="/img/svg/line3.svg" class="svg_banner svg13">
+  <embed src="/img/svg/line4.svg" class="svg_banner svg14">
 
 
   </div>
