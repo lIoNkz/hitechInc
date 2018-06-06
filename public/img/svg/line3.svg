@@ -7,10 +7,10 @@ viewBox="0 0 26607 3072"
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str1 {stroke:#F58634;stroke-width:20}
-    .str0 {stroke:#F58634;stroke-width:7.62}
+    .str1 {stroke:#EC268F;stroke-width:20}
+    .str0 {stroke:#EC268F;stroke-width:7.62}
     .fil1 {fill:none}
-    .fil0 {fill:#F58634}
+    .fil0 {fill:#EC268F}
    ]]>
        svg .fil1,
    svg .fil0 {

@@ -143,6 +143,15 @@ main {
 	-webkit-filter: brightness(50%);
 } 
 
+@media (max-width: 576px) {
+	.fixed-wrapp {
+		display: none;
+	}
+	.main-menu {
+		height: 60px !important;
+		background-color: #320276;
+	}
+}
 /************************ svg*****************/
 
 .svg_banner {
@@ -161,6 +170,7 @@ main {
 	margin: 0 auto;
 	overflow: hidden;
 	opacity: 0.1;
+	background-color: 
 }
 
 .svg11 {margin-top: -40px;}
