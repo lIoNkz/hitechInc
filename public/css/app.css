@@ -129,6 +129,7 @@ main {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
+	transition: 0.5s filter linear;
 }
 
 .fixed-space {
@@ -137,3 +138,7 @@ main {
 	display: none;
 }
 
+.filter-wall {
+	filter: brightness(50%);
+	-webkit-filter: brightness(50%);
+} 

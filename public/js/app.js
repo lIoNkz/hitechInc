@@ -44,6 +44,7 @@ $('.js-submenu').click(function() {
 	Banner fixing 
 ----------------------------------------*/
 if($(window).scrollTop() >= 120) {
+		$('.fixed-wall').addClass('filter-wall');
 		$('.main-menu').css({
 								'position':'fixed',
 								'height':'80px',
@@ -64,17 +65,14 @@ if($(window).scrollTop() >= 120) {
 						'z-index':'5555555'
 					});
 		$('.fixed-space').hide();
-		$('.fixed-wrapp').css({
-			'z-index':'-1',
-			'background-position':'center center',
-			'height':'200px'
-		});
+		$('.fixed-wall').removeClass('filter-wall');
 		$('.mm-banner').show();
 		console.log($(window).scrollTop());
 }
 
 $(window).scroll(function(){
 	if($(window).scrollTop() >= 120) {
+			$('.fixed-wall').addClass('filter-wall');
 			$('.main-menu').css({
 									'position':'fixed',
 									'height':'80px',
@@ -101,6 +99,7 @@ $(window).scroll(function(){
 				'height':'200px'
 			});
 			$('.mm-banner').show();
+			$('.fixed-wall').removeClass('filter-wall');
 			console.log($(window).scrollTop());
 	}
 });
