@@ -10,8 +10,8 @@
 
 <link rel="stylesheet" href="/css/submenu.css">
 <style>
-.main-menu {
-	background: url(../img/banner-seo.jpg);
+.fixed-wall {
+	background-image: url(/img/banner-seo.jpg) !important;
 }
 </style>
 <style>
@@ -19,7 +19,6 @@
 		background-image: url(/img/seo.jpg);
 		background-repeat: no-repeat;
 		background-size: 100%;
-		
 	}
 	.center-h1 {
 		padding-top: 80px;

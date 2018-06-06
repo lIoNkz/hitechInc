@@ -129,7 +129,7 @@ main {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
-	transition: 0.5s filter linear;
+	transition: 0.5s filter linear, 0.5s -webkit-filter linear;
 }
 
 .fixed-space {
