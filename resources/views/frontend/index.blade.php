@@ -8,7 +8,13 @@
 @endsection
 @section('styles')
   <link rel="stylesheet" href="/css/indexPage.css">
-
+  <style>
+    .main {
+      background-image: url(/img/main_bg.jpg);
+      background-size: 100%;
+      
+    }
+  </style>
 @endsection
 @section('content')
 
