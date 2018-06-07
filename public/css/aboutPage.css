@@ -979,3 +979,9 @@ body {
 .lp-cslider__card {
     margin: 0 auto;
 }
+
+/**services content ***/
+
+.services-content {
+    display: none;
+}

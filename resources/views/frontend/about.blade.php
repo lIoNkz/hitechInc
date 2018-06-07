@@ -204,5 +204,14 @@
 
 @section('scripts')
 <script  src="/js/slick.min.js"></script>
-
+<script>
+$(document).ready(function() {
+  $('.js-feedback-slider').slick({
+    dots: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000
+  });
+});
+</script>
 @endsection

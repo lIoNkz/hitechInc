@@ -2153,6 +2153,7 @@ footer {
     justify-content: space-between;
 }
 
+
 .services-wrapp a {
     display: block;
     flex: 0 0 30%;
@@ -2162,7 +2163,6 @@ footer {
     color: #fff;
     text-decoration: none;
 }
-
 
 .services-wrapp a:hover {
     background-color: #ffa900;
@@ -2200,3 +2200,16 @@ footer {
     text-align: center;
     margin: 5px 0;    
 }
+
+@media (max-width: 576px) {
+    .services-wrapp a {
+        height: 225px;
+        flex: 0 0 100%;
+    }
+    .services-wrapp div img {
+        max-width: 20%;
+    }
+
+}
+
+

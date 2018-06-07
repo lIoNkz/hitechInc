@@ -114,12 +114,12 @@ main {
 }
 
  @media (max-width: 576px) {
-	.wrappy {
-		position: static !important;
-	}
-	.main-menu {
-		position: static !important;
-	}
+/* 	.wrappy {
+	position: static !important;
+}
+.main-menu {
+	position: static !important;
+} */
 	.cities {
 		width: 100%;
 	}
@@ -158,14 +158,20 @@ main {
 	.fixed-wrapp {
 		display: none;
 	}
+	.fixed-space {
+		display: none !important;
+	}
 	.main-menu {
 		height: 60px !important;
-		background-color: #320276;
 	}
 	.main-menu__inner,
 	.animation_svg {
 		display: none;
 		
+	}
+	.wrappy {
+		background-color: #320276;
+		z-index: 999999;
 	}
 }
 /************************ svg*****************/
@@ -179,18 +185,45 @@ main {
 .animation_svg {
 	position: relative;
 	height: 80px;
-	width: 100%;
+	width: 200%;
+	left: -80%;
 	position: fixed;
 	top: 0;
 	visibility: hidden;
 	margin: 0 auto;
-	overflow: hidden;
+ 	overflow: hidden; 
 	opacity: 0.1;
-	background-color: 
+	perspective: 100%;
+
 }
 
 .svg11 {margin-top: -40px;}
-.svg12 {margin-top: -200px;margin-left: 50px;}
-.svg13 {margin-top: -360px;margin-left: 120px;}
-.svg14 {margin-top: -520px; margin-right: 50px;}
+.svg12 {margin-top: -200px;margin-left: 5%;}
+.svg13 {margin-top: -360px;margin-left: 20%;}
+.svg14 {margin-top: -520px; margin-right: 5%;}
 
+
+
+
+/* .hitech-logo {
+	perspective: 100px;
+}
+
+.hitech-logo img {
+    animation: transform 10s infinite;
+}
+
+   @keyframes transform {
+      from {
+        transform: rotateY(50deg) rotateX(0deg) rotateZ(10deg);
+      }
+      33% {
+		transform: rotateY(-70deg) rotateX(-50deg) rotateZ(-20deg);
+      }
+      66% {
+        transform: rotateY(-20deg) rotateX(0deg) rotateZ(-10deg);
+      }      
+      to {
+        transform: rotateY(50deg)  rotateZ(10deg); 
+      }
+   } */
