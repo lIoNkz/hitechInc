@@ -227,3 +227,17 @@ main {
         transform: rotateY(50deg)  rotateZ(10deg); 
       }
    } */
+
+
+.main_svg {
+	width: 90%;
+}
+.main_svg_img {
+	width: 100%;
+}
+
+@media (min-width: 1200px) {
+	.main_svg {
+		margin-left: 5%;
+	}
+}

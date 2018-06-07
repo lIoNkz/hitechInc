@@ -174,7 +174,7 @@
         </label>
       </div>
       <button class="cd-btn cd-btn--L request__btn">Заказать звонок</button>
-      <p class="request__note">Оставляя заявку, вы принимаете <a href="https://megagroup.ru/privacy" target="_blank">политику конфиденциальности</a></p>
+
     </form>
   </div>
 </section>

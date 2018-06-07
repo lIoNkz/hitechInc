@@ -458,6 +458,7 @@ body {
 }
 @media all and (min-width:600px) {
     .counter__text {
+        margin-top: 30px;
     font-size: 16px;
 }
 }.counter__inner {

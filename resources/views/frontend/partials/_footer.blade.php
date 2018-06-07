@@ -11,7 +11,6 @@
 
       </div>
       <p class="footer__copy">© 2015–2018</p>
-      <a href="#://qaz-tech.kz/privacy" class="footer__privacy-link">Политика конфиденциальности</a>
     </div>
     <div class="footer__nav">
       <div class="footer__column">

@@ -28,9 +28,10 @@
       </div>
     @endforeach
       <div class="counter">
-        <p class="counter__text">За 3 года мы сделали</p>
-        <p class="counter__inner js-sites-counter"><ins>1</ins><ins>2</ins><ins>2</ins><ins>8</ins></p>
-        <p class="counter__text js-sites-counter-text">сайтов</p>
+          <div class="main_svg">
+            <embed src="/img/svg/main.svg" class="main_svg_img">
+          </div>
+        <p class="counter__text">За 3 года мы сделали <a style="font-size: 30px;">467</a> сайтов</p>
       </div>
     </div>
   </div>
