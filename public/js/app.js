@@ -6,6 +6,7 @@ $('.js-close-popup').click(function() {
 	$('.popup--login').fadeOut();
 	$('.js-main-search').fadeOut();
 	$('.popup--location').fadeOut();
+	$('.submenu__request-btn').show();	
 
 });
 
@@ -15,6 +16,7 @@ $('.js-show-search').click(function() {
 
 $('.js-show-location').click(function() {
 	$('.popup--location').fadeToggle();
+	$('.submenu__request-btn').hide();
 });
 
 $('.js-services').click(function() {
