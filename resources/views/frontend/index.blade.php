@@ -12,7 +12,7 @@
     .main {
       background-image: url(/img/main_bg.jpg);
       background-size: 100%;
-      
+      background-repeat: no-repeat;
     }
   </style>
 @endsection
