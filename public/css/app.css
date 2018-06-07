@@ -113,6 +113,17 @@ main {
 	position: fixed;
 }
 
+ @media (max-width: 576px) {
+	.wrappy {
+		position: static !important;
+	}
+	.main-menu {
+		position: static !important;
+	}
+	.cities {
+		width: 100%;
+	}
+} 
 
 .fixed-wrapp {
 	width: 100%;
@@ -150,6 +161,11 @@ main {
 	.main-menu {
 		height: 60px !important;
 		background-color: #320276;
+	}
+	.main-menu__inner,
+	.animation_svg {
+		display: none;
+		
 	}
 }
 /************************ svg*****************/

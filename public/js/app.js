@@ -107,3 +107,8 @@ $(window).scroll(function(){
 			console.log($(window).scrollTop());
 	}
 });
+
+/*if($( window ).width() <= 576){
+	$('.main-menu').css({'position','static !important'});
+}
+*/
