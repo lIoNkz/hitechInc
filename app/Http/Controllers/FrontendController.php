@@ -91,6 +91,14 @@ class FrontendController extends Controller
         return view('frontend.services', compact('text9','text10','text11','siteprices','metadata','breads'));
     }
 
+    public function blog() {
+        /*========= Queries =========*/
+        $metadata = Metatag::where('url','/services')->first(); // TODO change link
+        $breads = Breadcrumb::where('url','/services')->first(); // TODO change link
+
+        return view('frontend.blog', compact('metadata','breads'));
+    }
+
     public function seo() {
         // Queries
         $metadata = Metatag::where('url','/seo')->first();
