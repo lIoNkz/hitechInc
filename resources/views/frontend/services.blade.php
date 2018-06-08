@@ -19,7 +19,7 @@
     <h1 class="h2 pp-switch__title">Цены на создание сайтов</h1>
     <p class="pp-switch__subtitle">Узнайте сколько будет стоить разработка сайта «под ключ» — всё от Визитки до Интернет-Магазина</p>
     <div class="_center">
-      <a href="/d/738331/d/mega_price-list.pdf" target="_blank" class="cd-btn">Прайс-лист PDF</a>
+      <a href="/files/pdf/price-list.pdf" target="_blank" class="cd-btn">Прайс-лист PDF</a>
     </div>
     <ul class="switch__cards">
       @foreach($siteprices as $site)
