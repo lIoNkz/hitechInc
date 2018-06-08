@@ -14,6 +14,7 @@
       background-size: 100%;
       background-repeat: no-repeat;
     }
+
   </style>
 @endsection
 @section('content')

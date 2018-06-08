@@ -41,6 +41,7 @@
             <select name="photoable_type">
                 <option value="Advantage">Advantage</option>
                 <option value="Undefined">Undefined</option>
+                <option value="Review">Review</option>
                 <option value="Portfolio">Portfolio</option>
             </select>
             <br /> 

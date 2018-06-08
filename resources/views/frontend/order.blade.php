@@ -62,17 +62,23 @@
 
                </span>
                <span class="cd-selectbox__list" style="display: none;">
-               <span data-id="1" class="cd-selectbox__item">Сайт-Визитка — 2 950 ₽</span>
-               <span data-id="12" class="cd-selectbox__item">Посадочная страница — 5 950 ₽</span>
-               
-               <span class="cd-selectbox__test">Сайт Бизнес</span>
-               <span data-id="3" class="cd-selectbox__item">Готовые сайты — 5 950 ₽</span>
-               <span data-id="4" class="cd-selectbox__item">Дизайн на выбор — 7 950 ₽</span>
-               <span data-id="5" class="cd-selectbox__item">Индивидуальный — 9 950 ₽</span>
-               
-               <span class="cd-selectbox__test">Интернет магазин</span>
-               <span data-id="7" class="cd-selectbox__item">Готовый магазин — 9 950 ₽</span>
-                              <span data-id="9" class="cd-selectbox__item">Индивидуальный — 24 950 ₽</span>
+               <span class="cd-selectbox__test">Сайт</span>
+              <span data-id="3" class="cd-selectbox__item">Сайт-визитка — 15 950 тг</span>
+               <span data-id="4" class="cd-selectbox__item">Landing Page — 27 950 тг</span>
+               <span data-id="5" class="cd-selectbox__item">Интернет магазин — 99 950 тг</span>
+               <span data-id="5" class="cd-selectbox__item">Корпоративный сайт — 99 950 тг</span>
+               <span data-id="5" class="cd-selectbox__item">Сайт-каталог — 99 950 тг</span>
+               <span data-id="5" class="cd-selectbox__item">Техническая поддержка вашего сайта</span>
+               <span class="cd-selectbox__test">SEO</span>
+               <span data-id="3" class="cd-selectbox__item">Контекстная реклама</span>
+               <span data-id="4" class="cd-selectbox__item">Реклама в соцсетях</span>
+               <span data-id="5" class="cd-selectbox__item">Видеообъявления в Youtube</span>
+               <span class="cd-selectbox__test">Мобильное приложение</span>
+               <span data-id="3" class="cd-selectbox__item">Разработка в Android</span>
+               <span data-id="3" class="cd-selectbox__item">Разработка в IOs</span>
+               <span class="cd-selectbox__test">Программное обеспечение</span>
+               <span data-id="3" class="cd-selectbox__item">Разработка ПО для Windows</span>
+               <span data-id="3" class="cd-selectbox__item">Разработка ПО для Mac</span>
              </span>
            </span>
                     </label>

@@ -51,5 +51,8 @@ class Review extends Model
         'name' => 'required'
     ];
 
-    
+    public function photos()
+    {
+        return $this->morphMany('App\Models\Photo', 'photoable');
+    }
 }

@@ -71,7 +71,8 @@ class FrontendController extends Controller
 
     public function review() {
         /*========= Queries =========*/
-        $reviews = DB::table('reviews')->paginate(2);
+        //$reviews = DB::table('reviews')->paginate(2);
+        $reviews = Review::with('photos')->paginate(2);
         $metadata = Metatag::where('url','/testimonials')->first();
         $breads = Breadcrumb::where('url','/testimonials')->first();
 

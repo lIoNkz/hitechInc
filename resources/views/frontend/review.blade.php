@@ -28,6 +28,9 @@
             @foreach($reviews as $review)
               <li class="reviews__item">
                 <div class="reviews__item-inner">
+                @if (!$review->photos->isEmpty())
+                  <img src="/img/{{ $review->photos->first()->path }}" alt="" class="review_img">
+                @endif
                   <div class="reviews__title">
                     {!! $review->name !!}  @if($review->site != "") , @endif {!! $review->site !!}
                   </div>

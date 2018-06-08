@@ -97,15 +97,18 @@ viewBox="0 0 15335 15201"
     .fil27 {fill:#C4A8E0;fill-rule:nonzero}
     .fnt0 {font-weight:bold;font-size:1393.08px;font-family:'Verdana'}
     .test {
-      cursor:pointer
+      transition: transform 1s;
+    }
+    .test:hover {
+      transform: scale(0.9);
     }
    ]]>
   </style>
  </defs>
- <g id="Слой_x0020_1">
+ <g id="Слой_x0020_1" class="test">
   <metadata id="CorelCorpID_0Corel-Layer"/>
   <g id="_3062367676544">
-   <g class="test">
+   <g>
     <polygon class="fil0" points="10813,11775 9180,12717 9180,12888 10813,11946 "/>
     <polygon class="fil1" points="9101,12671 9101,12841 9180,12888 9180,12717 "/>
     <polygon class="fil2" points="10733,11729 9101,12671 9180,12717 10813,11775 "/>
