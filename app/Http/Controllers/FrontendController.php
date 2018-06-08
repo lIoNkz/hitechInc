@@ -8,7 +8,8 @@ use App\Models\Textblock;
 use App\Models\Siteprice;
 use App\Models\Metatag;
 use App\Models\Breadcrumb;
-
+use App\Mail\OrderFromSite;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -284,5 +285,17 @@ class FrontendController extends Controller
         $metadata = Metatag::where('url','/reklama-v-socsetyah')->first(); // TODO I should change url
         $breads = Breadcrumb::where('url','/reklama-v-socsetyah')->first();         
         return view('frontend.socialAdv', compact('metadata','breads'));
-    } 
+    }
+
+    public function mail_order(Request $request)
+    {
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'phone' => $request->phone
+        ];
+
+        Mail::to(env('MAIL_TO'))->send(new OrderFromSite($data));
+        return view('frontend.success')->with('text','Ваша заявка оправлена!');
+    }
 }

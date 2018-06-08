@@ -62,6 +62,10 @@ Route::get('/razrabotka-logotipa', 'FrontendController@logoDev');
 Route::get('/individual-design', 'FrontendController@individualDes');
 Route::get('/reklama-v-socsetyah', 'FrontendController@socialAdv');
 
+// ROUTES MAIL 
+
+Route::post('/order/sendmail', 'FrontendController@mail_order')->name('mail_order');
+
 // ROUTES OF ADMIN PANEL
 Auth::routes();
 
