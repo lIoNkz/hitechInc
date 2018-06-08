@@ -32,29 +32,29 @@
             <div class="form__outer">
                 <div class="form__inner">
                     <label class="cd-input cd-input--required js-required">
-                        <input type="text" class="cd-input__input" name="name" placeholder="например, Иван Петрович Сидоров">
+                        <input type="text" class="cd-input__input" name="name" placeholder="Ваше имя">
                         <span class="cd-input__text">
           <span class="cd-input__label">Как вас зовут?</span>
           <span class="cd-input__error">Ошибка ввода</span>
         </span>
                     </label>
                     <label class="cd-input cd-input--required js-required">
-                        <input type="text" class="cd-input__input" name="d[2]" data-type="phone" placeholder="8 (ххх) ххх-хх-хх">
+                        <input type="text" class="cd-input__input" name="d[2]" data-type="phone" placeholder="+7 (ххх) ххх-хх-хх">
                         <span class="cd-input__text">
           <span class="cd-input__label">Телефон (с кодом города)</span>
           <span class="cd-input__error">Ошибка ввода</span>
         </span>
                     </label>
                     <label class="cd-input">
-                        <input type="text" class="cd-input__input" name="d[3]" data-type="email" placeholder="ivan@example.ru">
+                        <input type="text" class="cd-input__input" name="d[3]" data-type="email" placeholder="Ваша почта">
                         <span class="cd-input__text">
-             <span class="cd-input__label">E-mail (желательно)</span>
+             <span class="cd-input__label">E-mail</span>
              <span class="cd-input__error">Ошибка ввода</span>
            </span>
                     </label>
                     <label class="cd-selectbox cd-selectbox--required">
                         <span class="cd-selectbox__label">Тип сайта</span>
-                        <input type="hidden" class="js-selectbox" name="d[6]" value="выберу после разговора с менеджером
+                        <input type="hidden" class="js-selectbox" name="d" value="выберу после разговора с менеджером
 ">
                         <span class="cd-selectbox__select">
                <span class="cd-selectbox__selected">
@@ -107,15 +107,6 @@
                 <button class="cd-btn form__send-btn js-form">Отправить заявку</button>
                 <label class="cd-checkbox cd-checkbox--required form__checkbox">
                     <input type="checkbox" checked="" class="cd-hidden" name="d[15]" required="">
-                    <span class="cd-checkbox__pseudo-wr">
-            <span class="cd-checkbox__pseudo">
-              <svg class="cd-checkbox__indeterminate" xmlns="http://www.w3.org/2000/svg" version="1.1" width="8.5" height="7.5" viewBox="0 0 8.5 7.5">
-                  <path d="M13.5 8H8V13" fill-opacity="0" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="50" stroke-width="2.5" transform="matrix(1,0,0,1,-6.75,-6.75)"></path>
-              </svg>
-              <svg class="cd-checkbox__check" xmlns="http://www.w3.org/2000/svg" version="1.1" width="14.5" height="11.5" viewBox="0 0 14.5 11.5">
-                  <path d="M20 7L12 16L8 12" fill-opacity="0" fill="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="1" stroke="#fff" stroke-miterlimit="50" stroke-width="2.5" transform="matrix(1,0,0,1,-6.75,-5.75)"></path>
-              </svg>
-            </span>
                 </label>
             </div>
                         <div class="form__note">

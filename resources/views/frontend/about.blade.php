@@ -159,17 +159,17 @@
     <form class="request__form js-form" data-form_id="107761241">
       <div class="request__form-inner">
         <label class="request__input cd-input cd-input--required js-required">
-          <input type="text" class="cd-input__input" name="d[0]" placeholder="например, Иван Петрович Сидоров">
+          <input type="text" class="cd-input__input" name="d[0]" placeholder="Ваше имя">
           <span class="cd-input__text">
-          <span class="cd-input__label">Представьтесь</span>
-          <span class="cd-input__error">Ошибка ввода</span>
+          <span class="cd-input__label">Как вам обращаться</span>
+          <span class="cd-input__error">Ошибка ввода имени</span>
         </span>
         </label>
         <label class="request__input cd-input cd-input--required js-required">
           <input type="text" class="cd-input__input" name="d[1]" data-type="phone" placeholder="+7 (***) ***-**-**">
           <span class="cd-input__text">
           <span class="cd-input__label">Ваш телефон</span>
-          <span class="cd-input__error">Ошибка ввода</span>
+          <span class="cd-input__error">Ошибка ввода телефона</span>
         </span>
         </label>
       </div>
