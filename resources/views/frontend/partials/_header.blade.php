@@ -114,35 +114,32 @@
   <div class="services__inner">
     <div class="services__layout">
       <div class="services__list">
-        <p class="services__list-title">сайты</p>
+        <p class="services__list-title">Cайты</p>
         <div class="services__list-inner">
-          <a href="/services" class="services__list-link">Услуги</a>
-          <a href="/lp" class="services__list-link">Landing Page</a>
-          <a href="/business" class="services__list-link">Корпоративный сайт</a>
-          <a href="/store" class="services__list-link">Интернет-магазин</a>
-          <a href="/seo" class="services__list-link">SEO</a>
-          <a href="/support" class="services__list-link">Тех.поддержка</a>
+          <a href="/razrabotka-saitov/site-vizitka" class="services__list-link">Сайт-визитка</a>
+          <a href="/razrabotka-saitov/landing-page" class="services__list-link">Landing Page</a>
+          <a href="/razrabotka-saitov/business-site" class="services__list-link">Корпоративный сайт</a>
+          <a href="/razrabotka-saitov/internet-magazin" class="services__list-link">Интернет-магазин</a>
+          <a href="/razrabotka-saitov/site-catalog" class="services__list-link">Сайт-каталог</a>
+          <a href="/tech-support" class="services__list-link">Тех.поддержка</a>
         </div>
       </div>
       <div class="services__list">
-        <p class="services__list-title">Курсы</p>
+        <p class="services__list-title">Наши сервисы</p>
         <div class="services__list-inner">
-          <a href="/school" class="services__list-link">Школа программирования</a>
-        </div>
-      </div>
-      <div class="services__list">
-        <p class="services__list-title">помощь</p>
-        <div class="services__list-inner">
-          <a href="/faq" class="services__list-link">Часто задаваемые вопросы</a>
+          <a href="https://hitech-school.kz" class="services__list-link">Школа программирования</a>
+          <a href="https://hitech-vr.kz" class="services__list-link">VR and AR</a>
         </div>
       </div>
     </div>
     <div class="services__layout">
       <div class="services__list">
-        <p class="services__list-title">интернет-маркетинг</p>
+        <p class="services__list-title">Интернет-маркетинг</p>
         <div class="services__list-inner">
-          <a href="https://qaz-tech.kz/site-key" class="services__list-link">Сайт «под ключ»</a>
-          <a href="https://qaz-tech.kz/brb" class="services__list-link">Быстрое развитие бизнеса</a>
+          <a href="/seo" class="services__list-link">SEO</a>
+          <a href="/seo/contextnoe-prodvizhenie" class="services__list-link">Контекстная реклама</a>
+          <a href="/seo/optimizacia-saita" class="services__list-link">Оптимизация сайта</a>
+          <a href="/seo/prodvizhenie-saita" class="services__list-link">Продвижение сайта</a>
         </div>
       </div>
       <div class="services__list">
@@ -156,18 +153,24 @@
     <div class="services__layout">
       <div class="services__layout-inner">
         <div class="services__list">
-          <p class="services__list-title">полезное</p>
+          <p class="services__list-title">Услуги</p>
           <div class="services__list-inner">
-            <a href="https://qaz-tech.kz/mailing" class="services__list-link">Обучающая рассылка</a>
-            <a href="https://qaz-tech.kz/marketing-infografika" class="services__list-link">Маркетинг. Инфографика</a>
-            <a href="https://qaz-tech.kz/4k-marketing" class="services__list-link">4 шага к успеху вашего бизнеса</a>
+              <a href="/razrabotka-saitov" class="services__list-link">Разработка сайтов</a>
+              <a href="/razrabotka-po" class="services__list-link">Разработка ПО</a>
+              <a href="/razrabotka-mobilnyh-prilozhenii" class="services__list-link">Разработка мобильных приложений</a>
+              <a href="/razrabotka-logotipa" class="services__list-link">Разработка логотипа</a>
+              <a href="/individual-design" class="services__list-link">Индивидульный дизайн сайта</a>
           </div>
         </div>
         <div class="services__list">
-          <p class="services__list-title">сотрудничество</p>
+          <p class="services__list-title">О нас</p>
           <div class="services__list-inner">
-            <a href="https://qaz-tech.kz/ap" class="services__list-link">Партнёрская программа</a>
-            <a href="https://qaz-tech.kz/blagotvoritelnost" class="services__list-link">Сайт бесплатно</a>
+            <a href="/about" class="services__list-link"> О компании</a>
+            <a href="/portfolio" class="services__list-link"> Портфолио</a>
+            <a href="/team" class="services__list-link"> Наша команда</a>
+            <a href="/blog" class="services__list-link"> Блог</a>
+            <a href="/mission" class="services__list-link"> Наша миссия</a>
+
           </div>
         </div>
       </div>
@@ -246,7 +249,7 @@
 				</li>
 				</ul>
       </button> 
-      <a href="https://qaz-tech.kz/zakazsite" class="cd-btn m-submenu__btn">Заказать cайт</a>
+      <a href="/order" class="cd-btn m-submenu__btn">Заказать cайт</a>
     </div>
   </div>
 </nav>
