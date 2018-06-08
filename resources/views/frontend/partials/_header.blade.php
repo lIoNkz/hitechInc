@@ -143,10 +143,10 @@
         </div>
       </div>
       <div class="services__list">
-        <p class="services__list-title">seo / реклама в интернете</p>
+        <p class="services__list-title">Продвижение в соц.сетях</p>
         <div class="services__list-inner">
-          <a rel="nofollow" href="http://seo.qaz-tech.kz/?roistat_visit=8881314" class="services__list-link">Продвижение сайта</a>
-          <a href="https://qaz-tech.kz/rekmala" class="services__list-link">Ведение контекстной рекламы</a>
+          <a rel="nofollow" href="/seo/instagram" class="services__list-link">Продвижение в Instagram</a>
+          <a rel="nofollow" href="/seo/youtube" class="services__list-link">Видеообъявления в Youtube</a>
         </div>
       </div>
     </div>

@@ -124,10 +124,7 @@
         <div class="footer__group">
           <h3 class="footer__group-title">Поддержка</h3>
           <p class="footer__group-link-wr">
-            <a href="#" target="_blank"  class="footer__group-link">Руководство пользователя</a>
-          </p>
-          <p class="footer__group-link-wr">
-            <a href="#" class="footer__group-link">Обучающая рассылка</a>
+            <a target="_blank"  class="footer__group-link">Руководство пользователя</a>
           </p>
           <div class="footer__socials">
             <a href="#"  target="_blank" class="img footer__social">
