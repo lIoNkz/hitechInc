@@ -12,7 +12,23 @@
 <style>
 .fixed-wall {
 	background-image: url(/img/banner-seo.jpg) !important;
-}
+      animation: main 5s linear infinite;
+    }
+
+    @keyframes main {
+      from {
+        -webkit-filter: brightness(100%);
+        filter: brightness(100%);
+      }
+      50% {
+        -webkit-filter: brightness(110%);
+        filter: brightness(110%);
+      }
+      to {
+        -webkit-filter: brightness(100%);
+        filter: brightness(100%);
+      }
+    }
 </style>
 <style>
 	main {
