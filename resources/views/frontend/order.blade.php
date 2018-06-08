@@ -63,29 +63,26 @@
                </span>
                <span class="cd-selectbox__list" style="display: none;">
                <span class="cd-selectbox__test">Сайт</span>
-              <span data-id="3" class="cd-selectbox__item">Сайт-визитка — 15 950 тг</span>
-               <span data-id="4" class="cd-selectbox__item">Landing Page — 27 950 тг</span>
-               <span data-id="5" class="cd-selectbox__item">Интернет магазин — 99 950 тг</span>
-               <span data-id="5" class="cd-selectbox__item">Корпоративный сайт — 99 950 тг</span>
+              <span data-id="1" class="cd-selectbox__item">Сайт-визитка — 15 950 тг</span>
+               <span data-id="2" class="cd-selectbox__item">Landing Page — 27 950 тг</span>
+               <span data-id="3" class="cd-selectbox__item">Интернет магазин — 99 950 тг</span>
+               <span data-id="4" class="cd-selectbox__item">Корпоративный сайт — 99 950 тг</span>
                <span data-id="5" class="cd-selectbox__item">Сайт-каталог — 99 950 тг</span>
-               <span data-id="5" class="cd-selectbox__item">Техническая поддержка вашего сайта</span>
+               <span data-id="6" class="cd-selectbox__item">Техническая поддержка вашего сайта</span>
                <span class="cd-selectbox__test">SEO</span>
-               <span data-id="3" class="cd-selectbox__item">Контекстная реклама</span>
-               <span data-id="4" class="cd-selectbox__item">Реклама в соцсетях</span>
-               <span data-id="5" class="cd-selectbox__item">Видеообъявления в Youtube</span>
+               <span data-id="7" class="cd-selectbox__item">Контекстная реклама</span>
+               <span data-id="8" class="cd-selectbox__item">Реклама в соцсетях</span>
+               <span data-id="9" class="cd-selectbox__item">Видеообъявления в Youtube</span>
                <span class="cd-selectbox__test">Мобильное приложение</span>
-               <span data-id="3" class="cd-selectbox__item">Разработка в Android</span>
-               <span data-id="3" class="cd-selectbox__item">Разработка в IOs</span>
+               <span data-id="10" class="cd-selectbox__item">Разработка в Android</span>
+               <span data-id="11" class="cd-selectbox__item">Разработка в IOs</span>
                <span class="cd-selectbox__test">Программное обеспечение</span>
-               <span data-id="3" class="cd-selectbox__item">Разработка ПО для Windows</span>
-               <span data-id="3" class="cd-selectbox__item">Разработка ПО для Mac</span>
+               <span data-id="12" class="cd-selectbox__item">Разработка ПО для Windows</span>
+               <span data-id="13" class="cd-selectbox__item">Разработка ПО для Mac</span>
              </span>
            </span>
                     </label>
-                    <div class="form__control">
-                        <button class="form__slide js-form-slide"></button>
-                        <a href="https://megagroup.ru/zakazsite#" class="form__link js-form-slide">Комментарий к заказу</a>
-                    </div>
+
                     <label class="cd-textarea form__comment js-slide">
                         <textarea class="cd-textarea__area" name="d[16]" placeholder="Комментарий к заказу"></textarea>
                         <span class="cd-textarea__text">
@@ -119,10 +116,6 @@
                   <path d="M20 7L12 16L8 12" fill-opacity="0" fill="#fff" stroke-linejoin="round" stroke-linecap="round" stroke-opacity="1" stroke="#fff" stroke-miterlimit="50" stroke-width="2.5" transform="matrix(1,0,0,1,-6.75,-5.75)"></path>
               </svg>
             </span>
-          </span>
-                    <span class="cd-checkbox__text form__privacy">
-            Я согласен(а) с <a target="_blank" href="https://megagroup.ru/privacy">политикой обработки персональных данных</a>
-          </span>
                 </label>
             </div>
                         <div class="form__note">
