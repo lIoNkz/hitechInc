@@ -27,6 +27,7 @@ hr {
 }
 main {
     display: block;
+    padding-bottom: 60px;
 }
 pre {
     font-family: monospace, monospace;
@@ -1172,3 +1173,12 @@ and (min-width: 1200px) {
     color: #1988ff;
 }
 
+
+.overlay_for_modals {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

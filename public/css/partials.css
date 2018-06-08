@@ -538,7 +538,7 @@
 }
 .services {
     padding: 32px;
-    position: absolute;
+    position: fixed;
     top: 50px;
     -webkit-box-shadow: 0 10px 20px -10px rgba(0, 0, 0, .5);
     box-shadow: 0 10px 20px -10px rgba(0, 0, 0, .5);

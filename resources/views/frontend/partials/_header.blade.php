@@ -249,3 +249,6 @@
       {!! $breads->text !!}
   </div>
 </div>
+
+
+<div class="overlay_for_modals"></div>

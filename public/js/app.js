@@ -1,30 +1,51 @@
+$('.overlay_for_modals').click(function() {
+		$('._isOpened').hide();
+		$('._isOpened').removeClass('_isOpened');
+		$('.submenu__request-btn').show();
+		$('.overlay_for_modals').hide();
+});
 $('.js-show-login').click(function() {
 	$('.popup--login').fadeToggle();
+	$('.popup--login').addClass('_isOpened');
+	$('.overlay_for_modals').show();
 });
 
 $('.js-close-popup').click(function() {
 	$('.popup--login').fadeOut();
+	$('.popup--login').removeClass('_isOpened');
 	$('.js-main-search').fadeOut();
+	$('.js-main-search').removeClass('_isOpened');
 	$('.popup--location').fadeOut();
-	$('.submenu__request-btn').show();	
-
+	$('.popup--location').removeClass('_isOpened');
+	$('.submenu__request-btn').show();
+	$('.overlay_for_modals').hide();
 });
 
 $('.js-show-search').click(function() {
 	$('.js-main-search').fadeToggle();
+	$('.js-main-search').addClass('_isOpened');
+	$('.overlay_for_modals').show();
 });
+
+
 
 $('.js-show-location').click(function() {
 	$('.popup--location').fadeToggle();
 	$('.submenu__request-btn').hide();
+	$('.popup--location').toggleClass('_isOpened');
+	$('.overlay_for_modals').show();
 });
 
 $('.js-services').click(function() {
 	$('.js-services-popup').fadeToggle();
+	$('.js-services-popup').addClass('_isOpened');
+	$('.overlay_for_modals').show();
 });
 
 $('.js-services-close').click(function() {
 	$('.js-services-popup').fadeOut();
+	$('.js-services-popup').removeClass('_isOpened');
+	$('.overlay_for_modals').hide();
 });
 
 /*================= Mobile Menu =================*/ 
