@@ -26,7 +26,8 @@
 	      <a href="/about" class="main-menu__link">О компании</a>
 	      <a href="/services" class="main-menu__link">Услуги</a>
         <a href="/portfolio" class="main-menu__link">Портфолио</a>
-	      <a href="/testimonials" class="main-menu__link">Отзывы</a>
+        <a href="/testimonials" class="main-menu__link">Отзывы</a>
+	      <a href="/blog" class="main-menu__link">Блог</a>
 	      <a href="/contacts" class="main-menu__link">Контакты</a>
 	    </nav>
     </div>
@@ -81,6 +82,7 @@
       <a href="/services" class="m-nav__link">Услуги</a>
       <a href="/testimonials" class="m-nav__link">Отзывы</a>
       <a href="/portfolio" class="m-nav__link">Портфолио</a>
+      <a href="/blog" class="m-nav__link">Блог</a>
       <a href="/contacts"  class="m-nav__link">Контакты</a>
     </nav>
     <div class="m-filials">
@@ -212,18 +214,23 @@
         <span>Выберите тип сайта</span>
         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"><path d="M20.03 9.97a.75.75 0 0 0-1.06 0l-6.47 6.47-6.47-6.47a.75.75 0 0 0-1.06 1.06l7 7a.75.75 0 0 0 1.06 0l7-7a.75.75 0 0 0 0-1.06z"></path></svg>
         <ul class="m-submenu__list js-submenu-list">
+                              <li class="m-submenu__item">
+          <a href="/razrabotka-saitov/site-vizitka" class="m-submenu__link ">
+            <span>Сайт визитка</span>
+          </a>
+        </li>
         	        						<li class="m-submenu__item">
-					<a href="/lp" class="m-submenu__link ">
+					<a href="/razrabotka-saitov/landing-page" class="m-submenu__link ">
 						<span>Landing Page</span>
 					</a>
 				</li>
 							        						<li class="m-submenu__item">
-					<a href="/business" class="m-submenu__link ">
+					<a href="/razrabotka-saitov/business-site" class="m-submenu__link ">
 						<span>Корпоративный сайт</span>
 					</a>
 				</li>
 							        						<li class="m-submenu__item">
-					<a href="/store" class="m-submenu__link _sale">
+					<a href="/razrabotka-saitov/internet-magazin" class="m-submenu__link _sale">
 						<span>Интернет-магазин</span>
 					</a>
 				</li>
@@ -233,7 +240,7 @@
 					</a>
 				</li>
 							        						<li class="m-submenu__item">
-					<a href="/support" target="_blank" class="m-submenu__link ">
+					<a href="/tech-support" target="_blank" class="m-submenu__link ">
 						<span>Тех.поддержка</span>
 					</a>
 				</li>
