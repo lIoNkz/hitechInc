@@ -96,12 +96,6 @@ viewBox="0 0 15335 15201"
     .fil28 {fill:#E8DDF3;fill-rule:nonzero;fill-opacity:0.800000}
     .fil27 {fill:#C4A8E0;fill-rule:nonzero}
     .fnt0 {font-weight:bold;font-size:1393.08px;font-family:'Verdana'}
-    .test {
-      transition: transform 1s;
-    }
-    .test:hover {
-      transform: scale(0.9);
-    }
    ]]>
   </style>
  </defs>
