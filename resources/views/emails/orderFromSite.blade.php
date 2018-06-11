@@ -1,32 +1,23 @@
-<style>
-	.td {
-		padding: 3px 10px;
-		font-size: 1.1em;
-	}
-</style>
+
 <h3>Заказ с нашего сайта ( Hitech-hq.kz )</h3>
 <br>
-	<p>	  {{ $name }}</b> <br></p>
-	<p>	   {{ $email }} <br></p>
-	<p>	<b>Телефон:</b>   {{ $phone }} <br></p>
-	<p>	<b>Тип услуги:</b>   {{ $service_type }} <br></p>
 <table>
 	<tbody>
 		<tr>
-			<td class="td"><b>Имя:</b></td>
-			<td class="td">{{ $name }}</td>
+			<td style="padding: 5px 10px;font-size: 1.1em;"><b>Имя:</b></td>
+			<td style="padding: 5px 10px;font-size: 1.1em;">{{ $name }}</td>
 		</tr>
 		<tr>
-			<td class="td"><b>Email:</b></td>
-			<td class="td">{{ $email }}</td>
+			<td style="padding: 5px 10px;font-size: 1.1em;"><b>Email:</b></td>
+			<td style="padding: 5px 10px;font-size: 1.1em;">{{ $email }}</td>
 		</tr>
 		<tr>
-			<td class="td"><b>Телефон:</b></td>
-			<td class="td">{{ $phone }}</td>
+			<td style="padding: 5px 10px;font-size: 1.1em;"><b>Телефон:</b></td>
+			<td style="padding: 5px 10px;font-size: 1.1em;">{{ $phone }}</td>
 		</tr>
 		<tr>
-			<td class="td"><b>Тип услуги:</b> </td>
-			<td class="td">{{ $service_type }}</td>
+			<td style="padding: 5px 10px;font-size: 1.1em;"><b>Тип услуги:</b> </td>
+			<td style="padding: 5px 10px;font-size: 1.1em;">{{ $service_type }}</td>
 		</tr>
 	</tbody>
 </table>
