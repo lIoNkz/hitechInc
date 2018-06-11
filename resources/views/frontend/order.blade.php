@@ -45,7 +45,7 @@
              <span class="cd-input__error">Ошибка ввода</span>
            </span>
                     </label>
-                    <input type="hidden" name="service_type" id="service_type">
+                    <input type="hidden" name="service_type" id="service_type" value="выберу после разговора с менеджером">
                     <label class="cd-selectbox cd-selectbox--required">
                         <span class="cd-selectbox__label">Тип сайта</span>
             <!--             <input type="hidden" class="js-selectbox" name="site" value="выберу после разговора с менеджером
