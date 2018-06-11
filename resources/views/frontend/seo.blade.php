@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="/css/submenu.css">
 <style>
 .fixed-wall {
-	background-image: url(/img/banner-seo.jpg) !important;
+	background-image: url(/img/banners/banner-seo.jpg) !important;
       animation: main 5s linear infinite;
     }
 

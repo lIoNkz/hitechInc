@@ -136,7 +136,7 @@ main {
     width: 100%;
     height: 200px;
     top: 0;
-    background: url(../img/banner-1.jpg);
+    background: url(../img/banners/banner-default.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center center;

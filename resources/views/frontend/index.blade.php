@@ -15,7 +15,7 @@
       background-repeat: no-repeat;
     } 
     .fixed-wall {
-      background-image: url(/img/banner-main.jpg) !important;
+      background-image: url(/img/banners/banner-main.jpg) !important;
       animation: main 5s linear infinite;
     }
     @keyframes main {

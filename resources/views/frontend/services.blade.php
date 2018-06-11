@@ -9,6 +9,11 @@
 @section('styles')
 
 <link rel="stylesheet" href="/css/servicesPage.css">
+<style>
+.fixed-wall {
+  background-image: url(/img/banners/banner-services.jpg) !important;
+}
+</style>
 @endsection
 @section('content')
 

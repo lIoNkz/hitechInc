@@ -9,6 +9,11 @@
 @section('styles')
 
   <link rel="stylesheet" href="/css/aboutPage.css">
+  <style>
+.fixed-wall {
+  background-image: url(/img/banners/banner-default.jpg) !important;
+}
+</style>
 @endsection
 @section('content')
 
