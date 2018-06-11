@@ -302,7 +302,7 @@ class FrontendController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
-            'phone' => $request->site_type
+            'service_type' => $request->service_type
         ];
 
         Mail::to(env('MAIL_TO'))->send(new OrderFromSite($data));
