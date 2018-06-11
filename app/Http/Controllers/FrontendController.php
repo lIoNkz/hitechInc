@@ -9,6 +9,7 @@ use App\Models\Siteprice;
 use App\Models\Metatag;
 use App\Models\Breadcrumb;
 use App\Mail\OrderFromSite;
+use App\Mail\TextToUs;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
@@ -298,6 +299,12 @@ class FrontendController extends Controller
 
     public function mail_order(Request $request)
     {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'email',
+            'phone' => 'required'
+        ]);
+
         $data = [
             'name' => $request->name,
             'email' => $request->email,
@@ -306,6 +313,28 @@ class FrontendController extends Controller
         ];
 
         Mail::to(env('MAIL_TO'))->send(new OrderFromSite($data));
-        return view('frontend.success')->with('text','Ваша заявка оправлена!');
+        return redirect('order')->with('status','Ваша заявка отправлена!');
+    }
+
+    public function mail_textToUs(Request $request)
+    {
+
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'text' => 'required'
+        ]);
+
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'text' => $request->text
+        ];
+
+        Mail::to(env('MAIL_TO'))->send(new TextToUs($data));
+        return redirect('contacts')->with('status2','Ваше сообщение отправлено!');
+
     }
 }

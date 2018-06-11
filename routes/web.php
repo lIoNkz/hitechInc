@@ -66,6 +66,7 @@ Route::get('/reklama-v-socsetyah', 'FrontendController@socialAdv');
 // ROUTES MAIL 
 
 Route::post('/order/sendmail', 'FrontendController@mail_order')->name('mail_order');
+Route::post('/order/sendmail2', 'FrontendController@mail_textToUs')->name('mail_textToUs');
 
 // ROUTES OF ADMIN PANEL
 Auth::routes();

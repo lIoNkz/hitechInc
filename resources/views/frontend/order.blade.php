@@ -8,13 +8,24 @@
 @endsection
 @section('styles')
 <link rel="stylesheet" href="/css/orderPage.css">
-
+<style>
+  .success p {
+      color: #0aa440;
+      text-align: center;
+      font-size: 1.5em;
+  }
+</style>
 @endsection
 @section('content')
 
 <section class="main">
     <div class="wrapp main__wrapp">
-        <h1 class="main__title">Заказать сайт</h1>
+      @if(Session::has('status'))
+        <div class="success">
+          <p>{{ Session::get('status') }}</p>
+        </div>
+      @endif
+        <h1 class="main__title">Заказать</h1>
         <p class="main__text">Заполните заявку и персональный менеджер свяжется с вами для уточнения деталей
             заказа</p>
     </div>
@@ -47,7 +58,7 @@
                     </label>
                     <input type="hidden" name="service_type" id="service_type" value="выберу после разговора с менеджером">
                     <label class="cd-selectbox cd-selectbox--required">
-                        <span class="cd-selectbox__label">Тип сайта</span>
+                        <span class="cd-selectbox__label">Тип услуги</span>
             <!--             <input type="hidden" class="js-selectbox" name="site" value="выберу после разговора с менеджером
             "> -->
                         <span class="cd-selectbox__select">
@@ -121,5 +132,9 @@
     var type = $(this).text();
     $('#service_type').val(type);
   });
+  setTimeout(function() {
+    $('.success').hide();
+  }, 5000);
+  
 </script>
 @endsection

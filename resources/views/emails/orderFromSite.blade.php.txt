@@ -1,1 +1,0 @@
-﻿Who: <b>{{$message}}</b><br>
