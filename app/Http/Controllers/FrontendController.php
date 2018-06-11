@@ -301,7 +301,8 @@ class FrontendController extends Controller
         $data = [
             'name' => $request->name,
             'email' => $request->email,
-            'phone' => $request->phone
+            'phone' => $request->phone,
+            'phone' => $request->site_type
         ];
 
         Mail::to(env('MAIL_TO'))->send(new OrderFromSite($data));

@@ -19,6 +19,7 @@ class OrderFromSite extends Mailable
         $this->name = $data['name'];
         $this->email = $data['email'];
         $this->phone = $data['phone'];
+        $this->site_type = $data['phone'];
     }
 
 
@@ -31,7 +32,8 @@ class OrderFromSite extends Mailable
                     ->with([
                         'name' => $this->name,
                         'email' => $this->email,
-                        'phone' => $this->phone
+                        'phone' => $this->phone,
+                        'site_type' => $this->site_type
                     ]);
     }
 }

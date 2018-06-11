@@ -205,7 +205,7 @@
     	</nav>
       
 
-      <a href="/order" class="cd-btn submenu__request-btn">Заказать сайт</a>
+      <a href="/order" class="cd-btn submenu__request-btn">Заказать</a>
       </div>
   </div>
 </div>

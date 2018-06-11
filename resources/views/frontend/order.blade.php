@@ -45,6 +45,7 @@
              <span class="cd-input__error">Ошибка ввода</span>
            </span>
                     </label>
+                    <input type="hidden" name="service_type" id="service_type">
                     <label class="cd-selectbox cd-selectbox--required">
                         <span class="cd-selectbox__label">Тип сайта</span>
             <!--             <input type="hidden" class="js-selectbox" name="site" value="выберу после разговора с менеджером
@@ -56,11 +57,11 @@
                </span>
                <span class="cd-selectbox__list" style="display: none;">
                <span class="cd-selectbox__test">Сайт</span>
-              <span data-id="1" class="cd-selectbox__item">Сайт-визитка — 15 950 тг</span>
-               <span data-id="2" class="cd-selectbox__item">Landing Page — 27 950 тг</span>
-               <span data-id="3" class="cd-selectbox__item">Интернет магазин — 99 950 тг</span>
-               <span data-id="4" class="cd-selectbox__item">Корпоративный сайт — 99 950 тг</span>
-               <span data-id="5" class="cd-selectbox__item">Сайт-каталог — 99 950 тг</span>
+              <span data-id="1" class="cd-selectbox__item">Сайт-визитка — 150 000 тг</span>
+               <span data-id="2" class="cd-selectbox__item">Landing Page — 150 000 тг</span>
+               <span data-id="3" class="cd-selectbox__item">Интернет магазин — 300 000 тг</span>
+               <span data-id="4" class="cd-selectbox__item">Корпоративный сайт — 300 000 тг</span>
+               <span data-id="5" class="cd-selectbox__item">Сайт-каталог — 300 000 тг</span>
                <span data-id="6" class="cd-selectbox__item">Техническая поддержка вашего сайта</span>
                <span class="cd-selectbox__test">SEO</span>
                <span data-id="7" class="cd-selectbox__item">Контекстная реклама</span>
@@ -110,4 +111,10 @@
 
 <script  src="/js/jquery.tooltip.js"></script>
 <script  src="/js/selectbox.js"></script>
+<script>
+  $('.cd-selectbox__item').click(function(){
+    var type = $(this).text();
+    $('#service_type').val(type);
+});
+</script>
 @endsection
