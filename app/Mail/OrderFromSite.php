@@ -19,7 +19,7 @@ class OrderFromSite extends Mailable
         $this->name = $data['name'];
         $this->email = $data['email'];
         $this->phone = $data['phone'];
-        $this->service_type = $data['phone'];
+        $this->service_type = $data['service_type'];
     }
 
 
