@@ -8,7 +8,11 @@
 @endsection
 @section('styles')
 <link rel="stylesheet" href="/css/portfolioPage.css">
-
+  <style>
+.fixed-wall {
+  background-image: url(/img/banners/banner-portfolio.jpg) !important;
+}
+</style>
 @endsection
 @section('content')
 

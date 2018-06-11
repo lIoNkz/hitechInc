@@ -8,6 +8,7 @@ use App\Models\Textblock;
 use App\Models\Siteprice;
 use App\Models\Metatag;
 use App\Models\Breadcrumb;
+use App\Models\Article;
 use App\Mail\OrderFromSite;
 use App\Mail\TextToUs;
 use Illuminate\Support\Facades\Mail;
@@ -97,17 +98,18 @@ class FrontendController extends Controller
         /*========= Queries =========*/
         $metadata = Metatag::where('url','/services')->first(); // TODO change link
         $breads = Breadcrumb::where('url','/services')->first(); // TODO change link
+        $posts = Article::with('photos')->get();
 
-        return view('frontend.blog', compact('metadata','breads'));
+        return view('frontend.blog', compact('metadata','breads','posts'));
     }
 
     public function blog_post($id) {
         /*========= Queries =========*/
         $metadata = Metatag::where('url','/services')->first(); // TODO change link
         $breads = Breadcrumb::where('url','/services')->first(); // TODO change link
+        $post = Article::where('id',$id)->first();
         
-        
-        return view('frontend.blogPost', compact('metadata','breads'));
+        return view('frontend.blogPost', compact('metadata','breads','post'));
     }
 
     public function seo() {

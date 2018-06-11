@@ -92,3 +92,5 @@ Route::post('/upload-images-to-the-server', 'PhotoController@upload')->name('upl
 
 
 Route::resource('breadcrumbs', 'BreadcrumbController');
+
+Route::resource('articles', 'ArticleController');

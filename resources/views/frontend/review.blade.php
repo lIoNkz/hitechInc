@@ -8,7 +8,11 @@
 @endsection
 @section('styles')
 <link rel="stylesheet" href="/css/reviewPage.css">
-
+  <style>
+.fixed-wall {
+  background-image: url(/img/banners/banner-review.jpg) !important;
+}
+</style>
 @endsection
 
 @section('content')

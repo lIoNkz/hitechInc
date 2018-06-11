@@ -1183,3 +1183,7 @@ and (min-width: 1200px) {
     left: 0;
     z-index: -1;
 }
+
+.showOnPost {
+    display: none;
+}
