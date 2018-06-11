@@ -116,5 +116,10 @@
     var type = $(this).text();
     $('#service_type').val(type);
 });
+
+  $('.cd-selectbox__selected').click(function(){
+    var type = $(this).text();
+    $('#service_type').val(type);
+  });
 </script>
 @endsection
