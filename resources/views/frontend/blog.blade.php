@@ -2,8 +2,8 @@
 @section('meta')
 
 
-      <title>{{-- $metadata->title --}}</title>
-      {--!! $metadata->meta !!--}
+      <title>{{ $metadata->title }}</title>
+      {!! $metadata->meta !!}
 
 @endsection
 @section('styles')

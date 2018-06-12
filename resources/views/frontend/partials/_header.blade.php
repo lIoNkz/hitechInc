@@ -254,7 +254,9 @@
   </div>
 </nav>
 <div style="width: 100%; background-color: #fff;">
-
+  <div class="breadcrumbs wrapp submenu__wrapp hideOnPost">
+      <a href="/">Главная @if($breads->url != "/") <span>></span> @endif</a>  
+      {!! $breads->text !!}
   </div>
     <div class="breadcrumbs wrapp submenu__wrapp showOnPost">
       <a href="/">Главная<span> ></span></a>  
