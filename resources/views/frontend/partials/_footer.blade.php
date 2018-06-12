@@ -102,7 +102,7 @@
         <div class="footer__group">
           <h3 class="footer__group-title">Продвижение в соц. сетях</h3>
           <p class="footer__group-link-wr">
-            <a href="/seo/youtube"   class="footer__group-link">Youtube продвижение</a>
+            <a href="/seo/youtube"   class="footer__group-link">Реклама на Youtube</a>
           </p>
           <p class="footer__group-link-wr">
             <a href="/seo/instagram"   class="footer__group-link">Instagram продвижение</a>

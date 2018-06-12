@@ -9,7 +9,7 @@
 @section('styles')
 <style>
 .fixed-wall {
-	background-image: url(/img/banners/banner-social.jpg) !important;
+	background-image: url(/img/banners/banner-review.jpg) !important;
 }
 </style>
 
