@@ -11,7 +11,10 @@
 <link rel="stylesheet" href="/css/servicesPage.css">
 <style>
 .fixed-wall {
-  background-image: url(/img/banners/banner-services.jpg) !important;
+  background-image: url(/img/banners/banner-default.jpg) !important;
+}
+main {
+  padding-bottom: 0;
 }
 </style>
 @endsection
@@ -51,19 +54,6 @@
   </div>
 </section>
 
-<section class="pp-service">
-  <div class="wrapp pp-service__wrapp">
-    <div class="pp-service__layout">
-      <div class="pp-service__pic">
-        <img src="/img/pic-200.png" alt="">
-      </div>
-      <p class="pp-service__text">различных услуг мы предоставляем, чтобы Ваш сайт работал эффективно. Ознакомьтесь со списком дополнительных услуг и подберите подходящую именно Вам</p>
-    </div>
-    <div class="_center">
-      <a href="/price2" class="pp-service__btn cd-btn cd-btn--L">Дополнительные услуги</a>
-    </div>
-  </div>
-</section>
 
 <section class="pp-price">
   <div class="wrapp pp-price__wrapp">

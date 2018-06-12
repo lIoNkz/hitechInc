@@ -96,8 +96,8 @@ class FrontendController extends Controller
 
     public function blog() {
         /*========= Queries =========*/
-        $metadata = Metatag::where('url','/services')->first(); // TODO change link
-        $breads = Breadcrumb::where('url','/services')->first(); // TODO change link
+        $metadata = Metatag::where('url','/blog')->first(); 
+        $breads = Breadcrumb::where('url','/blog')->first(); 
         $posts = Article::with('photos')->get();
 
         return view('frontend.blog', compact('metadata','breads','posts'));
@@ -105,8 +105,8 @@ class FrontendController extends Controller
 
     public function blog_post($id) {
         /*========= Queries =========*/
-        $metadata = Metatag::where('url','/services')->first(); // TODO change link
-        $breads = Breadcrumb::where('url','/services')->first(); // TODO change link
+        $metadata = Metatag::where('url','/blog')->first(); 
+        $breads = Breadcrumb::where('url','/blog')->first(); 
         $post = Article::where('id',$id)->with('photos')->first();
         
         return view('frontend.blogPost', compact('metadata','breads','post'));
