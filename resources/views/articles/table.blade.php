@@ -12,7 +12,6 @@
         <tr>
             <td>{!! $article->title !!}</td>
             <td>{!! $article->author !!}</td>
-            <td>{!! $article->text !!}</td>
             <td>
                 {!! Form::open(['route' => ['articles.destroy', $article->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>
