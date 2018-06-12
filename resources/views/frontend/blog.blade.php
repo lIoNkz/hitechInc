@@ -65,7 +65,7 @@
 		@foreach($posts as $post)
 		<a href="/blog/{{ $post->id }}" class="blog">		
                 <img src="/img/@if (!$post->photos->isEmpty()){{ $post->photos->first()->path }}@endif" alt="">
-			<h3>{!! $post->text !!}</h3>
+			<h3>{!! $post->title !!}</h3>
 			<div class="line">
 				<p class="author">{!! $post->author !!}</p>
 				<p class="time">21.05.18</p>
