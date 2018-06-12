@@ -1110,7 +1110,12 @@ and (max-width: 575px) {
     main .container {
         width: 100%;
     }
-
+    .main-menu {
+        top: 0;
+    }
+    .main {
+        margin-top: 60px;
+    }
 }
 
 @media only screen 

@@ -2,8 +2,8 @@
 @section('meta')
 
 
-      <title>{{ $metadata->title }}</title>
-      {!! $metadata->meta !!}
+      <title>{{-- $metadata->title --}}</title>
+      {--!! $metadata->meta !!--}
 
 @endsection
 @section('styles')
@@ -32,7 +32,11 @@
 	.blog:hover {
 		border-bottom: 4px solid #383181;
 	}
-
+	@media (max-width: 576px) {
+		.blog {
+			flex: 0 0 100%;
+		}
+	}
 	.blog img {
 		width: 100%;
 		height: 200px;
