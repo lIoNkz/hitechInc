@@ -61,7 +61,7 @@
 <div class="container">
 
   <div class="bleft">
-    <img src="/img/blogs/blog1.jpg" class="mainImg">
+   <img src="/img/@if (!$post->photos->isEmpty()){{ $post->photos->first()->path }}@endif" alt="" class="mainImg">
       <div class="main-text">
         {!! $post->text !!}
     </div>    

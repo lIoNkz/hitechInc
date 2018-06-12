@@ -107,7 +107,7 @@ class FrontendController extends Controller
         /*========= Queries =========*/
         $metadata = Metatag::where('url','/services')->first(); // TODO change link
         $breads = Breadcrumb::where('url','/services')->first(); // TODO change link
-        $post = Article::where('id',$id)->first();
+        $post = Article::where('id',$id)->with('photos')->first();
         
         return view('frontend.blogPost', compact('metadata','breads','post'));
     }
