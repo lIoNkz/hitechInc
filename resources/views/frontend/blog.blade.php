@@ -63,11 +63,11 @@
 	<h1 class="center-h1">Блог</h1>
 	<div class="blog-wrap">
 		@foreach($posts as $post)
-		<a href="/blog/1" class="blog">
-			<img src="/img/blogs/blog1.jpg" alt="">
-			<h3>Название Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, explicabo!</h3>
+		<a href="/blog/{{ $post->id }}" class="blog">		
+                <img src="/img/@if (!$post->photos->isEmpty()){{ $post->photos->first()->path }}@endif" alt="">
+			<h3>{!! $post->text !!}</h3>
 			<div class="line">
-				<p class="author">Автор Блогин</p>
+				<p class="author">{!! $post->author !!}</p>
 				<p class="time">21.05.18</p>
 			</div>
 		</a>

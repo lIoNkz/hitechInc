@@ -261,7 +261,7 @@
     <div class="breadcrumbs wrapp submenu__wrapp showOnPost">
       <a href="/">Главная<span> ></span></a>  
       <a href="/blog">Блог<span> ></span></a>  
-   
+
   </div>
 </div>
 

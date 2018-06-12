@@ -79,4 +79,9 @@
 
 
 @section('scripts')
+
+<script>
+  var link = '<a>{{ $post->title }}</a>'
+  $('.showOnPost').append(link);
+</script>
 @endsection

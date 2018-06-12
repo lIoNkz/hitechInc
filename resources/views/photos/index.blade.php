@@ -43,6 +43,7 @@
                 <option value="Undefined">Undefined</option>
                 <option value="Review">Review</option>
                 <option value="Portfolio">Portfolio</option>
+                <option value="Article">Blog</option>
             </select>
             <br /> 
             Изображения (можно прикрепить больше одного):

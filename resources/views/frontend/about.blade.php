@@ -30,7 +30,7 @@
       </div>
       <div class="timer__layout">
         <p>Разработано сайтов</p>
-        <div class="timer__counter js-sites-counter"><ins>1</ins><ins>2</ins><ins>2</ins><ins>9</ins></div>
+        <div class="timer__counter js-sites-counter"><ins>4</ins><ins>6</ins><ins>7</ins></div>
         <p>за 3 года</p>
       </div>
     </div>
