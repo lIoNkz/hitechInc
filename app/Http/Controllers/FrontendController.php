@@ -104,11 +104,11 @@ class FrontendController extends Controller
         return view('frontend.blog', compact('metadata','breads','posts'));
     }
 
-    public function blog_post($id) {
+    public function blog_post($slug) {
         /*========= Queries =========*/
         $metadata = Metatag::where('url','/blog')->first(); 
         $breads = Breadcrumb::where('url','/blog')->first(); 
-        $post = Article::where('id',$id)->with('photos')->first();
+        $post = Article::where('slug',$slug)->with('photos')->first();
         
         return view('frontend.blogPost', compact('metadata','breads','post'));
     }

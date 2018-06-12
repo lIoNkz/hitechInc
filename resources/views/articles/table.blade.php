@@ -4,6 +4,7 @@
             <th>Title</th>
         <th>Author</th>
         <th>Text</th>
+        <th>Slug</th>
             <th colspan="3">Action</th>
         </tr>
     </thead>
@@ -12,6 +13,7 @@
         <tr>
             <td>{!! $article->title !!}</td>
             <td>{!! $article->author !!}</td>
+            <td>{!! $article->slug !!}</td>
             <td>
                 {!! Form::open(['route' => ['articles.destroy', $article->id], 'method' => 'delete']) !!}
                 <div class='btn-group'>

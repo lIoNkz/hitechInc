@@ -73,7 +73,7 @@
 	<h1 class="center-h1">Блог</h1>
 	<div class="blog-wrap">
 		@foreach($posts as $post)
-		<a href="/blog/{{ $post->id }}" class="blog">		
+		<a href="/blog/{{ $post->slug }}" class="blog">		
                 <img src="/img/@if (!$post->photos->isEmpty()){{ $post->photos->first()->path }}@endif" alt="">
 			<h3>{!! $post->title !!}</h3>
 			<div class="line">

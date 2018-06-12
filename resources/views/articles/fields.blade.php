@@ -16,6 +16,12 @@
     {!! Form::textarea('text', null, ['class' => 'form-control']) !!}
 </div>
 
+<!-- Slug Field -->
+<div class="form-group col-sm-12 col-lg-12">
+    {!! Form::label('slug', 'Slug:') !!}
+    {!! Form::textarea('slug', null, ['class' => 'form-control']) !!}
+</div>
+
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
     {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}

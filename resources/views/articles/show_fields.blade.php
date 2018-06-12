@@ -22,6 +22,12 @@
     <p>{!! $article->text !!}</p>
 </div>
 
+<!-- Slug Field -->
+<div class="form-group">
+    {!! Form::label('slug', 'Slug:') !!}
+    <p>{!! $article->slug !!}</p>
+</div>
+
 <!-- Created At Field -->
 <div class="form-group">
     {!! Form::label('created_at', 'Created At:') !!}

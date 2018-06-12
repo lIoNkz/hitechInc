@@ -27,7 +27,8 @@ class Article extends Model
     public $fillable = [
         'title',
         'author',
-        'text'
+        'text',
+        'slug'
     ];
 
     /**
@@ -38,7 +39,8 @@ class Article extends Model
     protected $casts = [
         'title' => 'string',
         'author' => 'string',
-        'text' => 'string'
+        'text' => 'string',
+        'slug' => 'string'
     ];
 
     /**
@@ -49,7 +51,8 @@ class Article extends Model
     public static $rules = [
         'title' => 'required',
         'author' => 'required',
-        'text' => 'required'
+        'text' => 'required',
+        'slug' => 'required'
     ];
 
      public function photos()
