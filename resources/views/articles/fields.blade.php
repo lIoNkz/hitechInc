@@ -19,7 +19,7 @@
 <!-- Slug Field -->
 <div class="form-group col-sm-12 col-lg-12">
     {!! Form::label('slug', 'Slug:') !!}
-    {!! Form::textarea('slug', null, ['class' => 'form-control']) !!}
+    {!! Form::text('slug', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Submit Field -->

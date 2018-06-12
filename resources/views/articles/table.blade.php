@@ -3,7 +3,6 @@
         <tr>
             <th>Title</th>
         <th>Author</th>
-        <th>Text</th>
         <th>Slug</th>
             <th colspan="3">Action</th>
         </tr>
