@@ -127,8 +127,8 @@
       <div class="services__list">
         <p class="services__list-title">Наши сервисы</p>
         <div class="services__list-inner">
-          <a href="https://hitech-school.kz" class="services__list-link">Школа программирования</a>
-          <a href="https://hitech-vr.kz" class="services__list-link">VR and AR</a>
+          <a href="http://hitech-school.kz" class="services__list-link">Школа программирования</a>
+          <a href="http://hitech-vr.kz" class="services__list-link">VR and AR</a>
         </div>
       </div>
     </div>
