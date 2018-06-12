@@ -9,6 +9,11 @@
 @section('styles')
   <link rel="stylesheet" href="/css/contactsPage.css">
   <style>
+  @media (min-width: 576px) {
+  main {
+    margin-top: -40px;
+  } 
+}
     #overlay {
       display: none;
       width: 100%;

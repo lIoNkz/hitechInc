@@ -9,6 +9,11 @@
 @section('styles')
   <link rel="stylesheet" href="/css/indexPage.css">
   <style>
+  @media (min-width: 576px) {
+  main {
+    margin-top: -40px;
+  } 
+}
     .main {
       background-image: url(/img/main_bg.jpg);
       background-size: 100%;

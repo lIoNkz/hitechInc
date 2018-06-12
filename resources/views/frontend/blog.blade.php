@@ -9,6 +9,11 @@
 @section('styles')
 
 <style>
+@media (min-width: 576px) {
+  main {
+    margin-top: -40px;
+  } 
+}
 	.blog-wrap {
 		display: -webkit-flex;
 		display: -moz-flex;

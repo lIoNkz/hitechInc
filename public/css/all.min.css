@@ -1198,3 +1198,9 @@ and (min-width: 1200px) {
 .showOnPost {
     display: none;
 }
+
+@media (min-width: 576px) {
+  main {
+    margin-top: -40px;
+  } 
+}

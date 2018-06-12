@@ -16,6 +16,11 @@
 main {
   padding-bottom: 0;
 }
+@media (min-width: 576px) {
+  main {
+    margin-top: -40px;
+  } 
+}
 </style>
 @endsection
 @section('content')

@@ -14,6 +14,11 @@
       text-align: center;
       font-size: 1.5em;
   }
+@media (min-width: 576px) {
+  main {
+    margin-top: -40px;
+  } 
+}
 </style>
 @endsection
 @section('content')

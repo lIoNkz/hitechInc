@@ -12,6 +12,11 @@
 .fixed-wall {
   background-image: url(/img/banners/banner-review.jpg) !important;
 }
+@media (min-width: 576px) {
+  main {
+    margin-top: -40px;
+  } 
+}
 </style>
 @endsection
 
