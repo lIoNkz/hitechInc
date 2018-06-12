@@ -1,5 +1,7 @@
 @extends('frontend.layouts.master')
 @section('meta')
+
+<title>{{ $post->title }}</title>
 @endsection
 @section('styles')
 
