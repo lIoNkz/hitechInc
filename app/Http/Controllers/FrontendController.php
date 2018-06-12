@@ -9,6 +9,7 @@ use App\Models\Siteprice;
 use App\Models\Metatag;
 use App\Models\Breadcrumb;
 use App\Models\Article;
+use App\Models\Work;
 use App\Mail\OrderFromSite;
 use App\Mail\TextToUs;
 use Illuminate\Support\Facades\Mail;
@@ -65,7 +66,7 @@ class FrontendController extends Controller
 
     public function portfolio() {
         /*========= Queries =========*/
-        $portfolio = DB::table('photos')->where('photoable_type','App\Models\Portfolio')->paginate(6);   
+        $portfolio = Work::with('photos')->paginate(6);   
         $metadata = Metatag::where('url','/portfolio')->first();
         $breads = Breadcrumb::where('url','/portfolio')->first();
 

@@ -39,11 +39,11 @@
             Photoable type: (К чему относится фото. Если не относится, написать Undefined)
             <br />
             <select name="photoable_type">
-                <option value="Advantage">Advantage</option>
-                <option value="Undefined">Undefined</option>
-                <option value="Review">Review</option>
-                <option value="Portfolio">Portfolio</option>
-                <option value="Article">Blog</option>
+                <option value="Advantage">Преимущества</option>
+                <option value="Undefined">НЕ ОТНОСИТСЯ</option>
+                <option value="Review">Отзывы</option>
+                <option value="Article">Блог</option>
+                <option value="Work">Портфолио</option>
             </select>
             <br /> 
             Изображения (можно прикрепить больше одного):
