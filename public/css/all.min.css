@@ -1116,6 +1116,12 @@ and (max-width: 575px) {
     .main {
         margin-top: 60px;
     }
+    @media (max-width: 576px) {
+        main .container {
+          padding: 0 10px;
+          box-sizing: border-box;
+        }
+    }
 }
 
 @media only screen 

@@ -51,6 +51,13 @@
   .showOnPost {
     display: block;
   }
+  @media (max-width: 576px) {
+    main .container {
+      display: block;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+  }
 </style>
 @endsection
 

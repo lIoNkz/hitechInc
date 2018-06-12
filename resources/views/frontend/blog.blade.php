@@ -35,6 +35,7 @@
 	@media (max-width: 576px) {
 		.blog {
 			flex: 0 0 100%;
+			box-sizing: border-box;
 		}
 	}
 	.blog img {
