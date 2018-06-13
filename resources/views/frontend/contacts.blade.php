@@ -103,53 +103,23 @@
               <span class="mp-link" id="textToUs">Написать нам</span>
             </a>
           </li>
-<!--                   <li class="mp-contacts__feedback-item">
-            <a href="/feedgood" class="mp-contacts__feedback-link">
-              <img src="/img/oah-like.svg" class="mp-contacts__feedback-icon" alt="">
-              <span class="mp-link">Похвалить</span>
-            </a>
-          </li>
-<li class="mp-contacts__feedback-item">
-            <a href="/feedbad" class="mp-contacts__feedback-link">
-              <img src="/img/oah-dislike.svg" class="mp-contacts__feedback-icon" alt="">
-              <span class="mp-link">Пожаловаться</span>
-            </a>
-          </li> -->
-                </ul>
+        </ul>
         <hr class="mp-contacts__line">
         <h2 class="mp-contacts__block-title">Мы в соцсетях</h2>
         <ul class="mp-contacts__feedback-list">
-                <li class="mp-contacts__feedback-item">
-            <a rel="nofollow" target="_blank" class="mp-contacts__feedback-link">
-              <img src="/img/oah-social-vk.svg" class="mp-contacts__feedback-icon" alt="">
-              <span class="mp-link">hitech_hq</span>
-            </a>
-          </li>
-                  <li class="mp-contacts__feedback-item">
+          <li class="mp-contacts__feedback-item">
             <a rel="nofollow" target="_blank" class="mp-contacts__feedback-link">
               <img src="/img/oah-social-fb.svg" class="mp-contacts__feedback-icon" alt="">
               <span class="mp-link">hitech_hq</span>
             </a>
           </li>
-                  <li class="mp-contacts__feedback-item">
-            <a rel="nofollow" target="_blank" class="mp-contacts__feedback-link">
-              <img src="/img/oah-social-tw.svg" class="mp-contacts__feedback-icon" alt="">
-              <span class="mp-link">hitech_hq</span>
-            </a>
-          </li>
-                  <li class="mp-contacts__feedback-item">
-            <a   rel="nofollow" target="_blank" class="mp-contacts__feedback-link">
+          <li class="mp-contacts__feedback-item">
+            <a  href="https://www.instagram.com/hitech_hq/?hl=ru" rel="nofollow" target="_blank" class="mp-contacts__feedback-link">
               <img src="/img/oah-social-in.svg" class="mp-contacts__feedback-icon" alt="">
               <span class="mp-link">hitech_hq</span>
             </a>
           </li>
-                  <li class="mp-contacts__feedback-item">
-            <a  rel="nofollow" target="_blank" class="mp-contacts__feedback-link">
-              <img src="/img/oah-social-yt.svg" class="mp-contacts__feedback-icon" alt="">
-              <span class="mp-link">hitech_hq</span>
-            </a>
-          </li>
-                </ul>
+        </ul>
       </li>
     </ul>
   </div>

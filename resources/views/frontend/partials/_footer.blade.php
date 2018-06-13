@@ -17,7 +17,7 @@
         <div class="footer__group">
           <h3 class="footer__group-title">Компания</h3>
           <p class="footer__group-link-wr">
-            <a href="/about" class="footer__group-link">О qaz-tech.kz</a>
+            <a href="/about" class="footer__group-link">О Hitech</a>
           </p>
           <p class="footer__group-link-wr">
             <a href="/mission" class="footer__group-link">Наша миссия</a>
@@ -107,33 +107,30 @@
           <p class="footer__group-link-wr">
             <a href="/seo/instagram"   class="footer__group-link">Instagram продвижение</a>
           </p>
-          <div class="cities">
-            <p  class="footer-city">
-              <a href="/shymkent">Шымкент</a>
-            </p>
-            <p  class="footer-city">
-              <a href="/almaty">Алматы</a>
-            </p>
-            <p  class="footer-city">
-              <a href="/astana">Астана</a>
-            </p>
-          </div>
+<!--           <div class="cities">
+  <p  class="footer-city">
+    <a href="/shymkent">Шымкент</a>
+  </p>
+  <p  class="footer-city">
+    <a href="/almaty">Алматы</a>
+  </p>
+  <p  class="footer-city">
+    <a href="/astana">Астана</a>
+  </p>
+</div> -->
         </div>
       </div>
       <div class="footer__column">
         <div class="footer__group">
-          <h3 class="footer__group-title">Поддержка</h3>
+          <h3 class="footer__group-title">Проекты</h3>
           <p class="footer__group-link-wr">
-            <a target="_blank"  class="footer__group-link">Руководство пользователя</a>
+            <a href="http://www.hitech-school.kz" rel="nofollow" target="_blank"  class="footer__group-link">Школа программирования HITECH School</a>
+          </p>
+          <p class="footer__group-link-wr">
+            <a href="http://www.hitech-reality.kz" rel="nofollow" target="_blank"  class="footer__group-link">HITECH Reality</a>
           </p>
           <div class="footer__socials">
-            <a href="#"  target="_blank" class="img footer__social">
-              <img src="/img/ic-vk.svg" alt="">
-            </a>
-            <a href="#"  target="_blank" class="img footer__social">
-              <img src="/img/ic-youtube.svg" alt="">
-            </a>
-            <a href="#"  target="_blank" class="img footer__social">
+            <a href="https://www.instagram.com/hitech_hq/?hl=ru"  target="_blank" class="img footer__social">
               <img src="/img/ic-insta.svg" alt="">
             </a>
             <a href="#4"  target="_blank" class="img footer__social">

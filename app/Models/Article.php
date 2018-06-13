@@ -52,7 +52,7 @@ class Article extends Model
         'title' => 'required',
         'author' => 'required',
         'text' => 'required',
-        'slug' => 'required'
+        'slug' => 'required|unique'
     ];
 
      public function photos()

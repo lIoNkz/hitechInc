@@ -1578,7 +1578,6 @@
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
     max-width: 170px;
     margin: 16px 0 32px 0;
 }
@@ -1592,6 +1591,9 @@
 }
 }.footer__callback {
     margin-bottom: 24px;
+}
+.footer__social {
+    padding-right: 20px;
 }
 .footer__callback-title {
     font-size: 11px;
@@ -1611,7 +1613,7 @@
 }
 @media all and (min-width:960px) {
     .footer__callback-phone {
-    font-size: 22px;
+    font-size: 19px;
 }
 }@media all and (min-width:1380px) {
     .footer__callback-phone {
