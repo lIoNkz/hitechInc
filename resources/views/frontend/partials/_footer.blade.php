@@ -17,28 +17,28 @@
         <div class="footer__group">
           <h3 class="footer__group-title">Компания</h3>
           <p class="footer__group-link-wr">
-            <a href="/about" class="footer__group-link">О Hitech</a>
+            <a href="/{{ $urls->where('method','about')->first()->slug }}" class="footer__group-link">О Hitech</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/mission" class="footer__group-link">Наша миссия</a>
+            <a href="/{{ $urls->where('method','mission')->first()->slug }}" class="footer__group-link">Наша миссия</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/team" class="footer__group-link">Наша команда</a>
+            <a href="/{{ $urls->where('method','team')->first()->slug }}" class="footer__group-link">Наша команда</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/contacts" class="footer__group-link">Контакты</a>
+            <a href="/{{ $urls->where('method','contacts')->first()->slug }}" class="footer__group-link">Контакты</a>
           </p>
         </div>
         <div class="footer__group">
           <h3 class="footer__group-title">Дизайн</h3>
           <p class="footer__group-link-wr">
-            <a href="/individual-design" class="footer__group-link">Индивидуальный дизайн сайта</a>
+            <a href="/{{ $urls->where('method','individualDes')->first()->slug }}" class="footer__group-link">Индивидуальный дизайн сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/razrabotka-logotipa" class="footer__group-link">Разработка логотипа</a>
+            <a href="/{{ $urls->where('method','logoDev')->first()->slug }}" class="footer__group-link">Разработка логотипа</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/portfolio" class="footer__group-link">Портфолио</a>
+            <a href="/{{ $urls->where('method','portfolio')->first()->slug }}" class="footer__group-link">Портфолио</a>
           </p>
         </div>
       </div>
@@ -46,37 +46,37 @@
         <div class="footer__group">
           <h3 class="footer__group-title">Тарифы и цены</h3>
           <p class="footer__group-link-wr">
-            <a href="/razrabotka-saitov/site-vizitka" class="footer__group-link">Сайт-Визитка</a>
+            <a href="/{{ $urls->where('method','devSites')->first()->slug }}/{{ $urls->where('method','siteVizitka')->first()->slug }}" class="footer__group-link">Сайт-Визитка</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/razrabotka-saitov/landing-page" class="footer__group-link">Лендинг пейдж</a>
+            <a href="/{{ $urls->where('method','devSites')->first()->slug }}/{{ $urls->where('method','lp')->first()->slug }}" class="footer__group-link">Лендинг пейдж</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/razrabotka-saitov/business-site" class="footer__group-link">Корпоративный сайт</a>
+            <a href="/{{ $urls->where('method','devSites')->first()->slug }}/{{ $urls->where('method','corpsite')->first()->slug }}" class="footer__group-link">Корпоративный сайт</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/razrabotka-saitov/internet-magazin" class="footer__group-link">Интернет-магазин</a>
+            <a href="/{{ $urls->where('method','devSites')->first()->slug }}/{{ $urls->where('method','onlineshop')->first()->slug }}" class="footer__group-link">Интернет-магазин</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/razrabotka-saitov/site-catalog" class="footer__group-link">Сайт каталог</a>
+            <a href="/{{ $urls->where('method','devSites')->first()->slug }}/{{ $urls->where('method','siteCatalog')->first()->slug }}" class="footer__group-link">Сайт каталог</a>
           </p>
         </div>
         <div class="footer__group">
           <h3 class="footer__group-title">Услуги</h3>
           <p class="footer__group-link-wr">
-            <a href="/razrabotka-saitov" class="footer__group-link">Разработка сайтов</a>
+            <a href="/{{ $urls->where('method','devSites')->first()->slug }}" class="footer__group-link">Разработка сайтов</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/razrabotka-po" class="footer__group-link">Разработка ПО</a>
+            <a href="/{{ $urls->where('method','devPO')->first()->slug }}" class="footer__group-link">Разработка ПО</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/razrabotka-mobilnyh-prilozhenii" class="footer__group-link">Разработка мобильных приложений</a>
+            <a href="/{{ $urls->where('method','devMobileApps')->first()->slug }}" class="footer__group-link">Разработка мобильных приложений</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/tech-support" class="footer__group-link">Техническая поддержка</a>
+            <a href="/{{ $urls->where('method','techSupport')->first()->slug }}" class="footer__group-link">Техническая поддержка</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo" class="footer__group-link">SEO продвижение</a>
+            <a href="/{{ $urls->where('method','seo')->first()->slug }}" class="footer__group-link">SEO продвижение</a>
           </p>
         </div>
       </div>
@@ -84,28 +84,28 @@
         <div class="footer__group">
           <h3 class="footer__group-title">SEO и продвижение</h3>
           <p class="footer__group-link-wr">
-            <a href="/seo/google-adwords"   class="footer__group-link">Google Adwords</a>
+            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','adwords')->first()->slug }}"   class="footer__group-link">Google Adwords</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/yandex-direct"  class="footer__group-link">Yandex Direct</a>
+            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','yandex')->first()->slug }}"  class="footer__group-link">Yandex Direct</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/optimizacia-saita"   class="footer__group-link">Оптимизация сайта</a>
+            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','optimization')->first()->slug }}"   class="footer__group-link">Оптимизация сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/prodvizhenie-saita"   class="footer__group-link">Продвижение сайта</a>
+            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','prodvizhenie')->first()->slug }}"   class="footer__group-link">Продвижение сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/contextnoe-prodvizhenie"  class="footer__group-link">Контекстная реклама</a>
+            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','context')->first()->slug }}"  class="footer__group-link">Контекстная реклама</a>
           </p>
         </div>
         <div class="footer__group">
           <h3 class="footer__group-title">Продвижение в соц. сетях</h3>
           <p class="footer__group-link-wr">
-            <a href="/seo/youtube"   class="footer__group-link">Реклама на Youtube</a>
+            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','youtube')->first()->slug }}"   class="footer__group-link">Реклама на Youtube</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/seo/instagram"   class="footer__group-link">Instagram продвижение</a>
+            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','instagram')->first()->slug }}"   class="footer__group-link">Instagram продвижение</a>
           </p>
 <!--           <div class="cities">
   <p  class="footer-city">
@@ -152,3 +152,4 @@
       </div>
     </div>
   </div>
+ 

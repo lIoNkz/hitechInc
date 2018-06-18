@@ -1,15 +1,17 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+
+
+
+
+
+// DYNAMIC ROUTING
+
+Route::get('/{slug}','FrontendController@dynamic');
+Route::get('/{slug}/{category}','FrontendController@dynamic_2');
+
+
+
 
 // ROUTES ON TOP MENU LINKS IN HEADER
 Route::get('/', 'FrontendController@index');
@@ -71,28 +73,27 @@ Route::post('/order/sendmail2', 'FrontendController@mail_textToUs')->name('mail_
 // ROUTES OF ADMIN PANEL
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
 
-Route::resource('photos', 'PhotoController');
-Route::resource('advantages', 'AdvantageController');
-Route::resource('reviews', 'ReviewController');
-Route::resource('textblocks', 'TextblockController');
-Route::resource('siteprices', 'SitepriceController');
-Route::resource('metatags', 'MetatagController');
-// Search by filter
+Route::prefix('admin/panel/')->group(function () {
+	Route::get('/home', 'HomeController@index');
+	Route::resource('photos', 'PhotoController');
+	Route::resource('advantages', 'AdvantageController');
+	Route::resource('reviews', 'ReviewController');
+	Route::resource('textblocks', 'TextblockController');
+	Route::resource('siteprices', 'SitepriceController');
+	Route::resource('metatags', 'MetatagController');
 
-Route::get('/admin/metatags-search-by-url', 'HomeController@search');
+	// Search by filter
+	Route::get('/admin/metatags-search-by-url', 'HomeController@search');
 
-//Delete image from advantage
-Route::delete('/destroy-advantage-photo-from-here//{id}', 'PhotoController@destroy_advantage')->name('destroy_advantage');
-// Image upload
+	//Delete image from advantage
+	Route::delete('/destroy-advantage-photo-from-here//{id}', 'PhotoController@destroy_advantage')->name('destroy_advantage');
 
-Route::post('/upload-images-to-the-server', 'PhotoController@upload')->name('upload');
+	// Image upload
+	Route::post('/upload-images-to-the-server', 'PhotoController@upload')->name('upload');
+	Route::resource('breadcrumbs', 'BreadcrumbController');
+	Route::resource('articles', 'ArticleController');
+	Route::resource('works', 'WorkController');
+	Route::resource('urls', 'UrlController');
 
-
-
-Route::resource('breadcrumbs', 'BreadcrumbController');
-
-Route::resource('articles', 'ArticleController');
-
-Route::resource('works', 'WorkController');
+});
