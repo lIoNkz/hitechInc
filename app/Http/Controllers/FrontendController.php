@@ -24,6 +24,7 @@ class FrontendController extends Controller
 
     public function dynamic($slug) {
         if($slug == "admin") {
+            $this->middleware('auth');
             return self::dynamic_2($slug,'');
         }
         else {
