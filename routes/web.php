@@ -74,7 +74,7 @@ Route::post('/order/sendmail2', 'FrontendController@mail_textToUs')->name('mail_
 Auth::routes();
 
 
-Route::prefix('admin/panel/')->group(function () {
+Route::group(['prefix' => 'admin/panel',  'middleware' => 'auth'], function() {
 	Route::get('/home', 'HomeController@index');
 	Route::resource('photos', 'PhotoController');
 	Route::resource('advantages', 'AdvantageController');

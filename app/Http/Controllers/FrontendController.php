@@ -28,6 +28,10 @@ class FrontendController extends Controller
             return self::dynamic_2($slug,'');
         }
         else {
+            if($slug == 'login') {
+                return view('auth.login');
+            }   
+
             $slug2 = Url::where('slug',$slug)->first()->method;
             return self::$slug2();
         }
