@@ -1,6 +1,6 @@
 <div class="wrapp footer__wrapp">
     <div class="footer__info">
-      <a href="#://qaz-tech.kz/" alt="qaz-tech.kz" class="img footer__logo">
+      <a href="http://www.hitech-hq.kz/" alt="qaz-tech.kz" class="img footer__logo">
         <img src="/img/hitech-logo.png" alt="qaz-tech.kz" class="footerLogo">
       </a>
       <div class="footer__text">
@@ -124,18 +124,20 @@
         <div class="footer__group">
           <h3 class="footer__group-title">Проекты</h3>
           <p class="footer__group-link-wr">
-            <a href="http://www.hitech-school.kz" rel="nofollow" target="_blank"  class="footer__group-link">Школа программирования HITECH School</a>
+            <a href="http://www.hitech-school.kz" rel="nofollow" target="_blank"  class="footer__group-link" rel="nofollow">Школа программирования HITECH School</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="http://www.hitech-reality.kz" rel="nofollow" target="_blank"  class="footer__group-link">HITECH Reality</a>
+            <a href="http://www.hitech-reality.kz" rel="nofollow" target="_blank"  class="footer__group-link" rel="nofollow">HITECH Reality</a>
           </p>
           <div class="footer__socials">
-            <a href="https://www.instagram.com/hitech_hq/?hl=ru"  target="_blank" class="img footer__social">
+            <a href="https://www.instagram.com/hitech_hq/?hl=ru"  target="_blank" class="img footer__social" rel="nofollow">
               <img src="/img/ic-insta.svg" alt="">
             </a>
-            <a href="#4"  target="_blank" class="img footer__social">
+            <a href="#4"  target="_blank" class="img footer__social" rel="nofollow">
               <img src="/img/ic-fb.svg" alt="">
             </a>
+            <a href="https://plus.google.com/112943585374850274017"  target="_blank" class="img footer__social" rel="nofollow">
+              <svg aria-hidden="true" style="width: 20px;" data-prefix="fab" data-icon="google" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 488 512" class="svg-inline--fa fa-google fa-w-16 fa-3x"><path fill="#d44032" d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z" class=""></path></svg>
             </a>
           </div>
           <div class="footer__callback">

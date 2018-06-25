@@ -90,15 +90,15 @@
       <ul class="m-filials__list">
         <li class="m-filials__item">
           <p class="m-filials__name">Нурсултан</p>
-          <a href="/tel:84997053010" class="phone m-filials__link" >+7 (702) 175-55-97</a>
+          <a href="/tel:84997053010" rel="nofollow" class="phone m-filials__link" >+7 (702) 175-55-97</a>
         </li>
         <li class="m-filials__item">
           <p class="m-filials__name">Аян</p>
-          <a href="/tel:88126007733" class="phone m-filials__link" >+7 (775) 324-66-99</a>
+          <a href="/tel:88126007733" rel="nofollow" class="phone m-filials__link" >+7 (775) 324-66-99</a>
         </li>
         <li class="m-filials__item">
           <p class="m-filials__name">Санжар</p>
-          <a href="/tel:88005556342" class="m-filials__link" >+7 (778) 111-53-23</a>
+          <a href="/tel:88005556342" rel="nofollow" class="m-filials__link" >+7 (778) 111-53-23</a>
         </li>
       </ul>
     </div>
@@ -127,8 +127,8 @@
       <div class="services__list">
         <p class="services__list-title">Наши проекты</p>
         <div class="services__list-inner">
-          <a href="/http://www.hitech-school.kz" class="services__list-link">Школа программирования HITECH SCHOOL</a>
-          <a href="/http://www.hitech-reality.kz" class="services__list-link">HITECH REALITY (VR and AR)</a>
+          <a href="/http://www.hitech-school.kz" class="services__list-link" rel="nofollow">Школа программирования HITECH SCHOOL</a>
+          <a href="/http://www.hitech-reality.kz" class="services__list-link" rel="nofollow">HITECH REALITY (VR and AR)</a>
         </div>
       </div>
     </div>

@@ -31,7 +31,7 @@
   <div class="gallery-wrap">
     <div class="gallery">
       @foreach($portfolio as $site)
-      <a href="{{ $site->url }}">
+      <a href="{{ $site->url }}" rel="nofollow">
         <div class="gallery-item">
           <div class="gallery-item-inner">
             <div>Перейти на сайт<br>{{ $site->title }}</div>
