@@ -37,7 +37,7 @@ main {
     <ul class="switch__cards">
       @foreach($siteprices as $site)
             <li class="switch__card-item ">      
-              <a href="/razrabotka-saitov{!! $site->link !!}" class="switch__card-wrapp">
+              <a href="/{!! $devSites->slug !!}{!! $site->link !!}" class="switch__card-wrapp">
                 <h2 class="switch__card-title">{!! $site->title !!}</h2>
                   <div class="img switch__card-icon">{!! $site->image !!}</div>
                   <p class="switch__card-price">{!! $site->price !!}</p> 

@@ -61,13 +61,14 @@ class FrontendController extends Controller
         $metadata = Metatag::where('url','/')->first();
         $breads = Breadcrumb::where('url','/')->first();
         $urls = Url::all();
+        $devSites = Url::where('method','devSites')->first();
 
         $text1 = Textblock::where('theme_id','1')->get();
         $text2 = Textblock::where('theme_id','2')->get();
         $text3 = Textblock::where('theme_id','3')->get();
         $text4 = Textblock::where('theme_id','4')->get();
 
-    	return view('frontend.index', compact('advantages','reviews','siteprices','metadata','text1','text2','text3','text4','breads','urls'));
+    	return view('frontend.index', compact('advantages','reviews','siteprices','metadata','text1','text2','text3','text4','breads','urls','devSites'));
     }
 
     public function about() {
@@ -131,9 +132,10 @@ class FrontendController extends Controller
         $siteprices = Siteprice::all();
         $metadata = Metatag::where('url','/services')->first();
         $breads = Breadcrumb::where('url','/services')->first();
+        $devSites = Url::where('method','devSites')->first();
         $urls = Url::all();
 
-        return view('frontend.services', compact('text9','text10','text11','siteprices','metadata','breads','urls'));
+        return view('frontend.services', compact('text9','text10','text11','siteprices','metadata','breads','urls','devSites'));
     }
 
     public function blog() {

@@ -124,7 +124,7 @@
     <h2 class="title cost__title">Тарифы на разработку</h2>
     <div class="cost__list">
       @foreach($siteprices as $site)
-      <a href="/razrabotka-saitov{!! $site->link !!}" class="tariff">
+      <a href="/{!! $devSites->slug !!}{!! $site->link !!}" class="tariff">
         <h2 class="tariff__title">{!! $site->title !!}</h2>
         <div class="tariff__inner">
           <div class="tariff__layout img tariff__icon">{!! $site->image !!}</div>
