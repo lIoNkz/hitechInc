@@ -39,10 +39,15 @@ class FrontendController extends Controller
     }
 
     public function dynamic_2($slug, $category) {
+
         if($slug == "admin") {
             return view('auth.login'); 
         } else {
-            
+
+            if($slug == "blog") {
+                return self::blog_post($category); 
+            }
+
             try {
                 $category2 = Url::where('slug',$category)->first()->method;
             } catch(\Exception $e) {
