@@ -49,21 +49,19 @@ class FrontendController extends Controller
             }
 
             $devSitesUrl = Url::where('method','devSites')->first()->slug;
+
             if($slug == $devSitesUrl) {
                 try {
                     $category2 = Url::where('slug',$category)->first()->method;
                 } catch(\Exception $e) {
+
                     return response()->view('page404', [], 404);
                 }
                 return self::$category2();
 
             } else {
-                try {
-                    $slug2 = Url::where('slug',$slug)->first()->method;
-                } catch(\Exception $e) {
-                    return response()->view('page404', [], 404);
-                }
-                return self::$slug2();
+
+                return response()->view('page404', [], 404);
             }
 
             
