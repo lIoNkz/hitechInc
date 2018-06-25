@@ -51,6 +51,7 @@ class FrontendController extends Controller
             $devSitesUrl = Url::where('method','devSites')->first()->slug;
 
             if($slug == $devSitesUrl) {
+                
                 try {
                     $category2 = Url::where('slug',$category)->first()->method;
                 } catch(\Exception $e) {

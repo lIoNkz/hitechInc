@@ -238,7 +238,7 @@
 					</a>
 				</li>
 							        						<li class="m-submenu__item">
-					<a href="/{{ $urls->where('method','devSites')->first()->slug }}/{{ $urls->where('method','seo')->first()->slug }}" class="m-submenu__link _sale">
+					<a href="/{{ $urls->where('method','seo')->first()->slug }}" class="m-submenu__link _sale">
 						<span>SEO</span>
 					</a>
 				</li>
