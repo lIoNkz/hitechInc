@@ -84,28 +84,28 @@
         <div class="footer__group">
           <h3 class="footer__group-title">SEO и продвижение</h3>
           <p class="footer__group-link-wr">
-            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','adwords')->first()->slug }}"   class="footer__group-link">Google Adwords</a>
+            <a href="/{{ $urls->where('method','adwords')->first()->slug }}"   class="footer__group-link">Google Adwords</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','yandex')->first()->slug }}"  class="footer__group-link">Yandex Direct</a>
+            <a href="/{{ $urls->where('method','yandex')->first()->slug }}"  class="footer__group-link">Yandex Direct</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','optimization')->first()->slug }}"   class="footer__group-link">Оптимизация сайта</a>
+            <a href="/{{ $urls->where('method','optimization')->first()->slug }}"   class="footer__group-link">Оптимизация сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','prodvizhenie')->first()->slug }}"   class="footer__group-link">Продвижение сайта</a>
+            <a href="/{{ $urls->where('method','prodvizhenie')->first()->slug }}"   class="footer__group-link">Продвижение сайта</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','context')->first()->slug }}"  class="footer__group-link">Контекстная реклама</a>
+            <a href="/{{ $urls->where('method','context')->first()->slug }}"  class="footer__group-link">Контекстная реклама</a>
           </p>
         </div>
         <div class="footer__group">
           <h3 class="footer__group-title">Продвижение в соц. сетях</h3>
           <p class="footer__group-link-wr">
-            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','youtube')->first()->slug }}"   class="footer__group-link">Реклама на Youtube</a>
+            <a href="/{{ $urls->where('method','youtube')->first()->slug }}"   class="footer__group-link">Реклама на Youtube</a>
           </p>
           <p class="footer__group-link-wr">
-            <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','instagram')->first()->slug }}"   class="footer__group-link">Instagram продвижение</a>
+            <a href="/{{ $urls->where('method','instagram')->first()->slug }}"   class="footer__group-link">Instagram продвижение</a>
           </p>
 <!--           <div class="cities">
   <p  class="footer-city">

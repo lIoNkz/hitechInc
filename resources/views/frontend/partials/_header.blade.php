@@ -137,16 +137,16 @@
         <p class="services__list-title">Интернет-маркетинг</p>
         <div class="services__list-inner">
           <a href="/{{ $urls->where('method','seo')->first()->slug }}" class="services__list-link">SEO</a>
-          <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','context')->first()->slug }}" class="services__list-link">Контекстная реклама</a>
-          <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','optimization')->first()->slug }}" class="services__list-link">Оптимизация сайта</a>
-          <a href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','prodvizhenie')->first()->slug }}" class="services__list-link">Продвижение сайта</a>
+          <a href="/{{ $urls->where('method','context')->first()->slug }}" class="services__list-link">Контекстная реклама</a>
+          <a href="/{{ $urls->where('method','optimization')->first()->slug }}" class="services__list-link">Оптимизация сайта</a>
+          <a href="/{{ $urls->where('method','prodvizhenie')->first()->slug }}" class="services__list-link">Продвижение сайта</a>
         </div>
       </div>
       <div class="services__list">
         <p class="services__list-title">Продвижение в соц.сетях</p>
         <div class="services__list-inner">
-          <a rel="nofollow" href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','instagram')->first()->slug }}" class="services__list-link">Продвижение в Instagram</a>
-          <a rel="nofollow" href="/{{ $urls->where('method','seo')->first()->slug }}/{{ $urls->where('method','youtube')->first()->slug }}" class="services__list-link">Видеообъявления в Youtube</a>
+          <a rel="nofollow" href="/{{ $urls->where('method','instagram')->first()->slug }}" class="services__list-link">Продвижение в Instagram</a>
+          <a rel="nofollow" href="/{{ $urls->where('method','youtube')->first()->slug }}" class="services__list-link">Видеообъявления в Youtube</a>
         </div>
       </div>
     </div>
