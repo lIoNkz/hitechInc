@@ -124,7 +124,7 @@
         <div class="footer__group">
           <h3 class="footer__group-title">Проекты</h3>
           <p class="footer__group-link-wr">
-            <a href="http://www.hitech-school.kz" rel="nofollow" target="_blank"  class="footer__group-link" rel="nofollow">Школа программирования HITECH School</a>
+            <a href="http://www.hitech-school.kz" rel="nofollow" target="_blank"  class="footer__group-link" rel="nofollow">HITECH School</a>
           </p>
           <p class="footer__group-link-wr">
             <a href="http://www.hitech-reality.kz" rel="nofollow" target="_blank"  class="footer__group-link" rel="nofollow">HITECH Reality</a>

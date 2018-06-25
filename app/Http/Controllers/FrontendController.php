@@ -48,12 +48,25 @@ class FrontendController extends Controller
                 return self::blog_post($category); 
             }
 
-            try {
-                $category2 = Url::where('slug',$category)->first()->method;
-            } catch(\Exception $e) {
-                return response()->view('page404', [], 404);
+            $devSitesUrl = Url::where('method','devSites')->first()->slug;
+            if($slug == $devSitesUrl) {
+                try {
+                    $category2 = Url::where('slug',$category)->first()->method;
+                } catch(\Exception $e) {
+                    return response()->view('page404', [], 404);
+                }
+                return self::$category2();
+
+            } else {
+                try {
+                    $slug2 = Url::where('slug',$slug)->first()->method;
+                } catch(\Exception $e) {
+                    return response()->view('page404', [], 404);
+                }
+                return self::$slug2();
             }
-            return self::$category2();
+
+            
         }
 
     }
