@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
+
 class FrontendController extends Controller
 {
 
@@ -31,8 +32,12 @@ class FrontendController extends Controller
             if($slug == 'login') {
                 return view('auth.login');
             }   
-
-            $slug2 = Url::where('slug',$slug)->first()->method;
+            try {
+                $slug2 = Url::where('slug',$slug)->first()->method;
+            } catch(\Exception $e) {
+                return response()->view('page404', [], 404);
+            }
+                    
             return self::$slug2();
         }
     }
@@ -42,7 +47,12 @@ class FrontendController extends Controller
             $this->middleware('auth');
             return view('home');   
         } else {
-            $category2 = Url::where('slug',$category)->first()->method;
+            
+            try {
+                $category2 = Url::where('slug',$category)->first()->method;
+            } catch(\Exception $e) {
+                return response()->view('page404', [], 404);
+            }
             return self::$category2();
         }
 
