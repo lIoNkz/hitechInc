@@ -25,13 +25,9 @@ class FrontendController extends Controller
 
     public function dynamic($slug) {
         if($slug == "admin") {
-            $this->middleware('auth');
-            return self::dynamic_2($slug,'');
+            return view('auth.login');
         }
         else {
-            if($slug == 'login') {
-                return view('auth.login');
-            }   
             try {
                 $slug2 = Url::where('slug',$slug)->first()->method;
             } catch(\Exception $e) {
@@ -44,8 +40,7 @@ class FrontendController extends Controller
 
     public function dynamic_2($slug, $category) {
         if($slug == "admin") {
-            $this->middleware('auth');
-            return view('home');   
+            return view('auth.login'); 
         } else {
             
             try {

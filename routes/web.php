@@ -1,21 +1,8 @@
 <?php
 
-
-
-
-
-
-// DYNAMIC ROUTING
-
-Route::get('/{slug}','FrontendController@dynamic');
-Route::get('/{slug}/{category}','FrontendController@dynamic_2');
-
-
-
-
 // ROUTES ON TOP MENU LINKS IN HEADER
-Route::get('/', 'FrontendController@index');
-Route::get('/about', 'FrontendController@about');
+
+/*Route::get('/about', 'FrontendController@about');
 Route::get('/contacts', 'FrontendController@contacts');
 Route::get('/order', 'FrontendController@order');
 Route::get('/portfolio', 'FrontendController@portfolio');
@@ -63,7 +50,18 @@ Route::get('/mission', 'FrontendController@mission');
 Route::get('/team', 'FrontendController@team');
 Route::get('/razrabotka-logotipa', 'FrontendController@logoDev');
 Route::get('/individual-design', 'FrontendController@individualDes');
-Route::get('/reklama-v-socsetyah', 'FrontendController@socialAdv');
+Route::get('/reklama-v-socsetyah', 'FrontendController@socialAdv');*/
+
+
+
+Route::get('/', 'FrontendController@index');
+
+// DYNAMIC ROUTING
+
+Route::get('/{slug}','FrontendController@dynamic');
+Route::get('/{slug}/{category}','FrontendController@dynamic_2');
+
+
 
 // ROUTES MAIL 
 
