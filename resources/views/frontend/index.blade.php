@@ -67,7 +67,7 @@
 </div>
 <div class="services-block wrapp cost__wrapp">
   <div class="services-wrapp">
-    <a href="/razrabotka-saitov">
+    <a href="/{{ $urls->where('method','devSites')->first()->slug }}">
       <div>
         <img src="/img/icons/service-5.png" alt="">
         <h3>Создание и разработка сайтов</h3>
@@ -76,7 +76,7 @@
         <p>Сайт-визитка</p>
       </div>
     </a>
-    <a href="/razrabotka-mobilnyh-prilozhenii">
+    <a href="/{{ $urls->where('method','devMobileApps')->first()->slug }}">
       <div>
         <img src="/img/icons/service-2.png" alt="">
         <h3>Разработка мобильных приложений</h3>
@@ -84,7 +84,7 @@
         <p>IOs</p>
       </div>
     </a>
-    <a href="/seo">
+    <a href="/{{ $urls->where('method','seo')->first()->slug }}">
       <div>
         <img src="/img/icons/service-3.png" alt="">
         <h3>SEO продвижение</h3>
@@ -92,7 +92,7 @@
         <p>Оптимизация сайта</p>
       </div>
     </a> 
-    <a href="/reklama-v-socsetyah">
+    <a href="/{{ $urls->where('method','socialAdv')->first()->slug }}">
       <div>
         <img src="/img/icons/service-4.png" alt="">
         <h3>Реклама в соцсетях</h3>
@@ -101,7 +101,7 @@
         <p>Реклама в Facebook</p>
       </div>
     </a>
-    <a href="/seo/contextnoe-prodvizhenie">
+    <a href="/{{ $urls->where('method','context')->first()->slug }}">
       <div>
         <img src="/img/icons/service-1.png" alt="">
         <h3>Контекстная реклама</h3>
@@ -109,7 +109,7 @@
         <p>Google</p>
       </div>
     </a> 
-    <a href="/seo/youtube">
+    <a href="/{{ $urls->where('method','youtube')->first()->slug }}">
       <div>
         <img src="/img/icons/service-6.png" alt="">
         <h3>Видеореклама в Youtube</h3>
